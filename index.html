@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Intro to iris recognition · Daugman 2004</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+<div class="app">
+  <div class="shell">
+    <header class="top">
+      <div class="brand">
+        <p class="kicker">University of Notre Dame · overnight reading pack</p>
+        <h1>Intro to iris recognition</h1>
+        <p>A first-night map of Daugman, then the modern Notre Dame / IREX stack. The Daugman tab is a full slide walkthrough of the 2004 paper.</p>
+      </div>
+      <p class="hint">Daugman slides: <kbd>←</kbd> <kbd>→</kbd> or <kbd>space</kbd></p>
+    </header>
+
+    <nav class="tabs" aria-label="Sections">
+      <button class="tab" data-tab="home" aria-selected="true">Start here</button>
+      <button class="tab" data-tab="pipeline">Pipeline</button>
+      <button class="tab" data-tab="daugman">Daugman 2004</button>
+      <button class="tab" data-tab="dl">Deep learning</button>
+      <button class="tab" data-tab="arciris">ArcIris</button>
+      <button class="tab" data-tab="irex">IREX</button>
+      <button class="tab" data-tab="quiz">Quiz</button>
+    </nav>
+
+    <section id="home" class="panel active prose">
+      <div class="grid-4" style="margin-bottom:16px">
+        <div class="stat"><b>249</b><span>IrisCode degrees of freedom</span></div>
+        <div class="stat"><b>2,048</b><span>phase bits in a classic template</span></div>
+        <div class="stat"><b>4.8%</b><span>ArcIris FNIR @ 1% FPIR on IREX</span></div>
+        <div class="stat"><b>8 kB</b><span>ArcIris template size</span></div>
+      </div>
+      <div class="note">Do not read every paper cover to cover. Own the pipeline, Daugman’s independence test, ArcIris, and the metric alphabet. The Daugman 2004 tab is the one that should take most of tonight.</div>
+      <h2>Four-block plan</h2>
+      <ol>
+        <li>45 min — Pipeline tab. Say the six steps out loud.</li>
+        <li>75 min — Daugman 2004 slides. Rubber sheet, Gabor phase, XOR Hamming distance, HD ≤ 0.32, 249 DoF, left ≠ right.</li>
+        <li>75 min — ArcIris + IREX. ResNet100 + ArcFace on 512×64 polar images. Why it beat TripletIris. Why low FTE matters.</li>
+        <li>45 min — Quiz, then skim the ACM survey only for segmentation / matching losses / PAD / post-mortem.</li>
+      </ol>
+      <h2>The four sources Adam sent</h2>
+      <table>
+        <thead><tr><th>Order</th><th>Source</th><th>Tonight</th><th>Skip</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Daugman 2004, <em>How iris recognition works</em></td><td>The discipline. Independence test + IrisCode.</td><td>Stirling factorials, full binomial derivations.</td></tr>
+          <tr><td>2</td><td>Nguyen et al. 2024 ACM CSUR survey</td><td>Where DL helps vs where IrisCode still wins.</td><td>Per-paper tables. Super-resolution. Synthetic iris.</td></tr>
+          <tr><td>3</td><td>Khan, Flynn, Czajka 2026, arXiv:2605.20735</td><td>ArcIris, TripletIris, IREX numbers, FTE story.</td><td>C++ LibTorch threading. CRYPTS MATLAB port.</td></tr>
+          <tr><td>4</td><td>CVRL/OpenSourceIrisRecognition</td><td>Folder map: ArcIris Python vs C++ IREX.</td><td>Running IREX C++ tonight unless you already have LibTorch.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="pipeline" class="panel prose">
+      <h2>The picture you must be able to draw</h2>
+      <p>Every method on this reading list is a variation of the same chain. Daugman invented steps 2–5 in the 1990s. ArcIris keeps 2–3 and replaces 4–5 with a neural net.</p>
+      <table>
+        <thead><tr><th>Step</th><th>What</th><th>Why it exists</th></tr></thead>
+        <tbody>
+          <tr><td>1. Capture</td><td>NIR camera, typically 640×480</td><td>NIR (700–900 nm) so dark irises still show texture. Visible light is absorbed by melanin.</td></tr>
+          <tr><td>2. Localize</td><td>Find pupil + iris circles, eyelids</td><td>Daugman: integro-differential circular edge detector. ND: nested U-Net mask + ResNet18 circle regressor.</td></tr>
+          <tr><td>3. Normalize</td><td>Rubber-sheet unwrap to polar</td><td>Annulus → rectangle (ArcIris uses 512×64). Pupil size, distance, and translation drop out.</td></tr>
+          <tr><td>4. Encode</td><td>IrisCode or a neural embedding</td><td>Classic: 2,048-bit Gabor phase + occlusion mask. ArcIris: ResNet100 embedding trained with ArcFace.</td></tr>
+          <tr><td>5. Match</td><td>Dissimilarity score</td><td>Classic: fractional Hamming distance. ArcIris: cosine / Euclidean on the embedding.</td></tr>
+          <tr><td>6. Decide</td><td>Threshold on 1:1 or 1:N</td><td>Verification is 1:1. Identification is 1:N. IREX ranks by FNIR at FPIR = 0.01.</td></tr>
+        </tbody>
+      </table>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Verification · 1:1</h3>
+          <p>“Is this the person they claim to be?” Compare the probe to one claimed template. False match probability only has one chance to fire.</p>
+        </div>
+        <div class="card">
+          <h3>Identification · 1:N</h3>
+          <p>“Who is this among N people?” Exhaustive search. Only a biometric with astronomically low false-match probability can search millions without exploding errors. That is Daugman’s whole argument.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="daugman" class="panel">
+      <div class="deck">
+        <div class="deck-bar">
+          <span><b>John Daugman</b> · How iris recognition works · IEEE TCSVT 14(1), 2004</span>
+          <span id="pos">1 / 24</span>
+        </div>
+        <div class="slides">
+
+          <article class="slide on">
+            <h2>The paper that started the field</h2>
+            <p class="one-liner">If you remember one paper from tonight, this is it.</p>
+            <p>John Daugman (Cambridge) published <em>How iris recognition works</em> in IEEE Transactions on Circuits and Systems for Video Technology, January 2004. The algorithms themselves go back to his 1993 PAMI paper and 1994 US patent 5,291,560. By 2004 they had been licensed into almost every deployed iris system: British Telecom, Sandia, Panasonic, LG, Oki, Iridian, and others. Independent tests kept reporting <strong>zero false matches</strong> across millions of comparisons.</p>
+            <p>This 2004 paper is the explainer. It is not a “new method” paper. It is Daugman walking you through <em>why</em> the method is so unusually safe to search at national scale, with 9.1 million iris-pair comparisons from Britain, the USA, Japan, and Korea as evidence.</p>
+            <div class="why"><strong>In plain English</strong>Think of this as the physics textbook for iris recognition. Notre Dame’s ArcIris still starts from the same geometry (find the rings, unwrap them). Only the later “encode and match” steps got replaced by a neural net.</div>
+            <div class="dont"><strong>Don’t mix this up</strong>Adam’s email said “Prof. Daugman.” Spelling is Daugman, not Dougman. He was a colleague of the Notre Dame group and famously skeptical of replacing IrisCodes with deep learning at Aadhaar-like scale.</div>
+          </article>
+
+          <article class="slide">
+            <h2>The thesis, in one sentence</h2>
+            <p class="one-liner">Recognition is the unique <em>failure</em> of a test of statistical independence on iris phase.</p>
+            <p>Two different eyes, encoded into bits, look like two unrelated random bit strings. If you XOR them, about half the bits disagree — Hamming distance ≈ 0.50 — exactly like comparing tosses of a fair coin. That is the independence test <em>passing</em>: these are different people.</p>
+            <p>When you compare two images of the <em>same</em> eye, the bit strings agree far more than chance. Hamming distance drops well below 0.5, typically under 0.32. Independence has <em>failed</em>. That failure is the match.</p>
+            <p>This framing is the whole paper. Everything else — Gabor wavelets, rubber sheets, binomial histograms — exists to make that test fast, stable, and statistically airtight.</p>
+            <div class="why"><strong>In plain English</strong>You are not “measuring how similar two pictures look.” You are asking: “Could these two bit strings have come from unrelated random sources?” If no, it is the same eye. If yes, it is someone else.</div>
+          </article>
+
+          <article class="slide">
+            <h2>Why faces are a hard biometric, and irises are not</h2>
+            <p class="one-liner">Pattern recognition only works when same-class variation is smaller than between-class variation.</p>
+            <p>A face is a social, 3-D, lighting-sensitive organ. Expression, pose, age, glasses, and illumination all change the same person’s image. Daugman cites early-2000s face tests where images taken a year apart still had 43–50% error. Meanwhile different faces share the same parts in the same layout, so between-person variation is limited. Intra-class is huge; inter-class is small. That is the wrong way around.</p>
+            <p>The iris is the opposite. It is an internal organ that happens to be visible. It is roughly planar, so lighting angle mostly scales brightness instead of reshaping features. Viewing-angle change is mostly an affine warp. Pupil dilation distorts the texture, but in a way you can invert with a rubber-sheet model. The pattern is insanely different from person to person.</p>
+            <div class="why"><strong>In plain English</strong>Faces of the same person can look more different than faces of two different people. Two irises of different people almost never look “accidentally similar” once you encode them as phase bits. That is why iris can do 1-to-many search and face, in 2004, mostly could not.</div>
+          </article>
+
+          <article class="slide">
+            <h2>Biology: what you are actually looking at</h2>
+            <p class="one-liner">The visible iris is a random morphogenetic fingerprint, not a DNA barcode.</p>
+            <p>The iris starts forming in the third month of gestation and is mostly structurally done by the eighth month. Pigment can keep filling in after birth, which is why a baby’s eye color can change, but the <em>mesh</em> of the pattern is already there.</p>
+            <p>Texture parts you should be able to name: arching ligaments, furrows, ridges, <strong>Fuchs’ crypts</strong> (the pits Notre Dame’s CRYPTS method later uses), rings, corona, freckles, and the zigzag collarette. Color comes from melanin in the anterior layer and stroma. Blue eyes are mostly “no pigment,” so long wavelengths punch through and shorter ones scatter.</p>
+            <p>Under visible light you mostly see the trabecular meshwork. Under <strong>near infrared (NIR, 700–900 nm)</strong> you see deeper stromal structure. Dark brown irises that look featureless in a phone photo light up in NIR because melanin absorbs visible light but less NIR. That is why every serious iris camera is NIR, not RGB.</p>
+            <div class="dont"><strong>Don’t mix this up</strong>Iridology — the claim that iris marks diagnose organ disease or personality — is cited in this paper as medical fraud (Berggren 1985; Simon et al. 1979). The texture is random, not a health map. Daugman is very clear about this.</div>
+          </article>
+
+          <article class="slide">
+            <h2>Epigenetic, not genetic</h2>
+            <p class="one-liner">Your left eye is as different from your right as from a stranger. Identical twins do not match.</p>
+            <p>Eye <em>color</em> is genetic. The detailed phase pattern is not. Daugman compared 648 left/right pairs from 324 people. Mean Hamming distance was 0.497 — statistically the same as comparing unrelated people (0.499). A small set of actual identical-twin pairs also sat at HD ≈ 0.507.</p>
+            <p>So the pattern is <strong>epigenetic</strong>: it comes from random events while the tissue is folding in the womb, not from a gene that says “put a crypt here.” That is fantastic for biometrics. You cannot steal someone’s iris code by knowing their family. You also cannot match left to right and call it the same identity.</p>
+            <div class="why"><strong>In plain English</strong>If a system ever matches someone’s left eye to their right eye, that is a bug, not a feature. Notre Dame even stores an eye-side byte in the IREX template so left is never compared to right during 1:N search.</div>
+            <div class="dont"><strong>Number to keep</strong>Unrelated eyes: HD mean 0.499, σ = 0.0317. Genetically identical (L vs R): HD mean 0.497, σ = 0.031. Same distribution.</div>
+          </article>
+
+          <article class="slide">
+            <h2>Capture: you need enough pixels, in NIR</h2>
+            <p class="one-liner">If the iris is a tiny blurry disc, no algorithm downstream can invent texture that was never imaged.</p>
+            <p>Daugman wants at least <strong>70 pixels of iris radius</strong>. Field systems in the paper typically got 100–140. Cameras were 640×480 monochrome CCD with NIR illumination, invisible to the subject so the pupil does not bounce around from a visible flash.</p>
+            <p>Some platforms used a wide-angle camera to find the face, then steered a narrow-angle pan/tilt camera onto the eye. Many just used a mirror or live video so the person put their own eye in the box.</p>
+            <p>Focus is measured in real time by high-frequency power in the 2-D Fourier spectrum of the frame. More sharp detail → more high-frequency energy. Either the lens hunts, or the machine beeps at you to lean in.</p>
+            <div class="why"><strong>In plain English</strong>This is why “iris from a random selfie” is a different research problem. ISO later asked for on the order of 120 pixels across the iris diameter. Notre Dame’s IREX code still assumes 640×480-class images and even pads to 4:3 before the networks run.</div>
+          </article>
+
+          <article class="slide">
+            <h2>Finding the iris: a circular edge detector</h2>
+            <p class="one-liner">Search over center and radius until a circle sits on the strongest radial jump in brightness.</p>
+            <p>The pupil is a dark disc; the iris is a textured ring; the sclera is brighter. Daugman’s operator walks around a candidate circle, adds up image values on that circle, then asks: if I grow the radius a tiny bit, how fast does that sum change? At the true pupil or limbus (outer iris) boundary, that derivative explodes. Blur the search with a Gaussian so noise does not win. Repeat coarse-to-fine until you have single-pixel (x₀, y₀, r) for both rings.</p>
+            <p>In symbols, maximize over (r, x₀, y₀) the blurred radial derivative of a contour integral around the circle. You do <em>not</em> need to memorize the integral. You need to know it is a <strong>circular integro-differential edge detector</strong>.</p>
+            <p>The pupil search is constrained by the iris search, but they are <strong>not concentric</strong>. The pupil is often nasal and a bit down. Pupil radius can be 0.1 to 0.8 of iris radius. All three pupil parameters are estimated separately.</p>
+            <div class="why"><strong>In plain English</strong>Imagine sliding a circle around the photo and inflating it until it “catches” the pupil rim, then doing it again for the brown-to-white rim. Eyelids are the same idea, except the path is an arc, not a full circle, then a spline is fitted.</div>
+          </article>
+
+          <article class="slide">
+            <h2>The rubber-sheet model</h2>
+            <p class="one-liner">Turn the ring into a rectangle whose height is always “pupil → limbus = 0 to 1.”</p>
+            <div class="grid-2">
+              <div>
+                <p>Even on-axis, the iris changes size with camera distance and with pupil dilation. Dilation is not a simple zoom: the inner hole grows and the tissue stretches. Daugman models this as a homogeneous rubber annulus, anchored at the outer rim, pulled by an off-center inner ring.</p>
+                <p>Every point on the iris gets coordinates (r, θ). Angle θ is 0 to 2π. Radius r is not pixels — it is a unit interval [0, 1] from the pupillary boundary to the limbus. Mix the two boundary curves:</p>
+                <p class="mono">x(r,θ) = (1−r) x_pupil(θ) + r x_limbus(θ)<br />y(r,θ) = (1−r) y_pupil(θ) + r y_limbus(θ)</p>
+                <p>Because the two centers can differ, this is a <em>non-concentric</em> polar map. ArcIris still does exactly this unwrap, to 512×64 pixels.</p>
+              </div>
+              <div class="fig">
+                <svg viewBox="0 0 360 220" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <rect width="360" height="220" fill="#efe8db"/>
+                  <circle cx="90" cy="110" r="70" fill="#c9a07a" stroke="#3d2118" stroke-width="2"/>
+                  <circle cx="84" cy="114" r="28" fill="#1c1a17"/>
+                  <text x="90" y="200" text-anchor="middle" fill="#6b6458" font-size="12" font-family="IBM Plex Sans">raw annulus</text>
+                  <path d="M175 110 L210 110" stroke="#b0894a" stroke-width="2" marker-end="url(#a)"/>
+                  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#b0894a"/></marker></defs>
+                  <rect x="220" y="40" width="120" height="140" fill="#d8b08a" stroke="#3d2118" stroke-width="2"/>
+                  <text x="280" y="115" text-anchor="middle" fill="#3d2118" font-size="12" font-family="IBM Plex Sans">θ →</text>
+                  <text x="232" y="120" fill="#3d2118" font-size="12" font-family="IBM Plex Sans" transform="rotate(-90 232 120)">r</text>
+                  <text x="280" y="200" text-anchor="middle" fill="#6b6458" font-size="12" font-family="IBM Plex Sans">polar rectangle</text>
+                </svg>
+                <p class="cap">Rubber sheet: ring becomes a dimensionless rectangle. Pupil size drops out.</p>
+              </div>
+            </div>
+            <div class="dont"><strong>Don’t mix this up</strong>This fixes size, translation, and pupil dilation. It does <em>not</em> fix head tilt / eye torsion. Rotation is handled later by sliding the IrisCode, not by rotating the photo.</div>
+          </article>
+
+          <article class="slide">
+            <h2>Encoding: Gabor phase, not brightness</h2>
+            <p class="one-liner">Ask, at many patches and scales: which quadrant of the complex plane is this texture in?</p>
+            <p>A 2-D Gabor wavelet is a little oriented ripple (a sine/cosine) under a Gaussian blob. Daugman had used these since the 1980s as a model of visual cortex. You drop one on a patch of iris, integrate, and get a <strong>complex number</strong> — a phasor with a real part and an imaginary part.</p>
+            <p>Then you throw away the length of that phasor (amplitude) and keep only the <strong>quadrant</strong> of its angle. Four quadrants → 2 bits. Gray/Grey code: moving to a neighboring quadrant flips only one bit, so small angle noise does not flip both bits at once.</p>
+            <p>Repeat across the iris at many sizes (0.15 mm to 1.2 mm on the real iris, an 8× range) and frequencies (3 octaves). Total: <strong>2,048 phase bits</strong> (256 bytes). A second 2,048-bit <strong>mask</strong> marks bits that sat on eyelashes, eyelids, specularities, contact-lens edges, or junk SNR so matching can ignore them.</p>
+            <div class="why"><strong>Why dump amplitude?</strong>Brightness tracks lighting, camera gain, and contrast. Phase tracks the <em>layout</em> of the texture — the zero-crossings of those wavelets. Two photos of the same eye under different lamps should still share phase. That is the whole trick.</div>
+          </article>
+
+          <article class="slide">
+            <h2>The four quadrants, drawn</h2>
+            <p class="one-liner">Each local patch votes for one of four 2-bit labels: 00, 10, 11, 01 around the plane.</p>
+            <div class="grid-2">
+              <div class="fig">
+                <svg viewBox="0 0 260 240" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="260" height="240" fill="#efe8db"/>
+                  <line x1="20" y1="120" x2="240" y2="120" stroke="#3d2118"/>
+                  <line x1="130" y1="20" x2="130" y2="220" stroke="#3d2118"/>
+                  <text x="188" y="70" fill="#6e3b2b" font-size="16" font-family="IBM Plex Sans">[1, 0]</text>
+                  <text x="48" y="70" fill="#6e3b2b" font-size="16" font-family="IBM Plex Sans">[0, 0]</text>
+                  <text x="48" y="180" fill="#6e3b2b" font-size="16" font-family="IBM Plex Sans">[0, 1]</text>
+                  <text x="188" y="180" fill="#6e3b2b" font-size="16" font-family="IBM Plex Sans">[1, 1]</text>
+                  <text x="236" y="114" fill="#6b6458" font-size="11" font-family="IBM Plex Sans">Re</text>
+                  <text x="136" y="28" fill="#6b6458" font-size="11" font-family="IBM Plex Sans">Im</text>
+                  <circle cx="170" cy="78" r="5" fill="#b0894a"/>
+                </svg>
+                <p class="cap">Figure 2 in the paper: phase-quadrant demodulation. The gold dot is one patch’s phasor.</p>
+              </div>
+              <div>
+                <p>The sign of the real part is bit 1. The sign of the imaginary part is bit 2. That is the <code>sgn</code> operator in Daugman’s equation (2). You never store the actual angle, only which quadrant it landed in.</p>
+                <p>Even a badly out-of-focus eye still gets a code — the bits get set by CCD noise. That sounds like a bug. It is a feature: two different blurry irises do <em>not</em> collapse toward the same code, the way two blurry faces start to look like the same oval. Random noise vs random noise still XOR’s to HD ≈ 0.5.</p>
+                <div class="why"><strong>In plain English</strong>You are turning “this patch of iris texture” into a 2-bit compass heading. Do that a thousand times. The heading sequence is the IrisCode.</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="slide">
+            <h2>Matching: fractional Hamming distance</h2>
+            <p class="one-liner">Disagreeing bits, counting only bits both masks say are real iris.</p>
+            <p class="mono">HD = || (codeA XOR codeB) AND maskA AND maskB || / || maskA AND maskB ||</p>
+            <p>XOR is 1 where the two codes differ. AND with both masks throws away lashes, lids, glare. The denominator is “how many bits actually counted,” so HD is a <em>fraction</em> between 0 and 1. Perfect match would be 0. Unrelated eyes sit at 0.5.</p>
+            <p>This is not a neural network. It is Boolean logic that a CPU already has as a single instruction on 32-bit chunks. On a 300 MHz Sun workstation in 2004, Daugman quotes <strong>~100,000 iris comparisons per second</strong>, and 10 µs to XOR two IrisCodes. That speed is why Aadhaar-scale search was imaginable with this representation and still painful with float embeddings.</p>
+            <div class="why"><strong>Tiny example</strong>Codes 1101 and 1001, both fully unmasked. XOR = 0100 → one bit in four disagrees → HD = 0.25. If the second bit of either mask was 0 (occlusion), that bit is skipped and HD = 0/3 = 0.</div>
+            <div class="dont"><strong>Don’t mix this up</strong>Lower HD = more similar. It is a <em>dissimilarity</em>. Cosine similarity in ArcIris is the opposite direction (higher = closer). Always check whether a matcher outputs distance or similarity before you pick a threshold.</div>
+          </article>
+
+          <article class="slide">
+            <h2>The impostor histogram: 249 coin tosses</h2>
+            <p class="one-liner">Different eyes disagree like a binomial with N ≈ 249, p = 0.5 — not 2,048 independent bits.</p>
+            <p>9,060,003 comparisons of different irises. Mean HD = 0.499, σ = 0.0317. If every one of the 2,048 bits were an independent coin, σ would be about 0.011 and the histogram would be a spike. It is wider, so bits are correlated (especially radially: nearby rings of the iris are not independent).</p>
+            <p>For a binomial, N = p(1−p)/σ². Plug in: N ≈ <strong>249 degrees of freedom</strong>. The histogram is “what you get if you flip a fair coin 249 times and plot the fraction of heads.” A quantile-quantile plot of the left tail against that binomial is a straight line over three orders of magnitude. The model is not decorative. It is the false-match calculator.</p>
+            <p>Smallest impostor HD in that 9.1 million: <strong>0.334</strong>. Chance of HD &lt; 0.333 ≈ 1 in 16 million. Chance of HD ≤ 0.300 ≈ 1 in 10 billion.</p>
+            <div class="why"><strong>In plain English</strong>You published 2,048 bits, but only ~249 of them are truly independent facts about the iris. That is still an enormous password. Discrimination entropy works out to about <strong>3.2 bits per mm²</strong> of iris.</div>
+          </article>
+
+          <article class="slide">
+            <h2>Rotation: do not rotate the image</h2>
+            <p class="one-liner">Encode once, then circularly shift the bit code and keep the best HD.</p>
+            <p>Head tilt, cyclotorsion of the eye in the socket, and pan/tilt mirrors all rotate the iris in the image plane. Rotating the photograph with an Euler matrix is the expensive way. The cheap way: compute the IrisCode in one canonical orientation, then slide it in θ (the angular axis of the rectangle) and recompute HD. Daugman used <strong>7 relative orientations</strong> and kept the minimum HD.</p>
+            <p>“Best of 7” is an extreme-value sample, so the impostor histogram shifts left: mean falls from 0.500 to <strong>0.458</strong>, σ to 0.0196, smallest observed HD still about 0.33. He writes down the exact formula: if F₀(x) is the chance of a false match in one orientation, then after n tries it is 1 − [1 − F₀(x)]ⁿ. The theory matches the histogram.</p>
+            <div class="why"><strong>In plain English</strong>You give the matcher a few “maybe the head was tilted” chances. That makes impostors look slightly more similar on average, which you must budget for in the threshold. You do not get a free lunch. Notre Dame’s HDBIF still does shifts (even shifts first, then ±1 around the winner, to hit IREX’s 25-second search cap).</div>
+          </article>
+
+          <article class="slide">
+            <h2>The threshold table you should be able to recite</h2>
+            <p class="one-liner">HD ≤ 0.32 is the folklore cutoff. Tighter if the gallery is huge.</p>
+            <table>
+              <thead><tr><th>HD criterion</th><th>Odds of a single false match</th><th>When you would use it</th></tr></thead>
+              <tbody>
+                <tr><td>0.26</td><td>1 in 10¹³</td><td>Paranoid / enormous 1:N</td></tr>
+                <tr><td>0.27</td><td>1 in 10¹²</td><td>~1 million gallery, net P_N ≈ 10⁻⁶</td></tr>
+                <tr><td>0.30</td><td>1 in 1.5 billion</td><td>Very conservative verification</td></tr>
+                <tr><td>0.32</td><td>1 in 26 million</td><td>Classic operating point in the paper</td></tr>
+                <tr><td>0.33</td><td>1 in 4 million</td><td>Empirically sat between all genuines and all impostors in his 9.1M set</td></tr>
+                <tr><td>0.35</td><td>1 in 133,000</td><td>Too loose for large search</td></tr>
+              </tbody>
+            </table>
+            <p>These odds already include the 7-orientation “best of n” correction. In the non-ideal 7,070 genuine pairs vs 9.1 million impostors, max genuine HD was 0.327 and min impostor HD was 0.329 — a hair’s-breadth perfect separation on that particular dataset, at theoretical FMR ≈ 1 in 4 million.</p>
+            <div class="dont"><strong>Don’t treat 0.32 as magic</strong>Genuine scores move around with blur, motion, and cameras. Impostor scores do not — they are combinatorics. So you adapt the threshold to keep search-wide false matches rare, not to chase a pretty genuine mean.</div>
+          </article>
+
+          <article class="slide">
+            <h2>Verification is easy. Identification is not.</h2>
+            <p class="one-liner">A 99.9% verifier is useless as a search engine once N is a few thousand.</p>
+            <p>Verification (1:1): someone claims an identity, you check one template. Identification (1:N): you search everyone. If P₁ is the false-match chance of one comparison, the chance of at least one false match in a gallery of N is</p>
+            <p class="mono">P_N = 1 − (1 − P₁)^N ≈ N · P₁ &nbsp;&nbsp; when P₁ is small.</p>
+            <p>Daugman’s horror story: a face algorithm with P₁ = 0.001 (only 0.1% false matches, better than confusing all identical twins). At N = 200, P_N is already 18%. At N = 2,000, P_N is 86%. You will almost surely accuse somebody.</p>
+            <p>So an identifier must be roughly <strong>N times better</strong> than a verifier. Iris gets there because the binomial tail dies so fast that you can drop HD from 0.33 to 0.27 and absorb a million extra impostor chances. He targets P_N &lt; 10⁻⁶ regardless of N by making the HD threshold adaptive.</p>
+            <div class="why"><strong>Why Adam cares</strong>NIST IREX is identification, not verification. Ranking is FNIR at FPIR = 0.01 on 500,000 identities. That is Daugman’s 1:N problem with modern names. ArcIris is being judged on that problem, not on a lab EER.</div>
+          </article>
+
+          <article class="slide">
+            <h2>The decision environment and d-prime</h2>
+            <p class="one-liner">Plot genuine HDs on the left, impostor HDs on the right. Overlap is error. Separation is d′.</p>
+            <p>Two histograms: same-eye comparisons vs different-eye comparisons. If they barely overlap, you can pick a threshold. Daugman calls this the <strong>decision environment</strong>.</p>
+            <p>Non-ideal (different cameras, distances): genuine mean HD = 0.110, σ = 0.065; impostor mean 0.458, σ = 0.020; <strong>d′ = 7.3</strong> from 2.3 million comparisons. Ideal lab (same camera, zoom, distance): genuine mean 0.019, and more than half of pairs hit HD = 0.00; <strong>d′ = 14.1</strong>.</p>
+            <p>d′ = |μ₁ − μ₂| / sqrt((σ₁² + σ₂²)/2). It does not depend on where you put the threshold. It tells you how much any FMR win will cost you in FNMR.</p>
+            <div class="why"><strong>The deep fact</strong>The <em>impostor</em> distribution barely moves when imaging gets worse — bits of different eyes are still random. The <em>genuine</em> distribution slides right toward 0.5 as blur and noise eat the real texture. Quality does not make strangers look like you. Quality makes you look less like yourself.</div>
+            <div class="dont"><strong>d′ warning</strong>This assumes roughly Gaussian scores. Iris papers quote it constantly, including the Notre Dame ArcIris paper. It is a convenience index, not a full ROC.</div>
+          </article>
+
+          <article class="slide">
+            <h2>Speed, as of 2004 hardware</h2>
+            <p class="one-liner">A third of a second to make a template. Ten microseconds to compare two of them.</p>
+            <table>
+              <thead><tr><th>Operation</th><th>Time on a 300 MHz Sun</th></tr></thead>
+              <tbody>
+                <tr><td>Assess focus</td><td>15 ms</td></tr>
+                <tr><td>Scrub specular reflections</td><td>56 ms</td></tr>
+                <tr><td>Localize eye and iris</td><td>90 ms</td></tr>
+                <tr><td>Fit pupillary boundary</td><td>12 ms</td></tr>
+                <tr><td>Detect and fit both eyelids</td><td>93 ms</td></tr>
+                <tr><td>Remove lashes and contact-lens edges</td><td>78 ms</td></tr>
+                <tr><td>Demodulation / IrisCode creation</td><td>102 ms</td></tr>
+                <tr><td>XOR comparison of two IrisCodes</td><td>10 µs</td></tr>
+              </tbody>
+            </table>
+            <p>Template creation is milliseconds because of image processing. Search is microseconds because of XOR. Daugman’s scaling advice: shard a national gallery into chunks of ~100,000 people, search them in parallel, and tighten each shard’s HD threshold so the union still has P_N &lt; 10⁻⁶. He claims a national identification decision in about one second on banks of cheap CPUs.</p>
+            <div class="why"><strong>Bridge to 2026</strong>IREX still cares about this split. Extract cap: 1.5 s. Search cap: 25 s against 500k templates. ArcIris spends its time in a ResNet, then matches with a cheap vector distance. CRYPTS spends its time in Earth Mover’s Distance and misses the search cap. Daugman’s speed argument never went away.</div>
+          </article>
+
+          <article class="slide">
+            <h2>What the paper does <em>not</em> claim</h2>
+            <p class="one-liner">Stable enough to recognize, not frozen like a wax statue, not a medical oracle.</p>
+            <p>He needs the pattern to be stable enough over years that genuine HD stays on the left of the decision environment. He does not need every crypt to be eternal. The test still works if up to about a third of the bits are corrupted — that is what HD ≤ 0.32 already allows.</p>
+            <p>He explicitly dumps iridology. He also notes that disease and aging can change an iris (Notre Dame later built whole datasets on that: Warsaw post-mortem, disease-iris). The 2004 paper’s operational claim is about healthy, living, NIR, cooperative capture.</p>
+            <p>He is not arguing neural nets can never encode irises. He is arguing that whatever you use must (1) produce something you can search at 1:N without false matches exploding, and (2) not confuse blurry samples with each other. That is the steel-man of “Daugman wasn’t a fan of deep learning.”</p>
+            <div class="why"><strong>If Adam asks “what did you take from Daugman?”</strong>Say: independence test, rubber sheet, phase not amplitude, 249 DoF, HD 0.32, identification ≠ verification, impostor distribution is combinatorics while genuine distribution is quality. Then say ArcIris keeps the rubber sheet and replaces the IrisCode with an ArcFace embedding because IREX galleries are “only” 500k and a compact float vector still finishes in 2.5 seconds.</div>
+          </article>
+
+          <article class="slide">
+            <h2>Cheat sheet · pin this</h2>
+            <table>
+              <thead><tr><th>Thing</th><th>Number / phrase</th></tr></thead>
+              <tbody>
+                <tr><td>Thesis</td><td>Unique failure of a statistical independence test on phase</td></tr>
+                <tr><td>IrisCode</td><td>2,048 phase bits + 2,048 mask bits</td></tr>
+                <tr><td>Independent bits</td><td>~249, not 2,048</td></tr>
+                <tr><td>Entropy</td><td>~3.2 bits/mm²</td></tr>
+                <tr><td>Impostor HD</td><td>mean ≈ 0.50 (0.458 after 7 rotations)</td></tr>
+                <tr><td>Typical accept</td><td>HD ≤ 0.32 ≈ 1 in 26 million FMR</td></tr>
+                <tr><td>Left vs right</td><td>HD ≈ 0.50 · epigenetic</td></tr>
+                <tr><td>Min radius</td><td>≥ 70 px, field 100–140, NIR 700–900 nm</td></tr>
+                <tr><td>Normalize</td><td>Non-concentric rubber sheet, r ∈ [0,1]</td></tr>
+                <tr><td>Encode</td><td>2-D Gabor phase quadrants, Grey code</td></tr>
+                <tr><td>Match</td><td>Masked XOR Hamming distance, shift for rotation</td></tr>
+                <tr><td>1:N math</td><td>P_N ≈ N P₁ · tighten threshold as N grows</td></tr>
+                <tr><td>d′</td><td>7.3 non-ideal / 14.1 ideal in this paper</td></tr>
+                <tr><td>Search speed</td><td>~10 µs per pair, ~1e5 irises/s in 2004</td></tr>
+              </tbody>
+            </table>
+            <p class="muted">Paper: J. Daugman, “How iris recognition works,” IEEE Trans. Circuits Syst. Video Technol., vol. 14, no. 1, pp. 21–30, Jan. 2004. PDF: <span class="mono">cl.cam.ac.uk/~jgd1000/irisrecog.pdf</span></p>
+          </article>
+
+        </div>
+        <div class="nav">
+          <button id="prev" type="button">Previous</button>
+          <div class="dots" id="dots"></div>
+          <button id="next" type="button">Next</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="dl" class="panel prose">
+      <h2>Where deep learning actually helps</h2>
+      <p>Nguyen, Proença, Alonso-Fernandez, ACM Computing Surveys 2024. Daugman was not a fan of DL. The survey’s useful claim: impact is uneven.</p>
+      <table>
+        <thead><tr><th>Stage</th><th>DL verdict</th><th>Why</th></tr></thead>
+        <tbody>
+          <tr><td>Segmentation</td><td>Clear win on hard data</td><td>U-Net family handles blur, off-axis, occlusion, post-mortem better than integro-differential / Hough.</td></tr>
+          <tr><td>Normalization</td><td>Mostly still rubber-sheet</td><td>A few methods skip it (ThirdEye). Polar unwrap remains the default, including ArcIris.</td></tr>
+          <tr><td>Closed-set encoding</td><td>Softmax CNNs work, but brittle</td><td>Must retrain when a new identity appears. Fine for lab papers, useless for IREX 1:N.</td></tr>
+          <tr><td>Open-set encoding</td><td>Triplet / ArcFace embeddings</td><td>This is ArcIris. Same playbook as FaceNet / ArcFace. Open-set 1:N without retraining.</td></tr>
+          <tr><td>National-scale 1:N</td><td>IrisCode still king on speed</td><td>XOR of bits vs float embeddings. Aadhaar ~1.2B iris pairs.</td></tr>
+          <tr><td>PAD</td><td>DL is now the default</td><td>Printouts, textured contacts, replay, cadaver. Cross-sensor / unknown-attack PAD is still open.</td></tr>
+          <tr><td>Post-mortem / forensics</td><td>DL + humans together</td><td>Decomposition breaks handcrafted anatomy. Heatmaps help examiners. Czajka lab owns this niche.</td></tr>
+        </tbody>
+      </table>
+      <div class="note">Why ArcFace beat triplet: triplet loss needs mining (too-easy stops learning, too-hard explodes). ArcFace puts embeddings on a hypersphere and adds a fixed angular margin. No mining. ND’s second IREX submission (ArcIris) crushed the first (TripletIris): FNIR 4.8% vs 32.6%.</div>
+    </section>
+
+    <section id="arciris" class="panel prose">
+      <h2>What you will actually work with</h2>
+      <p>Adam: “We would be working with ArcIris.” IREX name <strong>ndcvrl_002</strong> (2025-05-12). First ND open-source IREX entry was TripletIris as <strong>ndcvrl_001</strong>.</p>
+      <div class="grid-2">
+        <div class="card">
+          <h3>ArcIris — use this</h3>
+          <ul>
+            <li>Backbone: ResNet100 (InsightFace ArcFace-torch)</li>
+            <li>Input: polar 512×64 from 640×480 via Daugman’s rubber sheet</li>
+            <li>Loss: ArcFace (additive angular margin)</li>
+            <li>Match: cosine / Euclidean on a float vector</li>
+            <li>Template: 8 kB · two-eye FNIR 0.048 ± 0.001</li>
+            <li>Rank-1 97.62% · rank-10 98.22% · 27th of 35</li>
+            <li>Search 1M irises in ~2.5 s on NIST’s Xeon</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>TripletIris — know, don’t live in</h3>
+          <ul>
+            <li>Backbone: ConvNeXt-tiny (timing constraint)</li>
+            <li>Loss: batch-hard triplet mining</li>
+            <li>Same polar input and ND segmentation front-end</li>
+            <li>IREX two-eye FNIR 0.326 ± 0.003</li>
+            <li>Rank-1 89.77% · rank-10 93.54%</li>
+            <li>The ablation that proves ArcFace &gt; triplet here</li>
+          </ul>
+        </div>
+      </div>
+      <h3>The FTE plot twist</h3>
+      <p>Commercial VeriEye is #1 on IREX and looks nearly perfect on clean academic sets. It also refuses a lot of hard images (FTE 22.8% on VII-Q-R2, 7.7% on Q-FIRE). Worldcoin open-iris dies when quality drops (FTE 86% post-mortem). ArcIris almost never refuses, so when ISO-style scoring treats failure-to-enroll as a non-match, the open-source nets look much closer to commercial — and more usable for forensics.</p>
+      <h3>Also in the repo</h3>
+      <ul>
+        <li><strong>HDBIF</strong> — ICA filters on patches humans looked at. Binarize, fractional HD. Skim.</li>
+        <li><strong>CRYPTS</strong> — Fuchs’ crypts + Earth Mover’s Distance. Failed IREX search timing. One-liner only.</li>
+        <li><strong>Canthi detector</strong> — DINOv3 + regression head for eye corners, then affine-rotate.</li>
+      </ul>
+    </section>
+
+    <section id="irex" class="panel prose">
+      <h2>NIST IREX X, in English</h2>
+      <p>Sequestered data you never see: ~1,000,000 images, 500,000 identities, field-collected, messy. Ranking: FNIR at FPIR = 0.01. Caps: 1.5 s to extract a 640×480 template; 25 s to search 500k and return 50 candidates. ND put the first open-source algorithms on a board that used to be all vendors.</p>
+      <div class="grid-3" style="margin: 12px 0 16px">
+        <div class="stat"><b>27 / 35</b><span>ArcIris accuracy rank (two-eye)</span></div>
+        <div class="stat"><b>6 / 35</b><span>ArcIris template-size rank</span></div>
+        <div class="stat"><b>ndcvrl_002</b><span>Leaderboard identifier</span></div>
+      </div>
+      <h3>Metric cheat sheet</h3>
+      <table>
+        <thead><tr><th>Acronym</th><th>Means</th><th>Direction</th></tr></thead>
+        <tbody>
+          <tr><td>FMR / FPIR</td><td>Impostor accepted</td><td>Lower better. IREX fixes this at 1%.</td></tr>
+          <tr><td>FNMR / FNIR</td><td>Genuine missed</td><td>Lower better. IREX ranking number.</td></tr>
+          <tr><td>EER</td><td>Threshold where FMR = FNMR</td><td>Lab summary. Not how IREX ranks.</td></tr>
+          <tr><td>FTE</td><td>Failure to enroll / extract</td><td>If counted as non-match, genuine FTE hurts you.</td></tr>
+          <tr><td>d′</td><td>Separation of genuine vs impostor Gaussians</td><td>Higher better. Assumes normality.</td></tr>
+          <tr><td>Rank-k hit</td><td>True identity in the top k</td><td>IREX reports rank-1 and rank-10.</td></tr>
+          <tr><td>HD</td><td>Fraction of disagreeing unmasked bits</td><td>0 = identical IrisCodes. ~0.5 = different eyes.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="quiz" class="panel quiz">
+      <h2 style="font-family:'Fraunces',serif;font-weight:500">If you can answer these, you are ready</h2>
+      <p class="hint">Click a question to reveal the answer.</p>
+      <button class="q" type="button">What is the recognition principle in one sentence?</button>
+      <div class="a">Two different irises are statistically independent in phase; a match is the unique failure of that independence test (HD well below 0.5, typically ≤ 0.32).</div>
+      <button class="q" type="button">Why phase and not amplitude?</button>
+      <div class="a">Amplitude tracks illumination, contrast, camera gain. Phase (Gabor zero-crossings) is stable. Blurry eyes still get a noise-driven code, so they don’t all look alike.</div>
+      <button class="q" type="button">Why isn’t the IrisCode 2,048 independent bits?</button>
+      <div class="a">Neighboring bits are correlated, especially radially. Impostor HD variance implies N ≈ 249 Bernoulli trials. Entropy ~3.2 bits/mm².</div>
+      <button class="q" type="button">Are a person’s two eyes a collision risk?</button>
+      <div class="a">No. Left vs right HD ≈ 0.50, same as strangers. Pattern is epigenetic. Identical twins also fail to match.</div>
+      <button class="q" type="button">What does the rubber sheet buy you?</button>
+      <div class="a">Invariance to camera distance, iris size, and pupil dilation. r is dimensionless 0–1 from pupil to limbus. Rotation is handled by shifting the code, not rotating the photo.</div>
+      <button class="q" type="button">Why can IrisCodes search billions and many CNNs cannot?</button>
+      <div class="a">XOR of packed bits is a CPU primitive. Float embeddings need slower distance math. Daugman’s objection to DL was largely this, plus closed-set softmax.</div>
+      <button class="q" type="button">ArcIris vs TripletIris, in 20 seconds?</button>
+      <div class="a">Same polar front-end. TripletIris = ConvNeXt-tiny + batch-hard triplets (ndcvrl_001, FNIR 32.6%). ArcIris = ResNet100 + ArcFace (ndcvrl_002, FNIR 4.8%).</div>
+      <button class="q" type="button">Why did ND refuse heavy quality filtering?</button>
+      <div class="a">IREX rewards discarding junk. Forensics and newborns cannot. ArcIris FTE is near zero so it still produces a template on ugly images.</div>
+    </section>
+
+    <p class="footer">
+      Study pack for Odon from Daugman 2004, Nguyen et al. 2024, and Khan, Flynn, Czajka 2026.
+      Paper PDF: <a href="https://www.cl.cam.ac.uk/~jgd1000/irisrecog.pdf">irisrecog.pdf</a>
+      · Repo: <a href="https://github.com/CVRL/OpenSourceIrisRecognition">CVRL/OpenSourceIrisRecognition</a>
+      · IREX: <a href="https://pages.nist.gov/IREX10/">pages.nist.gov/IREX10</a>
+    </p>
+  </div>
+</div>
+<script src="./assets/app.js"></script>
+</body>
+</html>
