@@ -1,6 +1,8 @@
 # Intro to iris recognition
 
-Overnight study site for [John Daugman’s 2004 paper](https://www.cl.cam.ac.uk/~jgd1000/irisrecog.pdf) *How iris recognition works*, plus the Notre Dame / NIST IREX stack (ArcIris).
+Live site: [https://inezaodon.github.io/intro_to_iris_recognition/](https://inezaodon.github.io/intro_to_iris_recognition/)
+
+Overnight study site for [John Daugman’s 2004 paper](https://www.cl.cam.ac.uk/~jgd1000/irisrecog.pdf) *How iris recognition works*, plus the Notre Dame / NIST IREX stack (ArcIris). The **Daugman 2004** tab is the slide deck. Direct link: […/#daugman/1](https://inezaodon.github.io/intro_to_iris_recognition/#daugman/1)
 
 ## Local
 
