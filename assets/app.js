@@ -1,73 +1,123 @@
-const $ = (sel, root = document) => root.querySelector(sel);
-const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
+(function () {
+  const tabs = Array.from(document.querySelectorAll(".tab"));
+  const panels = Array.from(document.querySelectorAll(".panel"));
+  const slides = Array.from(document.querySelectorAll(".slide"));
+  const dotsWrap = document.getElementById("dots");
+  const prev = document.getElementById("prev");
+  const next = document.getElementById("next");
+  const pos = document.getElementById("pos");
 
-const tabs = $$(".tab");
-const panels = $$(".panel");
-const slides = $$(".slide");
-const dotsWrap = $(".dots");
-const prev = $(".prev");
-const next = $(".next");
-const pos = $(".pos");
-let i = 0;
+  let i = 0;
+  let applyingHash = false;
 
-function showTab(id) {
-  tabs.forEach((t) => t.setAttribute("aria-selected", String(t.dataset.tab === id)));
-  panels.forEach((p) => p.classList.toggle("active", p.id === id));
-  location.hash = id === "daugman" ? `#daugman/${i + 1}` : `#${id}`;
-}
-
-function renderDots() {
-  dotsWrap.innerHTML = slides
-    .map((_, n) => `<button class="dot${n === i ? " on" : ""}" data-i="${n}" aria-label="Slide ${n + 1}"></button>`)
-    .join("");
-}
-
-function showSlide(n) {
-  i = Math.max(0, Math.min(slides.length - 1, n));
-  slides.forEach((s, k) => s.classList.toggle("on", k === i));
-  renderDots();
-  pos.textContent = `${i + 1} / ${slides.length}`;
-  prev.disabled = i === 0;
-  next.disabled = i === slides.length - 1;
-  if ($(".tab[aria-selected='true']")?.dataset.tab === "daugman") {
-    location.hash = `#daugman/${i + 1}`;
+  function selectedTab() {
+    return tabs.find((t) => t.getAttribute("aria-selected") === "true")?.dataset.tab || "home";
   }
-}
 
-tabs.forEach((t) => t.addEventListener("click", () => showTab(t.dataset.tab)));
-prev.addEventListener("click", () => showSlide(i - 1));
-next.addEventListener("click", () => showSlide(i + 1));
-dotsWrap.addEventListener("click", (e) => {
-  const d = e.target.closest(".dot");
-  if (d) showSlide(Number(d.dataset.i));
-});
+  function hashFor(tab, slideIndex) {
+    return tab === "daugman" ? "#daugman/" + (slideIndex + 1) : "#" + tab;
+  }
 
-document.addEventListener("keydown", (e) => {
-  const onDeck = $("#daugman").classList.contains("active");
-  if (!onDeck) return;
-  if (["ArrowRight", "PageDown", " ", "l"].includes(e.key)) {
+  function writeHash(tab, slideIndex) {
+    const nextHash = hashFor(tab, slideIndex);
+    if (location.hash === nextHash) return;
+    applyingHash = true;
+    location.hash = nextHash;
+  }
+
+  function showTab(id, push) {
+    tabs.forEach((t) => t.setAttribute("aria-selected", String(t.dataset.tab === id)));
+    panels.forEach((p) => p.classList.toggle("active", p.id === id));
+    if (push) writeHash(id, i);
+  }
+
+  function renderDots() {
+    if (!dotsWrap) return;
+    dotsWrap.innerHTML = slides
+      .map(function (_, n) {
+        return (
+          '<button type="button" class="dot' +
+          (n === i ? " on" : "") +
+          '" data-i="' +
+          n +
+          '" aria-label="Slide ' +
+          (n + 1) +
+          '"></button>'
+        );
+      })
+      .join("");
+  }
+
+  function showSlide(n, push) {
+    if (!slides.length) return;
+    i = Math.max(0, Math.min(slides.length - 1, n));
+    slides.forEach((s, k) => s.classList.toggle("on", k === i));
+    renderDots();
+    if (pos) pos.textContent = i + 1 + " / " + slides.length;
+    if (prev) prev.disabled = i === 0;
+    if (next) next.disabled = i === slides.length - 1;
+    if (push && selectedTab() === "daugman") writeHash("daugman", i);
+  }
+
+  tabs.forEach((t) => {
+    t.addEventListener("click", (e) => {
+      e.preventDefault();
+      showTab(t.dataset.tab, true);
+    });
+  });
+
+  prev?.addEventListener("click", (e) => {
     e.preventDefault();
-    showSlide(i + 1);
-  }
-  if (["ArrowLeft", "PageUp", "h"].includes(e.key)) {
+    showSlide(i - 1, true);
+  });
+  next?.addEventListener("click", (e) => {
     e.preventDefault();
-    showSlide(i - 1);
+    showSlide(i + 1, true);
+  });
+  dotsWrap?.addEventListener("click", (e) => {
+    const d = e.target.closest(".dot");
+    if (!d) return;
+    e.preventDefault();
+    showSlide(Number(d.dataset.i), true);
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (selectedTab() !== "daugman") return;
+    if (["INPUT", "TEXTAREA"].includes(document.activeElement?.tagName)) return;
+    if (["ArrowRight", "PageDown", " ", "l"].includes(e.key)) {
+      e.preventDefault();
+      showSlide(i + 1, true);
+    } else if (["ArrowLeft", "PageUp", "h"].includes(e.key)) {
+      e.preventDefault();
+      showSlide(i - 1, true);
+    } else if (e.key === "Home") {
+      e.preventDefault();
+      showSlide(0, true);
+    } else if (e.key === "End") {
+      e.preventDefault();
+      showSlide(slides.length - 1, true);
+    }
+  });
+
+  document.querySelectorAll(".quiz .q").forEach((btn) => {
+    btn.addEventListener("click", () => btn.classList.toggle("open"));
+  });
+
+  function bootFromHash() {
+    if (applyingHash) {
+      applyingHash = false;
+      return;
+    }
+    const raw = (location.hash || "").replace("#", "");
+    const parts = raw.split("/");
+    const tab = parts[0];
+    const slide = parts[1];
+    const id = tabs.some((t) => t.dataset.tab === tab) ? tab : "home";
+    showTab(id, false);
+    const n = slide ? Number(slide) - 1 : 0;
+    showSlide(Number.isFinite(n) ? n : 0, false);
   }
-  if (e.key === "Home") showSlide(0);
-  if (e.key === "End") showSlide(slides.length - 1);
-});
 
-$$(".quiz .q").forEach((btn) => {
-  btn.addEventListener("click", () => btn.classList.toggle("open"));
-});
-
-function boot() {
-  const hash = location.hash.replace("#", "");
-  const [tab, slide] = hash.split("/");
-  const known = tabs.some((t) => t.dataset.tab === tab);
-  showTab(known ? tab : "home");
-  showSlide(slide ? Number(slide) - 1 : 0);
-}
-
-window.addEventListener("hashchange", boot);
-boot();
+  window.addEventListener("hashchange", bootFromHash);
+  bootFromHash();
+})();

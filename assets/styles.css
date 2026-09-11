@@ -74,39 +74,35 @@ body {
 .tab {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 13px;
-  color: #d7d0c4;
-  background: transparent;
-  border: 1px solid #3a362f;
-  padding: 7px 12px;
+  color: #f4efe6;
+  background: #2a261f;
+  border: 1px solid #8a8172;
+  padding: 8px 14px;
   cursor: pointer;
   border-radius: 999px;
 }
-.tab:hover { border-color: var(--gold); color: var(--paper); }
+.tab:hover { border-color: #fff; background: #3a362f; }
 .tab[aria-selected="true"] {
-  background: var(--paper);
-  color: var(--ink);
-  border-color: var(--paper);
+  background: #fffdf7;
+  color: #111;
+  border-color: #fffdf7;
+  font-weight: 600;
 }
 
 .panel { display: none; }
 .panel.active { display: block; }
 
-.prose h2, .slide h2 {
+.prose h2, .prose h3 {
   font-family: "Fraunces", serif;
   font-weight: 500;
-  font-size: 26px;
   margin: 0 0 12px;
   color: var(--paper);
 }
-.prose h3, .slide h3 {
-  font-family: "Fraunces", serif;
-  font-weight: 500;
-  font-size: 18px;
-  margin: 18px 0 8px;
-}
-.prose p, .slide p { margin: 0 0 10px; line-height: 1.55; color: #e7e1d6; }
-.prose ul, .slide ul { margin: 0 0 12px; padding-left: 18px; line-height: 1.5; color: #e7e1d6; }
-.prose li + li, .slide li + li { margin-top: 6px; }
+.prose h2 { font-size: 26px; }
+.prose h3 { font-size: 18px; margin-top: 18px; }
+.prose p { margin: 0 0 10px; line-height: 1.55; color: #e7e1d6; }
+.prose ul { margin: 0 0 12px; padding-left: 18px; line-height: 1.5; color: #e7e1d6; }
+.prose li + li { margin-top: 6px; }
 
 .paper {
   background: var(--paper);
@@ -175,13 +171,14 @@ th {
 }
 
 .deck {
-  background: var(--paper);
-  color: var(--body);
+  background: #fffdf7;
+  color: #14110e;
   border-radius: 18px;
   min-height: var(--slide-h);
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  border: 1px solid #d7cbb8;
 }
 .deck-bar {
   display: flex;
@@ -189,63 +186,91 @@ th {
   justify-content: space-between;
   gap: 12px;
   padding: 12px 18px;
-  border-bottom: 1px solid var(--rule);
-  background: var(--paper-2);
+  border-bottom: 1px solid #cfc3ae;
+  background: #f3ead8;
   font-family: "IBM Plex Sans", sans-serif;
-  font-size: 12.5px;
-  color: var(--muted);
+  font-size: 13px;
+  color: #3a3329;
 }
-.deck-bar b { color: var(--iris); font-weight: 600; }
+.deck-bar b { color: #111; font-weight: 700; }
 .slides { position: relative; flex: 1; }
 .slide {
   display: none;
   padding: 22px 28px 18px;
+  color: #14110e;
   animation: in 280ms ease;
 }
 .slide.on { display: block; }
 @keyframes in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
 
 .slide h2 {
-  color: var(--iris-deep);
+  font-family: "Fraunces", serif;
+  font-weight: 600;
+  color: #111;
   font-size: 30px;
   line-height: 1.15;
-  margin-bottom: 6px;
+  margin: 0 0 8px;
 }
+.slide h3 {
+  font-family: "Fraunces", serif;
+  color: #111;
+  font-size: 18px;
+  margin: 16px 0 8px;
+}
+.slide p,
+.slide li,
+.slide td {
+  color: #14110e;
+  line-height: 1.55;
+}
+.slide p { margin: 0 0 10px; }
+.slide ul { margin: 0 0 12px; padding-left: 18px; }
+.slide li + li { margin-top: 6px; }
+.slide th {
+  color: #111;
+  border-bottom-color: #cfc3ae;
+}
+.slide td { border-bottom-color: #ddd4c4; }
+.slide .muted,
+.slide .cap { color: #3f382e; }
 .one-liner {
   font-style: italic;
-  color: var(--iris);
+  color: #6b2416;
   margin-bottom: 14px;
-  font-size: 17px;
+  font-size: 18px;
+  font-weight: 600;
 }
 .why {
-  background: #f7f1e6;
-  border: 1px solid var(--rule);
+  background: #fff3c4;
+  border: 2px solid #111;
   border-radius: 12px;
   padding: 12px 14px;
   margin: 12px 0;
+  color: #14110e;
 }
 .why strong {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 11px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--iris);
+  color: #111;
   display: block;
   margin-bottom: 4px;
 }
 .dont {
-  background: #f6ebe3;
-  border: 1px solid #e2cbb8;
+  background: #ffd7c2;
+  border: 2px solid #7a2e12;
   border-radius: 12px;
   padding: 12px 14px;
   margin: 12px 0;
+  color: #14110e;
 }
 .dont strong {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 11px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--warn);
+  color: #7a2e12;
   display: block;
   margin-bottom: 4px;
 }
@@ -256,24 +281,29 @@ th {
   justify-content: space-between;
   gap: 10px;
   padding: 12px 18px 16px;
-  border-top: 1px solid var(--rule);
+  border-top: 1px solid #cfc3ae;
+  background: #f3ead8;
+  z-index: 2;
 }
 .nav button {
   font-family: "IBM Plex Sans", sans-serif;
-  background: var(--iris-deep);
-  color: var(--paper);
+  background: #111;
+  color: #fffdf7;
   border: 0;
-  padding: 9px 14px;
+  padding: 11px 18px;
   border-radius: 999px;
   cursor: pointer;
+  font-weight: 600;
+  min-width: 108px;
 }
+.nav button:hover { background: #000; }
 .nav button:disabled { opacity: 0.35; cursor: default; }
-.dots { display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; }
+.dots { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
 .dot {
-  width: 8px; height: 8px; border-radius: 50%;
-  background: #d3c8b4; border: 0; padding: 0; cursor: pointer;
+  width: 12px; height: 12px; border-radius: 50%;
+  background: #b7aa94; border: 1px solid #111; padding: 0; cursor: pointer;
 }
-.dot.on { background: var(--iris); }
+.dot.on { background: #111; }
 
 .fig {
   background: #1a1814;
@@ -282,7 +312,11 @@ th {
   display: grid;
   place-items: center;
 }
-.paper .fig { background: #efe8db; }
+.paper .fig,
+.slide .fig {
+  background: #efe8db;
+  border: 1px solid #111;
+}
 .fig svg { width: 100%; max-width: 420px; height: auto; }
 .cap {
   font-family: "IBM Plex Sans", sans-serif;
@@ -290,6 +324,8 @@ th {
   color: var(--muted);
   margin-top: 6px;
 }
+.slide .cap { color: #3f382e; }
+.slide .mono { color: #111; background: #f3ead8; padding: 2px 4px; }
 
 kbd {
   font-family: "IBM Plex Sans", sans-serif;
