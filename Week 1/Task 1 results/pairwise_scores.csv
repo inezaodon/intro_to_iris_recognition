@@ -1,0 +1,4 @@
+image_id_a,image_id_b,subject_a,subject_b,eye_a,eye_b,label,score
+synthetic2,synthetic3,synthetic2,synthetic3,unknown,unknown,impostor,1.365399
+synthetic1,synthetic3,synthetic1,synthetic3,unknown,unknown,impostor,1.524310
+synthetic1,synthetic2,synthetic1,synthetic2,unknown,unknown,impostor,1.753555

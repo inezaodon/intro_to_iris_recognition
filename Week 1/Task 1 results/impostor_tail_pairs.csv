@@ -1,0 +1,3 @@
+image_id_a,image_id_b,subject_a,subject_b,eye_a,eye_b,label,score,threshold,tail_rule
+synthetic2,synthetic3,synthetic2,synthetic3,unknown,unknown,impostor,1.365399,1.524310,score <= median(1.524310) of 3 impostor scores (small-n fallback; n < 10; a 5th-percentile cut would be unreliable)
+synthetic1,synthetic3,synthetic1,synthetic3,unknown,unknown,impostor,1.524310,1.524310,score <= median(1.524310) of 3 impostor scores (small-n fallback; n < 10; a 5th-percentile cut would be unreliable)

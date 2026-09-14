@@ -2,3 +2,13 @@
 node_modules/
 .idea/
 .vscode/
+
+# Week 1 / ArcIris — clone, weights, embeddings (do not commit)
+Week 1/OpenSourceIrisRecognition/
+**/models/
+**/templates/
+embeddings.pkl
+*.pt
+*.pth
+*.npz
+*.pkl

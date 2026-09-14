@@ -1,0 +1,9 @@
+{
+  "threshold": 1.5243102517033909,
+  "tail_rule": "score <= median(1.524310) of 3 impostor scores (small-n fallback; n < 10; a 5th-percentile cut would be unreliable)",
+  "n_impostor_pairs": 3,
+  "n_genuine_pairs": 0,
+  "n_tail_pairs": 2,
+  "n_tail_images": 3,
+  "query": "Images on the low-score (left) tail of the impostor distribution are the image_id rows in impostor_tail_images.csv."
+}

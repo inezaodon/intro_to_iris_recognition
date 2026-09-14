@@ -1,0 +1,4 @@
+image_id,filepath,subject_id,eye,session
+synthetic1,/Users/odon/Desktop/intro_to_iris_recognition/Week 1/OpenSourceIrisRecognition/methods/ArcIris/Python/data/synthetic1.png,synthetic1,unknown,
+synthetic2,/Users/odon/Desktop/intro_to_iris_recognition/Week 1/OpenSourceIrisRecognition/methods/ArcIris/Python/data/synthetic2.png,synthetic2,unknown,
+synthetic3,/Users/odon/Desktop/intro_to_iris_recognition/Week 1/OpenSourceIrisRecognition/methods/ArcIris/Python/data/synthetic3.png,synthetic3,unknown,

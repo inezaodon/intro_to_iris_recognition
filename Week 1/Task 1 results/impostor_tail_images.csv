@@ -1,0 +1,4 @@
+image_id,n_tail_pairs,min_tail_score,partner_image_ids,filepath,subject_id,eye,quality_passed
+synthetic3,2,1.365399,synthetic2;synthetic1,/Users/odon/Desktop/intro_to_iris_recognition/Week 1/OpenSourceIrisRecognition/methods/ArcIris/Python/data/synthetic3.png,synthetic3,unknown,True
+synthetic2,1,1.365399,synthetic3,/Users/odon/Desktop/intro_to_iris_recognition/Week 1/OpenSourceIrisRecognition/methods/ArcIris/Python/data/synthetic2.png,synthetic2,unknown,True
+synthetic1,1,1.524310,synthetic3,/Users/odon/Desktop/intro_to_iris_recognition/Week 1/OpenSourceIrisRecognition/methods/ArcIris/Python/data/synthetic1.png,synthetic1,unknown,True
