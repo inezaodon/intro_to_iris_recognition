@@ -1,0 +1,11 @@
+{
+  "n_genuine": 0,
+  "n_impostor": 3,
+  "genuine_mean": null,
+  "genuine_std": null,
+  "impostor_mean": 1.547823727594155,
+  "impostor_std": 0.15926264195917464,
+  "decidability_d_prime": null,
+  "threshold": 1.5243554510023916,
+  "plot": "/workspace/Week 1/Task 1 results/plots/genuine_impostor_distribution.png"
+}
