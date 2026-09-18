@@ -21,6 +21,7 @@ if str(HERE) not in sys.path:
 from embeddings import load_or_extract, save_embeddings_pickle, write_quality_flags
 from manifest import build_manifest_from_dir, index_by_id, load_manifest_csv, write_manifest
 from pairwise import pairwise_scores, write_pairwise_scores
+from plots import write_distribution_outputs
 from render import render_tail_pairs
 from tails import select_tail_pairs, image_tail_tracker, write_tail_outputs
 
@@ -146,6 +147,10 @@ def main() -> int:
         n_impostor=n_imp,
         n_genuine=n_gen,
     )
+    dist = write_distribution_outputs(records, out_dir, threshold=threshold)
+    d_prime = dist.get("decidability_d_prime")
+    d_txt = f"{d_prime:.3f}" if d_prime is not None else "n/a"
+    print(f"Distribution plot written (d′ = {d_txt}).")
     print(f"Impostor tail rule: {rule}")
     print(f"Tail pairs: {len(tail_pairs)}  |  tail images: {len(tail_images)}")
     for row in tail_images:

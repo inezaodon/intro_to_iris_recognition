@@ -9,21 +9,21 @@ current access status as of today.
 
 ## Current status
 
-- ✅ **Weights**: found — `https://notredame.app.box.com/s/3palriosrj34fzg2uok58p34au6rvenq`
-  (Box, not the Google Drive link the top-level `readme.md` mentions — two
-  different links point to the same models, use this one). Download and drop
-  the contents into `methods/ArcIris/Python/models/`.
-- ⏳ **Image dataset**: pending — Adam is sending you the actual dataset
-  directly. Until it arrives, the repo's own bundled samples
-  (`methods/ArcIris/Python/data/synthetic1.png`, `synthetic2.png`,
-  `synthetic3.png` — three StyleGAN3-synthetic, non-real iris images from
-  Tinsley/Czajka/Flynn's 2022 IJCB paper) are enough to prove the pipeline runs,
-  but not enough for a real genuine/impostor distribution or false-positive
-  analysis — three images, three different (fake) identities, one image each,
-  so there are **zero genuine pairs** in that sample set.
+- ✅ **Weights**: in place under
+  `Week 1/OpenSourceIrisRecognition/methods/ArcIris/Python/models/`
+  (`ResNet100_154000.pt`, `resnet18-…pth`). Source:
+  `https://notredame.app.box.com/s/3palriosrj34fzg2uok58p34au6rvenq`
+  (same files as the Google Drive folder in the ArcIris readme).
+- ✅ **Analysis pipeline**: `Week 1/arciris_analysis/` carries `image_id`
+  through embedding → pairwise scores → impostor-tail tracker → pair renders
+  → genuine/impostor distribution plot + d′. Synthetic dry-run already
+  re-verified on this machine.
+- ⏳ **Image dataset**: drop Adam’s labeled set into `Week 1/data/` (see that
+  folder’s README), or pass `--data-dir` / `--manifest`. Until then the
+  bundled synthetics (`synthetic1/2/3.png`) only prove the pipeline — three
+  fake identities, **zero genuine pairs**, so no real FP analysis yet.
 
-So right now you can do steps 1–2 below (setup, run the demo pipeline
-end-to-end, confirm it works). Steps 3 onward need Adam's dataset.
+Steps 3 onward still need Adam’s labeled images in `Week 1/data/`.
 
 ---
 

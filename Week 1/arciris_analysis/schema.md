@@ -64,3 +64,12 @@ One row per `image_id` that appears in at least one tail pair.
 
 Query: *which images fell on the left (low-score) tail of the impostor
 distribution?* → every row of this file.
+
+## `distribution_summary.json` + `plots/genuine_impostor_distribution.png`
+
+Overlay histogram of genuine vs impostor ArcIris scores (lower = more similar)
+and decidability
+
+`d′ = |μ_g − μ_i| / sqrt(0.5 (σ_g² + σ_i²))`.
+
+`d′` is `null` when either class is empty (e.g. the three synthetics).

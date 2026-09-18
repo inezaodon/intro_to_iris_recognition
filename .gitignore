@@ -12,3 +12,10 @@ embeddings.pkl
 *.pth
 *.npz
 *.pkl
+
+# Adam dataset drop (images stay local)
+Week 1/data/**
+!Week 1/data/README.md
+
+__pycache__/
+*.pyc

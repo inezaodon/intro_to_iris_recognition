@@ -59,16 +59,16 @@ unknown → 3 impostor pairs, 0 genuine. Tail = scores at or below the median.
 
 ## When Adam's dataset arrives
 
-1. Put images in a folder (or keep his folder layout).
-2. If he sends labels, save them as a CSV with the columns in `schema.md`
-   (`image_id,filepath,subject_id,eye,session`).
-3. Run:
+1. Drop images into `Week 1/data/` (preferred) or keep his folder layout.
+2. If he sends labels, save them as `Week 1/data/manifest.csv` with the
+   columns in `schema.md` (`image_id,filepath,subject_id,eye,session`).
+3. Run (any Python with the packages in `requirements.txt`):
 
 ```bash
-/Users/odon/mamba/envs/arciris/bin/python \
+python3 \
   "Week 1/arciris_analysis/run_pipeline.py" \
-  --data-dir "/path/to/adam/images" \
-  --manifest "/path/to/adam/manifest.csv" \
+  --data-dir "Week 1/data" \
+  --manifest "Week 1/data/manifest.csv" \
   --out-dir "Week 1/Task 1 results"
 ```
 
@@ -88,5 +88,7 @@ Outputs land in `Week 1/Task 1 results/`:
 | `impostor_tail_images.csv` | **image-level tracker** |
 | `impostor_tail_summary.json` | threshold + rule used |
 | `impostor_images/` | tail-pair renders |
+| `plots/genuine_impostor_distribution.png` | genuine vs impostor hist + d′ |
+| `distribution_summary.json` | means, stds, decidability |
 
 See `schema.md` for column definitions.
