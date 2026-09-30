@@ -1,14 +1,17 @@
-.DS_Store
-node_modules/
-.idea/
-.vscode/
+# Datasets
+General Project Files/NDCVRL_002\ Dataset/
+Week 2/
 
-# Week 1 / ArcIris — clone, weights, embeddings (do not commit)
-Week 1/OpenSourceIrisRecognition/
-**/models/
-**/templates/
-embeddings.pkl
-*.pt
-*.pth
-*.npz
-*.pkl
+# Temporary files
+*.npy
+*.pyc
+__pycache__/
+*.log
+
+# Results and outputs
+_texture_ok.npy
+evidence/
+run.log
+
+# IDE
+.claude/worktrees/

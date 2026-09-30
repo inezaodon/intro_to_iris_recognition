@@ -1,0 +1,9 @@
+{
+  "threshold": 1.4499725081947186,
+  "tail_rule": "score <= 5th percentile of impostor scores (1.449973); n_impostor=4750",
+  "n_impostor_pairs": 4750,
+  "n_genuine_pairs": 200,
+  "n_tail_pairs": 238,
+  "n_tail_images": 95,
+  "query": "Images on the low-score (left) tail of the impostor distribution are the image_id rows in impostor_tail_images.csv."
+}
