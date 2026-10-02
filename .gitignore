@@ -1,6 +1,12 @@
 # Datasets
 General Project Files/NDCVRL_002\ Dataset/
-Week 2/
+Week 2/*
+# But track Python scripts and markdown files in Week 2
+!Week 2/*.py
+!Week 2/*.md
+!Week 2/*.csv
+!Week 2/hdbif/
+!Week 2/plots/
 
 # Temporary files
 *.npy
