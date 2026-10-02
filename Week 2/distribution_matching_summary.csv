@@ -1,0 +1,12 @@
+metric,value
+genuine_mean,0.7376738199999999
+genuine_std,0.2452841237064837
+impostor_mean,1.5627824351578947
+impostor_std,0.06583295484690345
+cohens_d,4.594645989701871
+d_prime,4.594645989701871
+crossover_score,1.88988988988989
+eer_threshold,1.43
+eer_value_%,2.6526315789473682
+genuine_in_impostor_range_%,5.0
+current_cut,1.4499725081947186
