@@ -1,0 +1,6671 @@
+Loaded manifest Task 1 results/ndcvrl_manifest.csv (5175 images).
+Extracting embeddings for 5075 image(s) (others reused from cache).
+  extract 1063973
+  extract 1063974
+  extract 1065299
+  extract 1090351
+  extract 1091156
+  extract 161019
+  extract 161025
+  extract 166784
+  extract 167403
+  extract 179758
+  extract 179783
+  extract 201495
+  extract 202097
+  extract 202511
+  extract 203024
+  extract 204059
+  extract 204592
+  extract 205609
+  extract 207431
+  extract 214777
+  extract 515399
+  extract 659563
+  extract 659566
+  extract 666725
+  extract 666970
+  extract 669542
+  extract 673946
+  extract 704749
+  extract 722165
+  extract 727010
+  extract 761884
+  extract 872071
+  extract 909935
+  extract 909975
+  extract 910670
+  extract 934687
+  extract 934691
+  extract 934763
+  extract 935033
+  extract 935099
+  extract 1192854
+  extract 1192855
+  extract 1192856
+  extract 1192857
+  extract 1192858
+  extract 1192859
+  extract 1192860
+  extract 1192861
+  extract 1192862
+  extract 1192863
+  extract 1192864
+  extract 1192865
+  extract 1192866
+  extract 1192867
+  extract 1192868
+  extract 1192869
+  extract 1192870
+  extract 1192871
+  extract 1192872
+  extract 1192873
+  extract 1192874
+  extract 1192875
+  extract 1192876
+  extract 1192877
+  extract 1192878
+  extract 1192879
+  extract 1192880
+  extract 1192881
+  extract 1192882
+  extract 1192883
+  extract 1192884
+  extract 1192885
+  extract 1192886
+  extract 1192887
+  extract 1192888
+  extract 1192889
+  extract 1192890
+  extract 1192891
+  extract 1192892
+  extract 1192893
+  extract 1192894
+  extract 1192895
+  extract 1192896
+  extract 1192897
+  extract 1192898
+  extract 1192967
+  extract 1192968
+  extract 1192969
+  extract 1192970
+  extract 1192971
+  extract 1192973
+  extract 1192975
+  extract 1192976
+  extract 1192977
+  extract 1192978
+  extract 1192979
+  extract 1192980
+  extract 1192981
+  extract 1192982
+  extract 1192984
+  extract 1192985
+  extract 1192986
+  extract 1192987
+  extract 1192988
+  extract 1192989
+  extract 1192990
+  extract 1192991
+  extract 1192992
+  extract 1192993
+  extract 1192995
+  extract 1192996
+  extract 1192997
+  extract 1192998
+  extract 1192999
+  extract 1193000
+  extract 1193001
+  extract 1193002
+  extract 1193003
+  extract 1193004
+  extract 1193005
+  extract 1193006
+  extract 1193007
+  extract 1193008
+  extract 1059492
+  extract 1059494
+  extract 1104374
+  extract 1110959
+  extract 1110980
+  extract 1111707
+  extract 1112190
+  extract 178513
+  extract 178514
+  extract 192818
+  extract 192822
+  extract 192841
+  extract 192843
+  extract 192847
+  extract 212383
+  extract 217811
+  extract 217812
+  extract 229480
+  extract 231649
+  extract 428361
+  extract 660158
+  extract 664014
+  extract 665777
+  extract 683550
+  extract 693891
+  extract 701005
+  extract 704656
+  extract 760523
+  extract 760524
+  extract 760539
+  extract 818343
+  extract 764737
+  extract 767299
+  extract 768547
+  extract 936164
+  extract 937618
+  extract 941642
+  extract 941644
+  extract 1107417
+  extract 1107423
+  extract 1110185
+  extract 216454
+  extract 216455
+  extract 658742
+  extract 658745
+  extract 661159
+  extract 661161
+  extract 661162
+  extract 662358
+  extract 303668
+  extract 303673
+  extract 303674
+  extract 303676
+  extract 441493
+  extract 441495
+  extract 441498
+  extract 512982
+  extract 512986
+  extract 517592
+  extract 517593
+  extract 517599
+  extract 522403
+  extract 524387
+  extract 524389
+  extract 537280
+  extract 541045
+  extract 541046
+  extract 541047
+  extract 541050
+  extract 541051
+  extract 541053
+  extract 541056
+  extract 554137
+  extract 557156
+  extract 557157
+  extract 557159
+  extract 585319
+  extract 586215
+  extract 588607
+  extract 611526
+  extract 611531
+  extract 611532
+  extract 611533
+  extract 674508
+  extract 683039
+  extract 694192
+  extract 694200
+  extract 701100
+  extract 722799
+  extract 722809
+  extract 728234
+  extract 755792
+  extract 858299
+  extract 858309
+  extract 201610
+  extract 216718
+  extract 216719
+  extract 216720
+  extract 661424
+  extract 661429
+  extract 663002
+  extract 663003
+  extract 663005
+  extract 663006
+  extract 663007
+  extract 664352
+  extract 664353
+  extract 664354
+  extract 664355
+  extract 664357
+  extract 664846
+  extract 664847
+  extract 664849
+  extract 667254
+  extract 667255
+  extract 185571
+  extract 185586
+  extract 185590
+  extract 185611
+  extract 185624
+  extract 185626
+  extract 185627
+  extract 202293
+  extract 202294
+  extract 206316
+  extract 206990
+  extract 216969
+  extract 216974
+  extract 655037
+  extract 655038
+  extract 655039
+  extract 658644
+  extract 662827
+  extract 662828
+  extract 664388
+  extract 664808
+  extract 666063
+  extract 666066
+  extract 666814
+  extract 668617
+  extract 668618
+  extract 669612
+  extract 669616
+  extract 164487
+  extract 164490
+  extract 165320
+  extract 165322
+  extract 166615
+  extract 185637
+  extract 185643
+  extract 185644
+  extract 185648
+  extract 185649
+  extract 185678
+  extract 204437
+  extract 207349
+  extract 208037
+  extract 654404
+  extract 659682
+  extract 659683
+  extract 659685
+  extract 665699
+  extract 665700
+  extract 666468
+  extract 374118
+  extract 374119
+  extract 374135
+  extract 374137
+  extract 374149
+  extract 374161
+  extract 654979
+  extract 657779
+  extract 659117
+  extract 659122
+  extract 663038
+  extract 663040
+  extract 664246
+  extract 664249
+  extract 212448
+  extract 214345
+  extract 214346
+  extract 374180
+  extract 374193
+  extract 374198
+  extract 374203
+  extract 374210
+  extract 374217
+  extract 374218
+  extract 374225
+  extract 374227
+  extract 653620
+  extract 654986
+  extract 657781
+  extract 657784
+  extract 659109
+  extract 659123
+  extract 659124
+  extract 661737
+  extract 663046
+  extract 664251
+  extract 664254
+  extract 664255
+  extract 664500
+  extract 665355
+  extract 666083
+  extract 666830
+  extract 668611
+  extract 669610
+  extract 660273
+  extract 660274
+  extract 660276
+  extract 668338
+  extract 167630
+  extract 168373
+  extract 169119
+  extract 169888
+  extract 189019
+  extract 189040
+  extract 189057
+  extract 189066
+  extract 201677
+  extract 201679
+  extract 203082
+  extract 203641
+  extract 204264
+  extract 205162
+  extract 205669
+  extract 206222
+  extract 206822
+  extract 206824
+  extract 207911
+  extract 207912
+  extract 217090
+  extract 217094
+  extract 217104
+  extract 217105
+  extract 217107
+  extract 229485
+  extract 241822
+  extract 255659
+  extract 277300
+  extract 304002
+  extract 534641
+  extract 655631
+  extract 655645
+  extract 657323
+  extract 669839
+  extract 209635
+  extract 210657
+  extract 211423
+  extract 212960
+  extract 318780
+  extract 318786
+  extract 654119
+  extract 655517
+  extract 656673
+  extract 656690
+  extract 661940
+  extract 664587
+  extract 201327
+  extract 201357
+  extract 201371
+  extract 201377
+  extract 213207
+  extract 219099
+  extract 655884
+  extract 660893
+  extract 666391
+  extract 668161
+  extract 669367
+  extract 669370
+  extract 662911
+  extract 664133
+  extract 664134
+  extract 664135
+  extract 664138
+  extract 664682
+  extract 664686
+  extract 665539
+  extract 665542
+  extract 666344
+  extract 666346
+  extract 666349
+  extract 666949
+  extract 666952
+  extract 668645
+  extract 668646
+  extract 668649
+  extract 231014
+  extract 233655
+  extract 242832
+  extract 244119
+  extract 261655
+  extract 261657
+  extract 261664
+  extract 261682
+  extract 266957
+  extract 279572
+  extract 281435
+  extract 312838
+  extract 396943
+  extract 438178
+  extract 441535
+  extract 535162
+  extract 657217
+  extract 660741
+  extract 660744
+  extract 660745
+  extract 665645
+  extract 665650
+  extract 666204
+  extract 667033
+  extract 669190
+  extract 229123
+  extract 231429
+  extract 233715
+  extract 241396
+  extract 241398
+  extract 243864
+  extract 243868
+  extract 276915
+  extract 276916
+  extract 276918
+  extract 276919
+  extract 397666
+  extract 397667
+  extract 397668
+  extract 397670
+  extract 535286
+  extract 558702
+  extract 583409
+  extract 583410
+  extract 583411
+  extract 591394
+  extract 591395
+  extract 604620
+  extract 604621
+  extract 612955
+  extract 653489
+  extract 657949
+  extract 657950
+  extract 659536
+  extract 659543
+  extract 659544
+  extract 659545
+  extract 659546
+  extract 659547
+  extract 662621
+  extract 664444
+  extract 665549
+  extract 696395
+  extract 235847
+  extract 237037
+  extract 237039
+  extract 243677
+  extract 259396
+  extract 268187
+  extract 268188
+  extract 268193
+  extract 277153
+  extract 302355
+  extract 303531
+  extract 388782
+  extract 388784
+  extract 388786
+  extract 406426
+  extract 406430
+  extract 406436
+  extract 415158
+  extract 433419
+  extract 433423
+  extract 441895
+  extract 441900
+  extract 441913
+  extract 441918
+  extract 535391
+  extract 535399
+  extract 535404
+  extract 535480
+  extract 535481
+  extract 535557
+  extract 535558
+  extract 656694
+  extract 658526
+  extract 662467
+  extract 665668
+  extract 666186
+  extract 666187
+  extract 667085
+  extract 229191
+  extract 229195
+  extract 231064
+  extract 234278
+Quality check failed! Pupil and iris centers are too far apart, more than half of the iris radius.
+  extract 241711
+  extract 243683
+  extract 243684
+  extract 255842
+  extract 255845
+  extract 255846
+  extract 260439
+  extract 277164
+  extract 303543
+  extract 303545
+  extract 303551
+  extract 387601
+  extract 388787
+  extract 406446
+  extract 415176
+  extract 433438
+Quality check failed! Pupil and iris centers are too far apart, more than half of the iris radius.
+  extract 441928
+  extract 535403
+  extract 535409
+  extract 535496
+  extract 535523
+  extract 535554
+  extract 653502
+  extract 655504
+  extract 656697
+  extract 656698
+  extract 656699
+  extract 656700
+  extract 658530
+  extract 658533
+  extract 663790
+  extract 665671
+  extract 666193
+  extract 667091
+  extract 667094
+  extract 668104
+  extract 669463
+  extract 669464
+  extract 935155
+  extract 935166
+  extract 660966
+  extract 660967
+  extract 660974
+  extract 660977
+  extract 660978
+  extract 660979
+  extract 661873
+  extract 662414
+  extract 662415
+  extract 662416
+  extract 662431
+  extract 664118
+  extract 665213
+  extract 665214
+  extract 665218
+  extract 665968
+  extract 667427
+  extract 667428
+  extract 653822
+  extract 657795
+  extract 658423
+  extract 658426
+  extract 660971
+  extract 660980
+  extract 660981
+  extract 660982
+  extract 661878
+  extract 662432
+  extract 665221
+  extract 667433
+  extract 660284
+  extract 660285
+  extract 660286
+  extract 660287
+  extract 660288
+  extract 660289
+  extract 660308
+  extract 660309
+  extract 660311
+  extract 660312
+  extract 660313
+  extract 660290
+  extract 660291
+  extract 660292
+  extract 660293
+  extract 660294
+  extract 660295
+  extract 660314
+  extract 660315
+  extract 660316
+  extract 660317
+  extract 660318
+  extract 660319
+  extract 656708
+  extract 658865
+  extract 659258
+  extract 659259
+  extract 659263
+  extract 667270
+  extract 668167
+  extract 655659
+  extract 655661
+  extract 656710
+  extract 656711
+  extract 656713
+  extract 658866
+  extract 658870
+  extract 658871
+  extract 659266
+  extract 664182
+  extract 664183
+  extract 665681
+  extract 668168
+  extract 668171
+  extract 668173
+  extract 654016
+  extract 654017
+  extract 654018
+  extract 654021
+  extract 654022
+  extract 654026
+  extract 653952
+  extract 655799
+  extract 658782
+  extract 658784
+  extract 660180
+  extract 660181
+  extract 661951
+  extract 662949
+  extract 664468
+  extract 664471
+  extract 655287
+  extract 655292
+  extract 659250
+  extract 659271
+  extract 659272
+  extract 659273
+  extract 659274
+  extract 661217
+  extract 665440
+  extract 665975
+  extract 665976
+  extract 665977
+  extract 665978
+  extract 665979
+  extract 665980
+  extract 666307
+  extract 656789
+  extract 658450
+  extract 659256
+  extract 659276
+  extract 659277
+  extract 659278
+  extract 659279
+  extract 659280
+  extract 659281
+  extract 663930
+  extract 665446
+  extract 665981
+  extract 665986
+  extract 666313
+  extract 170247
+  extract 170248
+  extract 170258
+  extract 654809
+  extract 662216
+  extract 662217
+  extract 662219
+  extract 662822
+  extract 663953
+  extract 663954
+  extract 663955
+  extract 663956
+  extract 663958
+  extract 259992
+  extract 262918
+  extract 262919
+  extract 262920
+  extract 262922
+  extract 262923
+  extract 262924
+  extract 262926
+  extract 231691
+  extract 234224
+  extract 237928
+  extract 240021
+  extract 243087
+  extract 244618
+  extract 410923
+  extract 656291
+  extract 661455
+  extract 661461
+  extract 662393
+  extract 665865
+  extract 665866
+  extract 665869
+  extract 666764
+  extract 666766
+  extract 667932
+  extract 668989
+  extract 668992
+  extract 653773
+  extract 655825
+  extract 655826
+  extract 658438
+  extract 660632
+  extract 660641
+  extract 660642
+  extract 660643
+  extract 660644
+  extract 660645
+  extract 660646
+  extract 660541
+  extract 660542
+  extract 660543
+  extract 660544
+  extract 660555
+  extract 660556
+  extract 660567
+  extract 660545
+  extract 660547
+  extract 660550
+  extract 660560
+  extract 660561
+  extract 660573
+  extract 660574
+  extract 228389
+  extract 229053
+  extract 229055
+  extract 230995
+  extract 244593
+  extract 254819
+  extract 259840
+  extract 262279
+  extract 276920
+  extract 281189
+  extract 303644
+  extract 387299
+  extract 410846
+  extract 410850
+  extract 446100
+  extract 446102
+  extract 529525
+  extract 530323
+  extract 530325
+  extract 653673
+  extract 653685
+  extract 658223
+  extract 659367
+  extract 659371
+  extract 661811
+  extract 661812
+  extract 661813
+  extract 661816
+  extract 663348
+  extract 663350
+  extract 663351
+  extract 229059
+  extract 230229
+  extract 231003
+  extract 262291
+  extract 262298
+  extract 281200
+  extract 303662
+  extract 306573
+  extract 387310
+  extract 529532
+  extract 653684
+  extract 655348
+  extract 656852
+  extract 658229
+  extract 659373
+  extract 659376
+  extract 661822
+  extract 663358
+  extract 873455
+  extract 943613
+  extract 944600
+  extract 945720
+  extract 945721
+  extract 947147
+  extract 947156
+  extract 968898
+  extract 970329
+  extract 971416
+  extract 972226
+  extract 655421
+  extract 657291
+  extract 657292
+  extract 657293
+  extract 658499
+  extract 661805
+  extract 661808
+  extract 663157
+  extract 664721
+  extract 664723
+  extract 236019
+  extract 237385
+  extract 237387
+  extract 237388
+  extract 240295
+  extract 241440
+  extract 243101
+  extract 244650
+  extract 654209
+  extract 655461
+  extract 655462
+  extract 655463
+  extract 658611
+  extract 658613
+  extract 659331
+  extract 659334
+  extract 660782
+  extract 660785
+  extract 660794
+  extract 660797
+  extract 662146
+  extract 662148
+  extract 665463
+  extract 665465
+  extract 665470
+  extract 667529
+  extract 668695
+  extract 669715
+  extract 669718
+  extract 659402
+  extract 659403
+  extract 659404
+  extract 659408
+  extract 659410
+  extract 659417
+  extract 659419
+  extract 659420
+  extract 659421
+  extract 659422
+  extract 659413
+  extract 659415
+  extract 659423
+  extract 659425
+  extract 659426
+  extract 659428
+  extract 235775
+  extract 236894
+  extract 236895
+  extract 254100
+  extract 257823
+  extract 257825
+  extract 257843
+  extract 279604
+  extract 530580
+  extract 593151
+  extract 593158
+  extract 605851
+  extract 605853
+  extract 659431
+  extract 659433
+  extract 659441
+  extract 659443
+  extract 659444
+  extract 659445
+  extract 235774
+  extract 236899
+  extract 236900
+  extract 257848
+  extract 257852
+  extract 397282
+  extract 432363
+  extract 432365
+  extract 432369
+  extract 433998
+  extract 451849
+  extract 529664
+  extract 529667
+  extract 593173
+  extract 605871
+  extract 605872
+  extract 659439
+  extract 659440
+  extract 659447
+  extract 659452
+  extract 228393
+  extract 229068
+  extract 229069
+  extract 229070
+  extract 255414
+  extract 255417
+  extract 255418
+  extract 255419
+  extract 264067
+  extract 391564
+  extract 391565
+  extract 406403
+  extract 406408
+  extract 406409
+  extract 417225
+  extract 451730
+  extract 451735
+  extract 512754
+  extract 516616
+  extract 516617
+  extract 516622
+  extract 522733
+  extract 522740
+  extract 524469
+  extract 529574
+  extract 530420
+  extract 546226
+  extract 546228
+  extract 659477
+  extract 659479
+  extract 659489
+  extract 659490
+  extract 659491
+  extract 659493
+  extract 666543
+  extract 666544
+  extract 667162
+  extract 667715
+  extract 934719
+  extract 934720
+  extract 934727
+  extract 934730
+  extract 934731
+  extract 934740
+  extract 934846
+  extract 934851
+  extract 934853
+  extract 935084
+  extract 935087
+  extract 935093
+  extract 231635
+  extract 243066
+  extract 255430
+  extract 255431
+  extract 255437
+  extract 264085
+  extract 275412
+  extract 391578
+  extract 391598
+  extract 406418
+  extract 418070
+  extract 437068
+  extract 452790
+  extract 516629
+  extract 522752
+  extract 546229
+  extract 659485
+  extract 659496
+  extract 659498
+  extract 935268
+  extract 935269
+  extract 935394
+  extract 935400
+  extract 935641
+  extract 935649
+  extract 659501
+  extract 659502
+  extract 659503
+  extract 659504
+  extract 659513
+  extract 659515
+  extract 659517
+  extract 659518
+  extract 666137
+Quality check failed! Pupil and iris centers are too far apart, more than half of the iris radius.
+  extract 666138
+  extract 666142
+  extract 666143
+  extract 666146
+  extract 668063
+  extract 669748
+  extract 659507
+  extract 659512
+  extract 659519
+  extract 659520
+  extract 659521
+  extract 659522
+  extract 659523
+  extract 659524
+  extract 666149
+  extract 666152
+  extract 667285
+  extract 668067
+  extract 668068
+  extract 669750
+  extract 669754
+  extract 659575
+  extract 659576
+  extract 659586
+  extract 659587
+  extract 659588
+  extract 659581
+  extract 659584
+  extract 659591
+  extract 659593
+  extract 659594
+  extract 659595
+  extract 659596
+  extract 659699
+  extract 659700
+  extract 659701
+  extract 659711
+  extract 659712
+  extract 659713
+  extract 660302
+  extract 660303
+  extract 660304
+  extract 660305
+  extract 660306
+  extract 660307
+  extract 660326
+  extract 660327
+  extract 660328
+  extract 660335
+  extract 660336
+  extract 660337
+  extract 660338
+  extract 660339
+  extract 660340
+  extract 660347
+  extract 660348
+  extract 660349
+  extract 660350
+  extract 660351
+  extract 660352
+  extract 660353
+  extract 660354
+  extract 660355
+  extract 660356
+  extract 660357
+  extract 660358
+  extract 660365
+  extract 660366
+  extract 660367
+  extract 660368
+  extract 660369
+  extract 660370
+  extract 660359
+  extract 660360
+  extract 660372
+  extract 660373
+  extract 660374
+  extract 660375
+  extract 660376
+  extract 660377
+  extract 660378
+  extract 660389
+  extract 660390
+  extract 660391
+  extract 660392
+  extract 660393
+  extract 660394
+  extract 660383
+  extract 660384
+  extract 660387
+  extract 660388
+  extract 660395
+  extract 660396
+  extract 660397
+  extract 660398
+  extract 660399
+  extract 397287
+  extract 397289
+  extract 397290
+  extract 397291
+  extract 397292
+  extract 397293
+  extract 397294
+  extract 397295
+  extract 397296
+  extract 397297
+  extract 397298
+  extract 397299
+  extract 397300
+  extract 397301
+  extract 397304
+  extract 397305
+  extract 397306
+  extract 397308
+  extract 397309
+  extract 397310
+  extract 399100
+  extract 399104
+  extract 660401
+  extract 660402
+  extract 660403
+  extract 660405
+  extract 660406
+  extract 660413
+  extract 660414
+  extract 660415
+  extract 660416
+  extract 660417
+  extract 660418
+  extract 397311
+  extract 399103
+  extract 660409
+  extract 660419
+  extract 660420
+  extract 660421
+  extract 660422
+  extract 660423
+  extract 660424
+  extract 660671
+  extract 660672
+  extract 660673
+  extract 660674
+  extract 660683
+  extract 660685
+  extract 660688
+  extract 231113
+  extract 260766
+  extract 260776
+  extract 260781
+  extract 276228
+  extract 276229
+  extract 281361
+  extract 302457
+  extract 303965
+  extract 307638
+  extract 432323
+  extract 433995
+  extract 443435
+  extract 660757
+  extract 660764
+  extract 660766
+  extract 660767
+  extract 660768
+  extract 665656
+  extract 667018
+  extract 667846
+  extract 669196
+  extract 228460
+  extract 260782
+  extract 260787
+  extract 303966
+  extract 306556
+  extract 412739
+  extract 443434
+  extract 660770
+  extract 660771
+  extract 660772
+  extract 660773
+  extract 660774
+  extract 665657
+  extract 665658
+  extract 669202
+  extract 660800
+  extract 660801
+  extract 660802
+  extract 660803
+  extract 660812
+  extract 660814
+  extract 660815
+  extract 660816
+  extract 660817
+  extract 660810
+  extract 660811
+  extract 660821
+  extract 660823
+  extract 660850
+  extract 660851
+  extract 660852
+  extract 660853
+  extract 660864
+  extract 660865
+  extract 660866
+  extract 660854
+  extract 660856
+  extract 660857
+  extract 660859
+  extract 660861
+  extract 660869
+  extract 660870
+  extract 660871
+  extract 660872
+  extract 660874
+  extract 660992
+  extract 660993
+  extract 660994
+  extract 660995
+  extract 660996
+  extract 660997
+  extract 661004
+  extract 661005
+  extract 661006
+  extract 661007
+  extract 661008
+  extract 661009
+  extract 229858
+  extract 230644
+  extract 231849
+  extract 234440
+  extract 242163
+  extract 243143
+  extract 253944
+  extract 260333
+  extract 554737
+  extract 559728
+  extract 665573
+  extract 665574
+  extract 665575
+  extract 665576
+  extract 665577
+  extract 665578
+  extract 666291
+  extract 666293
+  extract 668629
+  extract 669647
+  extract 934637
+  extract 934643
+  extract 934651
+  extract 934652
+  extract 934656
+  extract 229502
+  extract 230520
+  extract 231568
+  extract 231571
+  extract 236141
+  extract 237628
+  extract 237629
+  extract 240441
+  extract 241726
+  extract 242937
+  extract 244318
+  extract 665954
+  extract 665956
+  extract 666862
+  extract 229504
+  extract 229505
+  extract 230517
+  extract 231573
+  extract 231577
+  extract 236140
+  extract 237632
+  extract 237634
+  extract 241731
+  extract 242934
+  extract 244324
+  extract 665957
+  extract 665958
+  extract 665959
+  extract 665960
+  extract 665961
+  extract 665962
+  extract 666864
+  extract 856874
+  extract 856877
+  extract 856883
+  extract 856887
+  extract 861174
+  extract 862325
+  extract 864596
+  extract 864597
+  extract 865790
+  extract 902261
+  extract 902265
+  extract 902271
+  extract 902275
+  extract 904063
+  extract 905756
+  extract 906227
+  extract 906228
+  extract 856880
+  extract 856881
+  extract 856889
+  extract 856890
+  extract 861178
+  extract 862326
+  extract 864599
+  extract 865792
+  extract 902266
+  extract 902268
+  extract 902270
+  extract 902278
+  extract 902280
+  extract 904070
+  extract 904942
+  extract 904956
+  extract 904975
+  extract 906635
+  extract 906637
+  extract 529061
+  extract 529062
+  extract 529063
+  extract 529064
+  extract 529065
+  extract 529066
+  extract 529067
+  extract 529068
+  extract 586619
+  extract 590438
+  extract 590439
+  extract 590440
+  extract 590441
+  extract 590442
+  extract 590443
+  extract 590444
+  extract 590445
+  extract 590446
+  extract 590447
+  extract 590448
+  extract 590449
+  extract 609035
+  extract 609039
+  extract 611426
+  extract 611427
+  extract 611428
+  extract 611429
+  extract 611430
+  extract 611431
+  extract 611432
+  extract 611433
+  extract 611434
+  extract 611435
+  extract 611436
+  extract 611437
+  extract 667583
+  extract 667584
+  extract 667585
+  extract 667586
+  extract 667587
+  extract 667588
+  extract 668504
+  extract 668505
+  extract 668506
+  extract 668507
+  extract 668508
+  extract 668509
+  extract 1041536
+  extract 1042350
+  extract 1043394
+  extract 1043410
+  extract 1043732
+  extract 230685
+  extract 233338
+  extract 234362
+  extract 262572
+  extract 417806
+  extract 516869
+  extract 541821
+  extract 611567
+  extract 667649
+  extract 667651
+  extract 796154
+  extract 861419
+  extract 944580
+  extract 231213
+  extract 233663
+  extract 237961
+  extract 237962
+  extract 242226
+  extract 259464
+  extract 267541
+  extract 267545
+  extract 285791
+  extract 406131
+  extract 406132
+  extract 417741
+  extract 438090
+  extract 667765
+  extract 667766
+  extract 669796
+  extract 228823
+  extract 229919
+  extract 236265
+  extract 241872
+  extract 243473
+  extract 243477
+  extract 243478
+  extract 254337
+  extract 254342
+  extract 254345
+  extract 262947
+  extract 262950
+  extract 262953
+  extract 276424
+  extract 276426
+  extract 283621
+  extract 283627
+  extract 309497
+  extract 310574
+  extract 410507
+  extract 410508
+  extract 433921
+  extract 446644
+  extract 446649
+  extract 667787
+  extract 667792
+  extract 236264
+  extract 241877
+  extract 260001
+  extract 262955
+  extract 262956
+  extract 262961
+  extract 262965
+  extract 276436
+  extract 276437
+  extract 280085
+  extract 283636
+  extract 283639
+  extract 309507
+  extract 309509
+  extract 309512
+  extract 387033
+  extract 387040
+  extract 407667
+  extract 410512
+  extract 410517
+  extract 412669
+  extract 432039
+  extract 432042
+  extract 432046
+  extract 433924
+  extract 446653
+  extract 448118
+  extract 667798
+  extract 1104339
+  extract 1133069
+  extract 1133070
+  extract 228381
+  extract 229041
+  extract 229042
+  extract 240107
+  extract 241062
+  extract 241063
+  extract 241065
+  extract 243031
+  extract 256354
+  extract 256355
+  extract 260823
+  extract 277030
+  extract 277036
+  extract 277039
+  extract 281587
+  extract 281596
+  extract 302985
+  extract 302986
+  extract 387820
+  extract 415635
+  extract 512838
+  extract 516951
+  extract 523875
+  extract 541070
+  extract 541071
+  extract 541074
+  extract 559343
+  extract 559346
+  extract 559348
+  extract 591886
+  extract 611380
+  extract 669047
+  extract 676575
+  extract 693519
+  extract 700888
+  extract 706846
+  extract 725628
+  extract 725633
+  extract 730439
+  extract 765553
+  extract 765609
+  extract 789389
+  extract 789391
+  extract 799333
+  extract 799336
+  extract 819145
+  extract 897014
+  extract 1056866
+  extract 1059389
+  extract 1081907
+  extract 1083006
+  extract 1083769
+  extract 1102839
+  extract 1105098
+  extract 1130649
+  extract 1132232
+  extract 1133064
+  extract 1133073
+  extract 1133075
+  extract 1133078
+  extract 229050
+  extract 237573
+  extract 243030
+  extract 268106
+  extract 277043
+  extract 281599
+  extract 281608
+  extract 292978
+  extract 402606
+  extract 520307
+  extract 537287
+  extract 541083
+  extract 541092
+  extract 582316
+  extract 582321
+  extract 611396
+  extract 611401
+  extract 669058
+  extract 682750
+  extract 700889
+  extract 706848
+  extract 706854
+  extract 730445
+  extract 733038
+  extract 765559
+  extract 768646
+  extract 789397
+  extract 794389
+  extract 798285
+  extract 799339
+  extract 819148
+  extract 819149
+  extract 856632
+  extract 861064
+  extract 897034
+  extract 897901
+  extract 966410
+  extract 586658
+  extract 590594
+  extract 590595
+  extract 590596
+  extract 590599
+  extract 590600
+  extract 590601
+  extract 590602
+  extract 590603
+  extract 590604
+  extract 590605
+  extract 601541
+  extract 601543
+  extract 601545
+  extract 605621
+  extract 605622
+  extract 605624
+  extract 605625
+  extract 605626
+  extract 605627
+  extract 605628
+  extract 605629
+  extract 605630
+  extract 605631
+  extract 605632
+  extract 609656
+  extract 609658
+  extract 609660
+  extract 614024
+  extract 614025
+  extract 614026
+  extract 614027
+  extract 614028
+  extract 614029
+  extract 614030
+  extract 614031
+  extract 614032
+  extract 614034
+  extract 614035
+  extract 668546
+  extract 668547
+  extract 668548
+  extract 668549
+  extract 668550
+  extract 668551
+  extract 230272
+  extract 230274
+  extract 231081
+  extract 232981
+  extract 233626
+  extract 233627
+  extract 233630
+  extract 668903
+  extract 543147
+  extract 543152
+  extract 543153
+  extract 592380
+  extract 592387
+  extract 592390
+  extract 608662
+  extract 608664
+  extract 608668
+  extract 677064
+  extract 677074
+  extract 677079
+  extract 518313
+  extract 518314
+  extract 518318
+  extract 523403
+  extract 537378
+  extract 541444
+  extract 541455
+  extract 554049
+  extract 556792
+  extract 556795
+  extract 515671
+  extract 515672
+  extract 518326
+  extract 518331
+  extract 518334
+  extract 518335
+  extract 537379
+  extract 541462
+  extract 554054
+  extract 556804
+  extract 528167
+  extract 554394
+  extract 558229
+  extract 558231
+  extract 580714
+  extract 580718
+  extract 586534
+  extract 590058
+  extract 590059
+  extract 590064
+  extract 601809
+  extract 606712
+  extract 606714
+  extract 606718
+  extract 606721
+  extract 1016516
+  extract 1041765
+  extract 1044449
+  extract 1064105
+  extract 1089811
+  extract 1103595
+  extract 1103606
+  extract 1103608
+  extract 1133775
+  extract 1134260
+  extract 1135912
+  extract 1135925
+  extract 255785
+  extract 263015
+  extract 263020
+  extract 280885
+  extract 411366
+  extract 511453
+  extract 513777
+  extract 523803
+  extract 559951
+  extract 581700
+  extract 581704
+  extract 588249
+  extract 603534
+  extract 613532
+  extract 613537
+  extract 613540
+  extract 613543
+  extract 705267
+  extract 721337
+  extract 731247
+  extract 757726
+  extract 762363
+  extract 827464
+  extract 828763
+  extract 868675
+  extract 872537
+  extract 896827
+  extract 896837
+  extract 900135
+  extract 901428
+  extract 934927
+  extract 935109
+  extract 935116
+  extract 943990
+  extract 946280
+  extract 969415
+  extract 970837
+  extract 997374
+  extract 1041770
+  extract 1044445
+  extract 1103603
+  extract 1135920
+  extract 228796
+  extract 228798
+  extract 230475
+  extract 233242
+  extract 236172
+  extract 237693
+  extract 237696
+  extract 241947
+  extract 241951
+  extract 255797
+  extract 278768
+  extract 285608
+  extract 285610
+  extract 411372
+  extract 432868
+  extract 441338
+  extract 519992
+  extract 519997
+  extract 539336
+  extract 581712
+  extract 581714
+  extract 588259
+  extract 588265
+  extract 588267
+  extract 603547
+  extract 613545
+  extract 673352
+  extract 673354
+  extract 673361
+  extract 693968
+  extract 701027
+  extract 721332
+  extract 721335
+  extract 721342
+  extract 721345
+  extract 726899
+  extract 827465
+  extract 896832
+  extract 896838
+  extract 896839
+  extract 897855
+  extract 935341
+  extract 935485
+  extract 935490
+  extract 943991
+  extract 228562
+  extract 229407
+  extract 231096
+  extract 231097
+  extract 231100
+  extract 233068
+  extract 233813
+  extract 237912
+  extract 241648
+  extract 241651
+  extract 244163
+  extract 244167
+  extract 257450
+  extract 257456
+  extract 263546
+  extract 279553
+  extract 288233
+  extract 447212
+  extract 447216
+  extract 869141
+  extract 869145
+  extract 869151
+  extract 869152
+  extract 869153
+  extract 869154
+  extract 871122
+  extract 871123
+  extract 871124
+  extract 871125
+  extract 872055
+  extract 872056
+  extract 872057
+  extract 872058
+  extract 872723
+  extract 872724
+  extract 873542
+  extract 873544
+  extract 873546
+  extract 902897
+  extract 902907
+  extract 902908
+  extract 902909
+  extract 904350
+  extract 905209
+  extract 905214
+  extract 905882
+  extract 905884
+  extract 905885
+  extract 906351
+  extract 906352
+  extract 906353
+  extract 826010
+  extract 869146
+  extract 869157
+  extract 869160
+  extract 870658
+  extract 871590
+  extract 871593
+  extract 872730
+  extract 873547
+  extract 902902
+  extract 904354
+  extract 905546
+  extract 906761
+  extract 263241
+  extract 271501
+  extract 271506
+  extract 271507
+  extract 271512
+  extract 271515
+  extract 271525
+  extract 271526
+  extract 271536
+  extract 271537
+  extract 271545
+  extract 271546
+  extract 271549
+  extract 271551
+  extract 271556
+  extract 271560
+  extract 278440
+  extract 278445
+  extract 280294
+  extract 284510
+  extract 284515
+  extract 286941
+  extract 286942
+  extract 390562
+  extract 393205
+  extract 405148
+  extract 420066
+  extract 422346
+  extract 436028
+  extract 436032
+  extract 436038
+  extract 441587
+  extract 441589
+  extract 441601
+  extract 512519
+  extract 521064
+  extract 521068
+  extract 527341
+  extract 557201
+  extract 579524
+  extract 609247
+  extract 675820
+  extract 695967
+  extract 695974
+  extract 707173
+  extract 725112
+  extract 725122
+  extract 1107585
+  extract 1107598
+  extract 1109511
+  extract 1109513
+  extract 1110304
+  extract 1129841
+  extract 1130192
+  extract 1131578
+  extract 1131579
+  extract 1085890
+  extract 1086703
+  extract 1087226
+  extract 1129585
+  extract 1129599
+  extract 1130083
+  extract 1131425
+  extract 253710
+  extract 255943
+  extract 344074
+  extract 539803
+  extract 589609
+  extract 612118
+  extract 706507
+  extract 989360
+  extract 1035342
+  extract 1058129
+  extract 1087227
+  extract 1129593
+  extract 1130087
+  extract 1130823
+  extract 1131431
+  extract 228776
+  extract 260219
+  extract 268803
+  extract 416600
+  extract 416607
+  extract 518168
+  extract 539818
+  extract 582633
+  extract 612122
+  extract 723346
+  extract 757802
+  extract 861924
+  extract 935803
+  extract 990090
+  extract 990100
+  extract 314900
+  extract 411741
+  extract 411742
+  extract 411743
+  extract 411744
+  extract 411745
+  extract 411746
+  extract 411747
+  extract 411748
+  extract 411749
+  extract 411750
+  extract 411751
+  extract 411752
+  extract 412974
+  extract 412976
+  extract 412978
+  extract 437240
+  extract 437241
+  extract 437242
+  extract 437243
+  extract 437244
+  extract 437245
+  extract 437246
+  extract 437247
+  extract 437248
+  extract 437249
+  extract 437251
+  extract 438407
+  extract 438409
+  extract 512262
+  extract 512263
+  extract 512266
+  extract 512267
+  extract 512270
+  extract 515556
+  extract 515557
+  extract 515559
+  extract 515560
+  extract 515562
+  extract 515563
+  extract 515565
+  extract 515566
+  extract 230288
+  extract 256679
+  extract 346483
+  extract 396805
+  extract 412474
+  extract 427319
+  extract 427325
+  extract 442128
+  extract 443603
+  extract 230427
+  extract 231389
+  extract 231390
+  extract 231391
+  extract 237271
+  extract 237272
+  extract 240242
+  extract 241335
+  extract 241339
+  extract 257327
+  extract 257335
+  extract 517418
+  extract 518258
+  extract 523384
+  extract 230481
+  extract 231497
+  extract 254029
+  extract 257499
+  extract 283803
+  extract 288381
+  extract 392011
+  extract 452568
+  extract 232936
+  extract 232940
+  extract 240618
+  extract 244200
+  extract 277897
+  extract 284976
+  extract 286842
+  extract 415919
+  extract 432290
+  extract 432295
+  extract 432297
+  extract 537753
+  extract 543033
+  extract 543034
+  extract 585509
+  extract 615583
+  extract 615591
+  extract 615592
+  extract 233145
+  extract 233961
+  extract 233962
+  extract 233964
+  extract 233966
+  extract 256701
+  extract 256702
+  extract 256703
+  extract 256705
+  extract 256706
+  extract 256707
+  extract 256711
+  extract 256712
+  extract 283005
+  extract 283009
+  extract 283014
+  extract 407187
+  extract 407189
+  extract 407190
+  extract 407191
+  extract 407192
+  extract 407195
+  extract 407196
+  extract 408072
+  extract 408076
+  extract 233283
+  extract 234246
+  extract 234247
+  extract 234248
+  extract 236057
+  extract 241123
+  extract 258134
+  extract 258143
+  extract 263393
+  extract 266462
+  extract 274601
+  extract 285239
+  extract 287907
+  extract 410800
+  extract 441703
+  extract 275647
+  extract 293031
+  extract 428908
+  extract 529926
+  extract 541953
+  extract 582713
+  extract 603108
+  extract 673499
+  extract 696638
+  extract 707086
+  extract 707092
+  extract 707093
+  extract 725653
+  extract 755462
+  extract 757176
+  extract 760308
+  extract 760318
+  extract 760320
+  extract 790840
+  extract 798965
+  extract 799914
+  extract 821260
+  extract 826073
+  extract 870377
+  extract 870386
+  extract 873210
+  extract 908490
+  extract 911381
+  extract 911393
+  extract 826071
+  extract 870378
+  extract 870379
+  extract 870381
+  extract 870388
+  extract 870902
+  extract 871835
+  extract 871838
+  extract 873213
+  extract 873915
+  extract 873917
+  extract 908184
+  extract 908492
+  extract 910727
+  extract 910728
+  extract 910729
+  extract 910730
+  extract 911384
+  extract 911385
+  extract 911386
+  extract 911388
+  extract 911394
+  extract 911395
+  extract 911396
+  extract 911397
+  extract 236348
+  extract 238051
+  extract 238056
+  extract 244056
+  extract 244057
+  extract 388530
+  extract 388540
+  extract 697432
+  extract 702099
+  extract 709525
+  extract 709531
+  extract 709538
+  extract 709541
+  extract 709546
+  extract 756457
+  extract 760335
+  extract 798232
+  extract 821249
+  extract 896410
+  extract 896420
+  extract 897514
+  extract 898668
+  extract 899773
+  extract 901167
+  extract 240383
+  extract 241616
+  extract 241617
+  extract 241619
+  extract 241621
+  extract 244793
+  extract 244794
+  extract 259796
+  extract 262110
+  extract 262112
+  extract 277771
+  extract 277774
+  extract 284629
+  extract 287610
+  extract 287616
+  extract 287622
+  extract 313908
+  extract 405823
+  extract 405826
+  extract 451522
+  extract 529501
+  extract 530280
+  extract 530283
+  extract 540377
+  extract 540380
+  extract 540383
+  extract 557359
+  extract 585764
+  extract 613152
+  extract 682613
+  extract 697755
+  extract 702198
+  extract 706156
+  extract 723662
+  extract 723672
+  extract 728438
+  extract 903129
+  extract 906398
+  extract 240384
+  extract 241622
+  extract 241623
+  extract 241625
+  extract 244799
+  extract 244800
+  extract 244803
+  extract 262121
+  extract 267069
+  extract 277777
+  extract 287628
+  extract 287634
+  extract 287637
+  extract 392224
+  extract 405832
+  extract 416444
+  extract 416449
+  extract 513101
+  extract 529503
+  extract 530292
+  extract 540396
+  extract 557370
+  extract 580043
+  extract 608656
+  extract 682614
+  extract 697760
+  extract 702197
+  extract 723665
+  extract 723679
+  extract 903131
+  extract 243208
+  extract 244860
+  extract 244863
+  extract 259803
+  extract 262153
+  extract 262154
+  extract 262155
+  extract 433680
+  extract 610885
+  extract 610894
+  extract 683104
+  extract 683112
+  extract 694820
+  extract 694825
+  extract 764149
+  extract 767184
+  extract 768460
+  extract 796319
+  extract 801270
+  extract 818054
+  extract 856108
+  extract 856118
+  extract 864283
+  extract 900968
+  extract 396610
+  extract 396611
+  extract 398938
+  extract 398940
+  extract 398942
+  extract 410313
+  extract 410314
+  extract 410315
+  extract 410316
+  extract 410317
+  extract 410318
+  extract 410319
+  extract 410320
+  extract 410321
+  extract 410323
+  extract 410324
+  extract 412626
+  extract 412628
+  extract 436268
+  extract 436270
+  extract 436271
+  extract 436272
+  extract 436273
+  extract 436274
+  extract 436276
+  extract 436278
+  extract 436279
+  extract 438171
+  extract 438173
+  extract 449960
+  extract 449961
+  extract 449962
+  extract 449963
+  extract 449964
+  extract 449965
+  extract 449966
+  extract 449967
+  extract 449968
+  extract 449969
+  extract 449970
+  extract 449971
+  extract 452369
+  extract 452373
+  extract 254675
+  extract 254679
+  extract 263768
+  extract 263769
+  extract 271044
+  extract 286854
+  extract 254684
+  extract 254686
+  extract 254693
+  extract 271062
+  extract 271067
+  extract 271082
+  extract 271092
+  extract 271097
+  extract 284986
+  extract 286860
+  extract 286866
+  extract 1009710
+  extract 1033078
+  extract 1064394
+  extract 1064404
+  extract 1065475
+  extract 1130386
+  extract 1131849
+  extract 1132233
+  extract 1132357
+  extract 1132360
+  extract 256156
+  extract 256163
+  extract 303948
+  extract 345779
+  extract 429208
+  extract 512465
+  extract 522512
+  extract 542932
+  extract 579905
+  extract 585196
+  extract 615808
+  extract 706553
+  extract 765124
+  extract 766037
+  extract 867918
+  extract 1035705
+  extract 1165941
+  extract 1169180
+  extract 1170431
+  extract 1171247
+  extract 256305
+  extract 256310
+  extract 256311
+  extract 256312
+  extract 256315
+  extract 256316
+  extract 259580
+  extract 261206
+  extract 261213
+  extract 277637
+  extract 277648
+  extract 281668
+  extract 281671
+  extract 307038
+  extract 345075
+  extract 345078
+  extract 345083
+  extract 411099
+  extract 512898
+  extract 556505
+  extract 587827
+  extract 613994
+  extract 676417
+  extract 676423
+  extract 695293
+  extract 706761
+  extract 706765
+  extract 706769
+  extract 723584
+  extract 723590
+  extract 728404
+  extract 755672
+  extract 756596
+  extract 795050
+  extract 818256
+  extract 818257
+  extract 822076
+  extract 822080
+  extract 861458
+  extract 988470
+  extract 1033849
+  extract 1033850
+  extract 1056833
+  extract 1056844
+  extract 1058217
+  extract 1059366
+  extract 1081619
+  extract 1081629
+  extract 1084820
+  extract 1104288
+  extract 1105046
+  extract 1105698
+  extract 1126309
+  extract 1126313
+  extract 1126484
+  extract 1165947
+  extract 1166274
+  extract 1167655
+  extract 1168022
+  extract 1169185
+  extract 1169756
+  extract 1170437
+  extract 1170956
+  extract 1170958
+  extract 1171253
+  extract 1171756
+  extract 1172075
+  extract 1172539
+  extract 1172544
+  extract 1172546
+  extract 256318
+  extract 266649
+  extract 307050
+  extract 523782
+  extract 556518
+  extract 581621
+  extract 587835
+  extract 587838
+  extract 614006
+  extract 695304
+  extract 706779
+  extract 795054
+  extract 818262
+  extract 822077
+  extract 857508
+  extract 902140
+  extract 935768
+  extract 965185
+  extract 967052
+  extract 967092
+  extract 987711
+  extract 989173
+  extract 256818
+  extract 256839
+  extract 256847
+  extract 256858
+  extract 256860
+  extract 268867
+  extract 268884
+  extract 275964
+  extract 347140
+  extract 412277
+  extract 442992
+  extract 443813
+  extract 542480
+  extract 542481
+  extract 542482
+  extract 560039
+  extract 560049
+  extract 560057
+  extract 607285
+  extract 607288
+  extract 685159
+  extract 824135
+  extract 824951
+  extract 829118
+  extract 829627
+  extract 907331
+  extract 907341
+  extract 943764
+  extract 945940
+  extract 947567
+  extract 253887
+  extract 256883
+  extract 260231
+  extract 263921
+  extract 263931
+  extract 268908
+  extract 275971
+  extract 279991
+  extract 283244
+  extract 346357
+  extract 412295
+  extract 429311
+  extract 442995
+  extract 542463
+  extract 542464
+  extract 542469
+  extract 542470
+  extract 560058
+  extract 560060
+  extract 560062
+  extract 607294
+  extract 607297
+  extract 607298
+  extract 829089
+  extract 907346
+  extract 909774
+  extract 943769
+  extract 944722
+  extract 945945
+  extract 947563
+  extract 947571
+  extract 704409
+  extract 704412
+  extract 723360
+  extract 723370
+  extract 727347
+  extract 729180
+  extract 755943
+  extract 755952
+  extract 758901
+  extract 762121
+  extract 762125
+  extract 762131
+  extract 762132
+  extract 762135
+  extract 261739
+  extract 261740
+  extract 261747
+  extract 269635
+  extract 276063
+  extract 276067
+  extract 281386
+  extract 304203
+  extract 304208
+  extract 307001
+  extract 399124
+  extract 422294
+  extract 422303
+  extract 427829
+  extract 452631
+  extract 452635
+  extract 1082254
+  extract 1082255
+  extract 1103072
+  extract 1103073
+  extract 1104452
+  extract 1105189
+  extract 1198457
+  extract 1198458
+  extract 583648
+  extract 583650
+  extract 583651
+  extract 583652
+  extract 583653
+  extract 583654
+  extract 583655
+  extract 583657
+  extract 583659
+  extract 676097
+  extract 676099
+  extract 676103
+  extract 725573
+  extract 725584
+  extract 729815
+  extract 759727
+  extract 759736
+  extract 759737
+  extract 791089
+  extract 791090
+  extract 793538
+  extract 795566
+  extract 795568
+  extract 800715
+  extract 800716
+  extract 800719
+  extract 820264
+  extract 820265
+  extract 822690
+  extract 822691
+  extract 1061961
+  extract 1085521
+  extract 1085534
+  extract 1086580
+  extract 1087627
+  extract 1108478
+  extract 1109775
+  extract 1110824
+  extract 260210
+  extract 263837
+  extract 263839
+  extract 263840
+  extract 263841
+  extract 263842
+  extract 270659
+  extract 270660
+  extract 270661
+  extract 270662
+  extract 270666
+  extract 303483
+  extract 437337
+  extract 437339
+  extract 437343
+  extract 529570
+  extract 613178
+  extract 694609
+  extract 694615
+  extract 710282
+  extract 710283
+  extract 725004
+  extract 729009
+  extract 754917
+  extract 759283
+  extract 763417
+  extract 792157
+  extract 795281
+  extract 860159
+  extract 905909
+  extract 266392
+  extract 267703
+  extract 267704
+  extract 267713
+  extract 277691
+  extract 277693
+  extract 277697
+  extract 280905
+  extract 280915
+  extract 313852
+  extract 313859
+  extract 345811
+  extract 345819
+  extract 345821
+  extract 450418
+  extract 278601
+  extract 278602
+  extract 278605
+  extract 280055
+  extract 280057
+  extract 285150
+  extract 287551
+  extract 287559
+  extract 407289
+  extract 407296
+  extract 407297
+  extract 408091
+  extract 267015
+  extract 270694
+  extract 270695
+  extract 270702
+  extract 270703
+  extract 270704
+  extract 274508
+  extract 275729
+  extract 275731
+  extract 279855
+  extract 279859
+  extract 303472
+  extract 303476
+  extract 303477
+  extract 303479
+  extract 310096
+  extract 345654
+  extract 345665
+  extract 421538
+  extract 442343
+  extract 442347
+  extract 536669
+  extract 538502
+  extract 538503
+  extract 556077
+  extract 556082
+  extract 556085
+  extract 556087
+  extract 588660
+  extract 588664
+  extract 588667
+  extract 607363
+  extract 607366
+  extract 607372
+  extract 607374
+  extract 613886
+  extract 675734
+  extract 675738
+  extract 675743
+  extract 694592
+  extract 694602
+  extract 707122
+  extract 724877
+  extract 724891
+  extract 757989
+  extract 762976
+  extract 789043
+  extract 896691
+  extract 274753
+  extract 274755
+  extract 274757
+  extract 276740
+  extract 276741
+  extract 276744
+  extract 276746
+  extract 276748
+  extract 286157
+  extract 286158
+  extract 344129
+  extract 344130
+  extract 344134
+  extract 396779
+  extract 396780
+  extract 437782
+  extract 450154
+  extract 450159
+  extract 450160
+  extract 452417
+  extract 521341
+  extract 521342
+  extract 531442
+  extract 531446
+  extract 531447
+  extract 531448
+  extract 726502
+  extract 726503
+  extract 971767
+  extract 286170
+  extract 344146
+  extract 344147
+  extract 344152
+  extract 346602
+  extract 396783
+  extract 396786
+  extract 396788
+  extract 396792
+  extract 437783
+  extract 521354
+  extract 531463
+  extract 558212
+  extract 608453
+  extract 616405
+  extract 616407
+  extract 677157
+  extract 696428
+  extract 696438
+  extract 726510
+  extract 730349
+  extract 733544
+  extract 792589
+  extract 795477
+  extract 796028
+  extract 800636
+  extract 903081
+  extract 905283
+  extract 947747
+  extract 970918
+  extract 971774
+  extract 973678
+  extract 275123
+  extract 278270
+  extract 278271
+  extract 278274
+  extract 278275
+  extract 278276
+  extract 278277
+  extract 278279
+  extract 278280
+  extract 278281
+  extract 282404
+  extract 282408
+  extract 282414
+  extract 286252
+  extract 286254
+  extract 286257
+  extract 313421
+  extract 313422
+  extract 313423
+  extract 313424
+  extract 313425
+  extract 314858
+  extract 397724
+  extract 397725
+  extract 397732
+  extract 521980
+  extract 521981
+  extract 578832
+  extract 580648
+  extract 580649
+  extract 580653
+  extract 580654
+  extract 580657
+  extract 580658
+  extract 580659
+  extract 586815
+  extract 591209
+  extract 591211
+  extract 591212
+  extract 591213
+  extract 591214
+  extract 603485
+  extract 603486
+  extract 603487
+  extract 700982
+  extract 700986
+  extract 724762
+  extract 728907
+  extract 732684
+  extract 795185
+  extract 1014116
+  extract 1015198
+  extract 1131718
+  extract 278287
+  extract 278288
+  extract 286267
+  extract 286272
+  extract 313433
+  extract 313442
+  extract 397740
+  extract 397741
+  extract 399207
+  extract 522000
+  extract 524288
+  extract 538317
+  extract 538326
+  extract 556012
+  extract 556019
+  extract 580666
+  extract 591221
+  extract 591223
+  extract 693835
+  extract 700983
+  extract 724768
+  extract 791872
+  extract 791900
+  extract 824222
+  extract 829726
+  extract 830568
+  extract 865936
+  extract 902922
+  extract 936944
+  extract 942400
+  extract 993669
+  extract 275131
+  extract 278328
+  extract 281786
+  extract 281787
+  extract 305090
+  extract 312464
+  extract 312466
+  extract 343835
+  extract 397155
+  extract 416319
+  extract 416323
+  extract 416324
+  extract 427945
+  extract 442889
+  extract 443789
+  extract 557831
+  extract 578966
+  extract 607303
+  extract 607309
+  extract 607310
+  extract 696706
+  extract 696708
+  extract 701874
+  extract 707665
+  extract 707675
+  extract 723394
+  extract 791971
+  extract 791987
+  extract 868761
+  extract 868775
+  extract 871049
+  extract 871980
+  extract 872577
+  extract 896443
+  extract 896453
+  extract 897526
+  extract 898677
+  extract 898679
+  extract 899786
+  extract 901176
+  extract 901180
+  extract 279997
+  extract 283259
+  extract 283264
+  extract 302212
+  extract 388506
+  extract 416309
+  extract 709557
+  extract 709563
+  extract 709568
+  extract 725671
+  extract 725682
+  extract 756467
+  extract 760365
+  extract 870582
+  extract 873429
+  extract 896461
+  extract 898678
+  extract 901178
+  extract 280180
+  extract 284026
+  extract 288488
+  extract 288491
+  extract 304245
+  extract 314153
+  extract 314164
+  extract 315030
+  extract 392522
+  extract 406891
+  extract 406892
+  extract 406897
+  extract 422630
+  extract 437970
+  extract 1010382
+  extract 1035266
+  extract 1036233
+  extract 1109658
+  extract 1126528
+  extract 1129192
+  extract 280198
+  extract 284116
+  extract 289042
+  extract 289045
+  extract 401479
+  extract 415325
+  extract 415326
+  extract 676511
+  extract 676513
+  extract 676515
+  extract 682831
+  extract 694650
+  extract 724722
+  extract 724732
+  extract 729594
+  extract 729596
+  extract 903055
+  extract 903069
+  extract 904425
+  extract 905271
+  extract 905970
+  extract 944299
+  extract 945127
+  extract 988928
+  extract 988930
+  extract 1010386
+  extract 1033054
+  extract 1033056
+  extract 1109659
+  extract 1129235
+  extract 1129238
+  extract 284120
+  extract 284123
+  extract 289035
+  extract 289041
+  extract 401487
+  extract 415346
+  extract 415347
+  extract 447063
+  extract 676514
+  extract 676519
+  extract 682820
+  extract 682834
+  extract 694656
+  extract 724727
+  extract 724737
+  extract 724738
+  extract 903060
+  extract 903070
+  extract 944309
+  extract 945128
+  extract 988360
+  extract 991200
+  extract 280204
+  extract 284135
+  extract 284139
+  extract 284140
+  extract 284143
+  extract 284144
+  extract 284145
+  extract 284146
+  extract 280320
+  extract 280322
+  extract 313762
+  extract 421572
+  extract 443729
+  extract 511156
+  extract 542080
+  extract 591982
+  extract 1041960
+  extract 284801
+  extract 286090
+  extract 286091
+  extract 286093
+  extract 286094
+  extract 286096
+  extract 387195
+  extract 387196
+  extract 403067
+  extract 403068
+  extract 417345
+  extract 417349
+  extract 417350
+  extract 431832
+  extract 431836
+  extract 511835
+  extract 514649
+  extract 608130
+  extract 608132
+  extract 608135
+  extract 614914
+  extract 704800
+  extract 704808
+  extract 723918
+  extract 723924
+  extract 757705
+  extract 762337
+  extract 795770
+  extract 898177
+  extract 899105
+  extract 900104
+  extract 936342
+  extract 942263
+  extract 996357
+  extract 309411
+  extract 309413
+  extract 309414
+  extract 310553
+  extract 391767
+  extract 391778
+Quality check failed! Pupil and iris centers are too far apart, more than half of the iris radius.
+  extract 391783
+  extract 421056
+  extract 436912
+  extract 518415
+  extract 527769
+  extract 539152
+  extract 556495
+  extract 592594
+  extract 612246
+  extract 676774
+  extract 702033
+  extract 707071
+  extract 707072
+  extract 724689
+  extract 724690
+  extract 724700
+  extract 763109
+  extract 794950
+  extract 800382
+  extract 859626
+  extract 911492
+  extract 911493
+  extract 309447
+  extract 309454
+  extract 310562
+  extract 391944
+  extract 391947
+  extract 420605
+  extract 555680
+  extract 601782
+  extract 606586
+  extract 606611
+  extract 613372
+  extract 674814
+  extract 684435
+  extract 696899
+  extract 706074
+  extract 764261
+  extract 764627
+  extract 767231
+  extract 788788
+  extract 901786
+  extract 901796
+  extract 903852
+  extract 904794
+  extract 906132
+  extract 592798
+  extract 608155
+  extract 615056
+  extract 615057
+  extract 615058
+  extract 582908
+  extract 582909
+  extract 582912
+  extract 587202
+  extract 592800
+  extract 592801
+  extract 592802
+  extract 592804
+  extract 592805
+  extract 592807
+  extract 592808
+  extract 592809
+  extract 592810
+  extract 602139
+  extract 608166
+  extract 608167
+  extract 608168
+  extract 608170
+  extract 608171
+  extract 608172
+  extract 608173
+  extract 608175
+  extract 608176
+  extract 609912
+  extract 615064
+  extract 615065
+  extract 615066
+  extract 615068
+  extract 615069
+  extract 615071
+  extract 615073
+  extract 314238
+  extract 315047
+  extract 406304
+  extract 536861
+  extract 556678
+  extract 584935
+  extract 604182
+  extract 604186
+  extract 344665
+  extract 344668
+  extract 346731
+  extract 397878
+  extract 397880
+  extract 411551
+  extract 427801
+  extract 427803
+  extract 429516
+  extract 521228
+  extract 521231
+  extract 527997
+  extract 528002
+  extract 554805
+  extract 559995
+  extract 579682
+  extract 584292
+  extract 584293
+  extract 584298
+  extract 588138
+  extract 588139
+  extract 588140
+  extract 588141
+  extract 588142
+  extract 601898
+  extract 607158
+  extract 607160
+  extract 607168
+  extract 611501
+  extract 611504
+  extract 675030
+  extract 675037
+  extract 681849
+  extract 692938
+  extract 700706
+  extract 708620
+  extract 708622
+  extract 708633
+  extract 708636
+  extract 728048
+  extract 763754
+  extract 763760
+  extract 767020
+  extract 790112
+  extract 798670
+  extract 799625
+  extract 910225
+  extract 910226
+  extract 911146
+  extract 911153
+  extract 517944
+  extract 517948
+  extract 517951
+  extract 519207
+  extract 519208
+  extract 519217
+  extract 1091857
+  extract 1111272
+  extract 1112415
+  extract 1113258
+  extract 1113259
+  extract 1113264
+  extract 1130328
+  extract 1131001
+  extract 1131002
+  extract 1131765
+  extract 1131768
+  extract 1091864
+  extract 1112424
+  extract 1113260
+  extract 1113262
+  extract 1113263
+  extract 1113271
+  extract 1130332
+  extract 1131776
+  extract 417382
+  extract 555932
+  extract 555941
+  extract 579343
+  extract 582813
+  extract 611665
+  extract 1126602
+  extract 1128226
+  extract 1129397
+  extract 1129398
+  extract 1129409
+  extract 1087347
+  extract 1126605
+  extract 387109
+  extract 519732
+  extract 529890
+  extract 541557
+  extract 585856
+  extract 591509
+  extract 591514
+  extract 600803
+  extract 701291
+  extract 707499
+  extract 707501
+  extract 756609
+  extract 757327
+  extract 799506
+  extract 862492
+  extract 866015
+  extract 962816
+  extract 1109146
+  extract 1109155
+  extract 1111147
+  extract 1111161
+  extract 1111749
+  extract 1111751
+  extract 1111753
+  extract 1112282
+  extract 1112283
+  extract 1112284
+  extract 1112285
+  extract 1112286
+  extract 1112287
+  extract 1126291
+  extract 1126922
+  extract 1126926
+  extract 1127747
+  extract 1127749
+  extract 1128629
+  extract 1128639
+  extract 1128640
+  extract 1128641
+  extract 1128642
+  extract 1009791
+  extract 1013300
+  extract 1013310
+  extract 1013315
+  extract 1015531
+  extract 1035463
+  extract 1038273
+  extract 1039956
+  extract 1063489
+  extract 1065113
+  extract 1066947
+  extract 1082443
+  extract 1109173
+  extract 1111159
+  extract 1111171
+  extract 1127758
+  extract 1128637
+  extract 1128650
+  extract 407619
+  extract 415502
+  extract 415504
+  extract 415506
+  extract 436187
+  extract 436191
+  extract 529315
+  extract 529319
+  extract 537187
+  extract 558354
+  extract 602003
+  extract 674833
+  extract 674838
+  extract 722377
+  extract 727105
+  extract 758408
+  extract 762190
+  extract 762201
+  extract 821504
+  extract 861799
+  extract 936214
+  extract 938984
+  extract 988263
+  extract 991408
+  extract 991423
+  extract 993415
+  extract 1113667
+  extract 1133863
+  extract 388142
+  extract 388143
+  extract 388144
+  extract 388150
+  extract 441936
+  extract 441939
+  extract 443555
+  extract 608035
+  extract 608036
+  extract 608038
+  extract 608039
+  extract 608040
+  extract 608041
+  extract 608042
+  extract 609981
+  extract 615305
+  extract 615307
+  extract 615309
+  extract 615310
+  extract 615311
+  extract 682361
+  extract 682363
+  extract 682365
+  extract 693776
+  extract 693778
+  extract 693782
+  extract 693788
+  extract 700970
+  extract 860409
+  extract 860412
+  extract 860413
+  extract 860422
+  extract 863501
+  extract 864142
+  extract 864146
+  extract 867209
+  extract 903509
+  extract 903512
+  extract 1063302
+  extract 405792
+  extract 405794
+  extract 405795
+  extract 405796
+  extract 405797
+  extract 405802
+  extract 437029
+  extract 446569
+  extract 446573
+  extract 530166
+  extract 590022
+  extract 614838
+  extract 694150
+  extract 701086
+  extract 707592
+  extract 707595
+  extract 707597
+  extract 722610
+  extract 758117
+  extract 763264
+  extract 763273
+  extract 788898
+  extract 793028
+  extract 799137
+  extract 824156
+  extract 824961
+  extract 873225
+  extract 873930
+  extract 390988
+  extract 390989
+  extract 390990
+  extract 390994
+  extract 393301
+  extract 436368
+  extract 436375
+  extract 436378
+  extract 450345
+  extract 450346
+  extract 450348
+  extract 450349
+  extract 512119
+  extract 515266
+  extract 1065896
+  extract 1066925
+  extract 1086243
+  extract 1086252
+  extract 1086882
+  extract 1087352
+  extract 1088072
+  extract 1107799
+  extract 1107806
+  extract 1107807
+  extract 1108938
+  extract 1109574
+  extract 1065897
+  extract 1066933
+  extract 1086246
+  extract 1086254
+  extract 1087353
+  extract 1107793
+  extract 1107805
+  extract 1108942
+  extract 1109575
+  extract 1110433
+  extract 1103730
+  extract 1103738
+  extract 1104749
+  extract 1128852
+  extract 1128861
+  extract 437320
+  extract 437321
+  extract 514143
+  extract 522710
+  extract 522711
+  extract 522712
+  extract 704455
+  extract 725930
+  extract 725933
+  extract 901237
+  extract 938093
+  extract 1089627
+  extract 1090356
+  extract 1091172
+  extract 1104750
+  extract 1105418
+  extract 1106439
+  extract 1127893
+  extract 1128853
+  extract 1128865
+  extract 1128866
+  extract 1040317
+  extract 1090433
+  extract 1109472
+  extract 392821
+  extract 392823
+  extract 393701
+  extract 445460
+  extract 512662
+  extract 524381
+  extract 530490
+  extract 556304
+  extract 592027
+  extract 607570
+  extract 607572
+  extract 615625
+  extract 676900
+  extract 695996
+  extract 701654
+  extract 710740
+  extract 710746
+  extract 710747
+  extract 710750
+  extract 764878
+  extract 765351
+  extract 796310
+  extract 817120
+  extract 823330
+  extract 823952
+  extract 826993
+  extract 828677
+  extract 932095
+  extract 933168
+  extract 934409
+  extract 968073
+  extract 968074
+  extract 968075
+  extract 995636
+  extract 995637
+  extract 996815
+  extract 1039860
+  extract 1040318
+  extract 1089334
+  extract 1089704
+  extract 1090434
+  extract 1107469
+  extract 1108812
+  extract 392834
+  extract 392840
+  extract 392844
+  extract 393702
+  extract 512668
+  extract 516402
+  extract 524384
+  extract 530494
+  extract 553930
+  extract 587010
+  extract 592033
+  extract 592039
+  extract 676906
+  extract 695988
+  extract 695998
+  extract 701655
+  extract 710752
+  extract 710753
+  extract 710755
+  extract 765353
+  extract 765389
+  extract 768628
+  extract 796307
+  extract 796312
+  extract 796896
+  extract 817484
+  extract 870726
+  extract 906919
+  extract 968085
+  extract 996369
+  extract 396744
+  extract 396755
+  extract 398978
+  extract 411844
+  extract 428259
+  extract 428264
+  extract 451468
+  extract 511373
+  extract 513632
+  extract 540468
+  extract 554259
+  extract 603290
+  extract 603292
+  extract 1014981
+  extract 1017025
+  extract 1017036
+  extract 1020225
+  extract 1039554
+  extract 1041270
+  extract 1041279
+  extract 1042092
+  extract 1062873
+  extract 1062883
+  extract 1111241
+  extract 1112371
+  extract 1113163
+  extract 1113168
+  extract 1113182
+  extract 1133470
+  extract 1134020
+  extract 1134533
+  extract 1135287
+  extract 1135288
+  extract 1135296
+  extract 1135299
+  extract 398339
+  extract 421661
+  extract 422722
+  extract 429227
+  extract 696626
+  extract 696628
+  extract 708900
+  extract 724452
+  extract 728774
+  extract 732523
+  extract 791798
+  extract 791810
+  extract 822921
+  extract 827909
+  extract 868791
+  extract 871050
+  extract 969902
+  extract 971177
+  extract 1017028
+  extract 1064845
+  extract 1134536
+  extract 1135289
+  extract 1135295
+  extract 696632
+  extract 708894
+  extract 708905
+  extract 754795
+  extract 758078
+  extract 800487
+  extract 830249
+  extract 868790
+  extract 1034558
+  extract 1057844
+  extract 1057853
+  extract 1059094
+  extract 1111610
+  extract 415384
+  extract 415386
+  extract 415388
+  extract 415396
+  extract 415398
+  extract 415403
+  extract 415405
+  extract 415409
+  extract 417657
+  extract 452274
+  extract 452275
+  extract 452276
+  extract 452277
+  extract 452284
+  extract 452901
+  extract 676916
+  extract 676918
+  extract 676920
+  extract 683999
+  extract 684005
+  extract 694454
+  extract 694458
+  extract 701174
+  extract 941470
+  extract 941478
+  extract 996238
+  extract 996717
+  extract 1085105
+  extract 1111501
+  extract 1112016
+  extract 1112820
+  extract 1113743
+  extract 1113754
+  extract 1113757
+  extract 1129971
+  extract 1129981
+  extract 1129982
+  extract 1130245
+  extract 1130937
+  extract 1090695
+  extract 1091834
+  extract 1091837
+  extract 1111561
+  extract 1112077
+  extract 1112908
+  extract 1112911
+  extract 1113883
+  extract 1113893
+  extract 1130310
+  extract 1130440
+  extract 1130453
+  extract 1130566
+  extract 1130985
+  extract 1131737
+  extract 1131742
+  extract 1131744
+  extract 1091838
+  extract 1091839
+  extract 1091840
+  extract 1091841
+  extract 1091842
+  extract 1091843
+  extract 1111565
+  extract 1112078
+  extract 1112082
+  extract 1112917
+  extract 1112921
+  extract 1112923
+  extract 1112925
+  extract 1113888
+  extract 1113891
+  extract 1113892
+  extract 1113898
+  extract 1113899
+  extract 1130314
+  extract 1130315
+  extract 1130422
+  extract 1130425
+  extract 1130429
+  extract 1130432
+  extract 1130546
+  extract 1130550
+  extract 1130982
+  extract 1130984
+  extract 1130986
+  extract 1131745
+  extract 1131747
+  extract 1131749
+  extract 1131750
+  extract 1131751
+  extract 1018701
+  extract 1019528
+  extract 1021046
+  extract 1088009
+  extract 1107763
+  extract 1108933
+  extract 1130462
+  extract 1131962
+  extract 1132575
+  extract 429080
+  extract 429082
+  extract 451191
+  extract 451192
+  extract 517796
+  extract 519411
+  extract 519413
+  extract 523670
+  extract 546499
+  extract 560766
+  extract 675834
+  extract 675840
+  extract 608691
+  extract 938340
+  extract 939404
+  extract 941407
+  extract 969454
+  extract 970878
+  extract 971738
+  extract 972469
+  extract 972473
+  extract 973624
+  extract 431975
+  extract 431977
+  extract 431986
+  extract 431992
+  extract 511126
+  extract 511135
+  extract 529348
+  extract 529986
+  extract 560672
+  extract 938342
+  extract 938345
+  extract 941411
+  extract 941413
+  extract 971739
+  extract 973630
+  extract 1034933
+  extract 1065395
+  extract 1082033
+  extract 1127879
+  extract 1128828
+  extract 1128842
+  extract 443623
+  extract 445861
+  extract 519784
+  extract 538532
+  extract 538541
+  extract 611701
+  extract 760639
+  extract 1019589
+  extract 1021140
+  extract 1034936
+  extract 1036068
+  extract 1038071
+  extract 1064175
+  extract 1065398
+  extract 1110446
+  extract 1126987
+  extract 1127884
+  extract 1128847
+  extract 433578
+  extract 434294
+  extract 442235
+  extract 519797
+  extract 528336
+  extract 586172
+  extract 586174
+  extract 603586
+  extract 603593
+  extract 674883
+  extract 705027
+  extract 760643
+  extract 938832
+  extract 1064369
+  extract 1064378
+  extract 1065465
+  extract 1090645
+  extract 1107975
+  extract 1204108
+  extract 441112
+  extract 441120
+  extract 443361
+  extract 515461
+  extract 515466
+  extract 520596
+  extract 520602
+  extract 520603
+  extract 523951
+  extract 558762
+  extract 580593
+  extract 586561
+  extract 590162
+  extract 602705
+  extract 602708
+  extract 675521
+  extract 683407
+  extract 701360
+  extract 724272
+  extract 724282
+  extract 823834
+  extract 825679
+  extract 825715
+  extract 828475
+  extract 828476
+  extract 828480
+  extract 944847
+  extract 1088822
+  extract 1090648
+  extract 1203727
+  extract 441124
+  extract 443364
+  extract 512221
+  extract 515474
+  extract 515475
+  extract 515479
+  extract 515481
+  extract 520610
+  extract 520612
+  extract 539035
+  extract 539036
+  extract 539037
+  extract 539045
+  extract 539046
+  extract 558772
+  extract 558774
+  extract 580600
+  extract 580605
+  extract 580609
+  extract 590178
+  extract 590179
+  extract 590182
+  extract 590197
+  extract 602714
+  extract 602715
+  extract 602716
+  extract 602717
+  extract 602718
+  extract 675530
+  extract 683400
+  extract 683410
+  extract 695018
+  extract 695023
+  extract 701361
+  extract 724277
+  extract 724287
+  extract 825682
+  extract 1041792
+  extract 1081054
+  extract 1084066
+  extract 1107902
+  extract 1108981
+  extract 1133879
+  extract 1135163
+  extract 1136206
+  extract 445484
+  extract 553935
+  extract 583455
+  extract 587728
+  extract 587729
+  extract 710623
+  extract 725206
+  extract 729738
+  extract 755114
+  extract 756982
+  extract 759536
+  extract 903749
+  extract 445497
+  extract 447840
+  extract 511816
+  extract 511817
+  extract 511825
+  extract 514634
+  extract 514638
+  extract 514639
+  extract 519779
+  extract 519781
+  extract 519782
+  extract 539517
+  extract 556330
+  extract 556335
+  extract 556337
+  extract 587734
+  extract 587735
+  extract 610835
+  extract 676935
+  extract 676950
+  extract 710626
+  extract 725197
+  extract 725209
+  extract 753271
+  extract 756983
+  extract 759537
+  extract 827519
+  extract 527711
+  extract 527712
+  extract 527713
+  extract 527715
+  extract 591755
+  extract 591758
+  extract 591759
+  extract 591760
+  extract 591761
+  extract 591763
+  extract 591766
+  extract 601850
+  extract 601852
+  extract 601854
+  extract 606926
+  extract 606928
+  extract 606931
+  extract 606932
+  extract 606933
+  extract 606934
+  extract 606935
+  extract 606936
+  extract 606937
+  extract 609733
+  extract 609737
+  extract 614330
+  extract 614331
+  extract 614333
+  extract 614334
+  extract 614335
+  extract 614336
+  extract 614337
+  extract 614338
+  extract 614339
+  extract 614340
+  extract 614341
+  extract 452150
+  extract 452151
+  extract 452152
+  extract 452872
+  extract 452874
+  extract 452876
+  extract 511256
+  extract 511257
+  extract 511260
+  extract 511261
+  extract 511263
+  extract 513395
+  extract 513396
+  extract 513397
+  extract 513398
+  extract 513399
+  extract 513400
+  extract 513401
+  extract 513402
+  extract 513403
+  extract 513404
+  extract 513405
+  extract 513406
+  extract 522069
+  extract 522070
+  extract 522071
+  extract 522072
+  extract 522073
+  extract 522074
+  extract 522075
+  extract 522076
+  extract 522077
+  extract 522078
+  extract 522079
+  extract 522080
+  extract 524302
+  extract 524304
+  extract 524306
+  extract 526641
+  extract 526642
+  extract 526644
+  extract 526647
+  extract 526648
+  extract 527716
+  extract 527717
+  extract 527718
+  extract 527719
+  extract 527720
+  extract 527721
+  extract 527722
+  extract 1153166
+  extract 1153438
+  extract 1153445
+  extract 1153471
+  extract 1153485
+  extract 1156490
+  extract 1156530
+  extract 1156638
+  extract 1156676
+  extract 1156714
+  extract 1156839
+  extract 1156990
+  extract 1157029
+  extract 1158245
+  extract 1159930
+  extract 1159979
+  extract 1160014
+  extract 1161496
+  extract 1161555
+  extract 1161576
+  extract 1156590
+  extract 1156623
+  extract 1156625
+  extract 1156774
+  extract 1156901
+  extract 1157039
+  extract 1157063
+  extract 1157073
+  extract 1157093
+  extract 1159803
+  extract 1159814
+  extract 1160048
+  extract 1161616
+  extract 1161671
+  extract 1161677
+  extract 801208
+  extract 817089
+  extract 817090
+  extract 817091
+  extract 817092
+  extract 825314
+  extract 825317
+  extract 829939
+  extract 829940
+  extract 831092
+  extract 831095
+  extract 831104
+  extract 831106
+  extract 831989
+  extract 831999
+  extract 832000
+  extract 868861
+  extract 868862
+  extract 868871
+  extract 871066
+  extract 871999
+  extract 872000
+  extract 872001
+  extract 872002
+  extract 872614
+  extract 872615
+  extract 873458
+  extract 873460
+  extract 873462
+  extract 511504
+  extract 513907
+  extract 542830
+  extract 591823
+  extract 616349
+  extract 616353
+  extract 676498
+  extract 697059
+  extract 701983
+  extract 763873
+  extract 763885
+  extract 767072
+  extract 796255
+  extract 796830
+  extract 817458
+  extract 831997
+  extract 872618
+  extract 873461
+  extract 873463
+  extract 512646
+  extract 516337
+  extract 540866
+  extract 540875
+  extract 559923
+  extract 584851
+  extract 584853
+  extract 709053
+  extract 709066
+  extract 709069
+  extract 791160
+  extract 799994
+  extract 800744
+  extract 517733
+  extract 537687
+  extract 542749
+  extract 542750
+  extract 542757
+  extract 546487
+  extract 608296
+  extract 609900
+  extract 609902
+  extract 615016
+  extract 615021
+  extract 513034
+  extract 517809
+  extract 517820
+  extract 520930
+  extract 520931
+  extract 579746
+  extract 589852
+  extract 589853
+  extract 606233
+  extract 613268
+  extract 613278
+  extract 673903
+  extract 695729
+  extract 701574
+  extract 725510
+  extract 729793
+  extract 764082
+  extract 764095
+  extract 767158
+  extract 768445
+  extract 695734
+  extract 701571
+  extract 725517
+  extract 725519
+  extract 725525
+  extract 725529
+  extract 729800
+  extract 730576
+  extract 732986
+  extract 764090
+  extract 764100
+  extract 764528
+  extract 767163
+  extract 767720
+  extract 768446
+  extract 519188
+  extract 519193
+  extract 523615
+  extract 536586
+  extract 538147
+  extract 538149
+  extract 538152
+  extract 538154
+  extract 538156
+  extract 538158
+  extract 553785
+  extract 555653
+  extract 555661
+  extract 555662
+  extract 579044
+  extract 579048
+  extract 581545
+  extract 1085025
+  extract 1103832
+  extract 1103833
+  extract 1103838
+  extract 1103841
+  extract 1104801
+  extract 1106510
+  extract 1106511
+  extract 1130446
+  extract 1131934
+  extract 1131939
+  extract 1132516
+  extract 1132520
+  extract 1132527
+  extract 1132528
+  extract 1132529
+  extract 520224
+  extract 520232
+  extract 520235
+  extract 537991
+  extract 602597
+  extract 602604
+  extract 602605
+  extract 707339
+  extract 707341
+  extract 707343
+  extract 707345
+  extract 707346
+  extract 707349
+  extract 707354
+  extract 707357
+  extract 520309
+  extract 520316
+  extract 523881
+  extract 602106
+  extract 608014
+  extract 608020
+  extract 791781
+  extract 791791
+  extract 795788
+  extract 800128
+  extract 800131
+  extract 524247
+  extract 542146
+  extract 584315
+  extract 607237
+  extract 723330
+  extract 732017
+  extract 995778
+  extract 995794
+  extract 997649
+  extract 1019246
+  extract 1061798
+  extract 1084607
+  extract 1127471
+  extract 1128287
+  extract 1128288
+  extract 580049
+  extract 588813
+  extract 611726
+  extract 722625
+  extract 823038
+  extract 856484
+  extract 861001
+  extract 864440
+  extract 909463
+  extract 963733
+  extract 995455
+  extract 995465
+  extract 536707
+  extract 536709
+  extract 538663
+  extract 538664
+  extract 557395
+  extract 557396
+  extract 557399
+  extract 557400
+  extract 557405
+  extract 582120
+  extract 589982
+  extract 589990
+  extract 601425
+  extract 605105
+  extract 673853
+  extract 682460
+  extract 694717
+  extract 701263
+  extract 705654
+  extract 705661
+  extract 724897
+  extract 724907
+  extract 728968
+  extract 789713
+  extract 789724
+  extract 793452
+  extract 904052
+  extract 904960
+  extract 906628
+  extract 906629
+  extract 1017419
+  extract 1087252
+  extract 1110915
+  extract 1130161
+  extract 1130299
+  extract 1130303
+  extract 1130304
+  extract 1131728
+  extract 539259
+  extract 675015
+  extract 684571
+  extract 697083
+  extract 725802
+  extract 753935
+  extract 755760
+  extract 760998
+  extract 821039
+  extract 907300
+  extract 909747
+  extract 909851
+  extract 973779
+  extract 1020400
+  extract 1044127
+  extract 1065572
+  extract 1067694
+  extract 1130148
+  extract 1130283
+  extract 1130308
+  extract 1131736
+  extract 725803
+  extract 755762
+  extract 760990
+Quality check failed! Pupil radius too small.
+  extract 820059
+  extract 907293
+  extract 907306
+  extract 909751
+  extract 971011
+  extract 537271
+  extract 540997
+  extract 540999
+  extract 541002
+  extract 555385
+  extract 578719
+  extract 580164
+  extract 580172
+  extract 585946
+  extract 608774
+  extract 610343
+  extract 683262
+  extract 725363
+  extract 725367
+  extract 725368
+  extract 728844
+  extract 730530
+  extract 732921
+  extract 732922
+  extract 537394
+  extract 541516
+  extract 558545
+  extract 583585
+  extract 764859
+  extract 764864
+  extract 764894
+  extract 767347
+  extract 825157
+  extract 830805
+  extract 831164
+  extract 831197
+  extract 541530
+  extract 541531
+  extract 541533
+  extract 541534
+  extract 541536
+  extract 558558
+  extract 558559
+  extract 558560
+  extract 558564
+  extract 558566
+  extract 583593
+  extract 586808
+  extract 591197
+  extract 591206
+  extract 591207
+  extract 600793
+  extract 600795
+  extract 764867
+  extract 764869
+  extract 764875
+  extract 764902
+  extract 764906
+  extract 764908
+  extract 767348
+  extract 767860
+  extract 824428
+  extract 829079
+  extract 831170
+  extract 831172
+  extract 831205
+  extract 824649
+  extract 830114
+  extract 831430
+  extract 832617
+  extract 832631
+  extract 869796
+  extract 869798
+  extract 869805
+  extract 869806
+Quality check failed! Pupil radius too small.
+  extract 869809
+  extract 871254
+  extract 872187
+  extract 872978
+  extract 873740
+  extract 1056668
+  extract 1056679
+  extract 1059241
+  extract 1089039
+  extract 1089050
+  extract 1090032
+  extract 1090709
+  extract 1091873
+  extract 1127128
+  extract 1128165
+  extract 1128167
+  extract 1129305
+  extract 1129316
+  extract 602511
+  extract 602513
+  extract 697015
+  extract 697022
+  extract 764756
+  extract 764780
+  extract 768573
+  extract 824415
+  extract 830801
+  extract 831091
+  extract 869368
+  extract 872803
+  extract 961980
+  extract 961992
+  extract 962345
+  extract 963582
+  extract 537694
+  extract 542782
+  extract 584973
+  extract 614581
+  extract 673519
+  extract 709135
+  extract 709141
+  extract 709148
+  extract 723179
+  extract 723191
+  extract 723192
+  extract 731953
+  extract 1018450
+  extract 1020903
+  extract 559856
+  extract 559859
+  extract 559867
+  extract 592971
+  extract 592972
+  extract 608575
+  extract 801354
+  extract 817527
+  extract 909679
+  extract 910061
+  extract 942293
+  extract 579397
+  extract 583009
+  extract 583010
+  extract 583024
+  extract 583027
+  extract 583031
+  extract 586272
+  extract 601113
+  extract 603838
+  extract 609156
+  extract 611928
+  extract 579617
+  extract 583984
+  extract 583990
+  extract 583995
+  extract 583997
+  extract 591051
+  extract 591055
+  extract 591059
+  extract 591061
+  extract 614872
+  extract 614881
+  extract 682554
+  extract 682560
+  extract 585967
+  extract 587567
+  extract 587568
+  extract 587572
+  extract 587574
+  extract 587575
+  extract 789459
+  extract 789469
+  extract 793332
+  extract 794418
+  extract 794424
+  extract 798322
+  extract 798325
+  extract 799365
+  extract 817716
+  extract 817718
+  extract 817726
+  extract 863884
+  extract 863888
+  extract 866871
+  extract 895493
+  extract 895494
+  extract 900734
+  extract 586182
+  extract 586184
+  extract 588485
+  extract 588486
+  extract 588490
+  extract 588491
+  extract 588495
+  extract 588496
+  extract 588497
+  extract 601935
+  extract 601937
+  extract 607339
+  extract 607348
+  extract 674367
+  extract 674381
+  extract 674383
+  extract 674391
+  extract 764324
+  extract 764333
+  extract 1010240
+  extract 1010831
+  extract 1013024
+  extract 1033107
+  extract 1035422
+  extract 1064607
+  extract 1064613
+  extract 1065543
+  extract 1066258
+  extract 1127068
+  extract 1128043
+  extract 1129073
+  extract 1129081
+  extract 600952
+  extract 603149
+  extract 611045
+  extract 673583
+  extract 673586
+  extract 693376
+  extract 728074
+  extract 818589
+  extract 826012
+  extract 864122
+  extract 867181
+  extract 896477
+  extract 897535
+  extract 901189
+  extract 973740
+  extract 990703
+  extract 1033294
+  extract 1036313
+  extract 1088591
+  extract 608939
+  extract 611015
+  extract 611020
+  extract 673563
+  extract 706242
+  extract 706248
+  extract 706249
+  extract 706256
+  extract 722306
+  extract 722307
+  extract 722314
+  extract 722315
+  extract 727073
+  extract 727946
+  extract 727948
+  extract 731411
+  extract 791637
+  extract 791649
+  extract 791650
+  extract 831046
+  extract 831901
+  extract 831902
+  extract 896523
+  extract 896536
+  extract 942815
+  extract 1009827
+  extract 1035490
+  extract 1042066
+  extract 1064738
+  extract 1090881
+  extract 1108667
+  extract 1111008
+  extract 1112200
+  extract 1133359
+  extract 676015
+  extract 676019
+  extract 676025
+  extract 684217
+  extract 684227
+  extract 692976
+  extract 700720
+  extract 705913
+  extract 753219
+  extract 759413
+  extract 759423
+  extract 788577
+  extract 788588
+  extract 792876
+  extract 799052
+  extract 827753
+  extract 945160
+  extract 964607
+  extract 763662
+  extract 763663
+  extract 763664
+  extract 790688
+  extract 790689
+  extract 790690
+  extract 790691
+  extract 790692
+  extract 790698
+  extract 790699
+  extract 790700
+  extract 790701
+  extract 790702
+  extract 793927
+  extract 793928
+  extract 793930
+  extract 793932
+  extract 794822
+  extract 794824
+  extract 794826
+  extract 798904
+  extract 798905
+  extract 798908
+  extract 798909
+  extract 799853
+  extract 799854
+  extract 799857
+  extract 799858
+  extract 820273
+  extract 820274
+  extract 820275
+  extract 820276
+  extract 820277
+  extract 820283
+  extract 820284
+  extract 820285
+  extract 820286
+  extract 823514
+  extract 823516
+  extract 823518
+  extract 826948
+  extract 826949
+  extract 826952
+  extract 826953
+  extract 827934
+  extract 827935
+  extract 827938
+  extract 827939
+  extract 859019
+  extract 859020
+  extract 684280
+  extract 684282
+  extract 684284
+  extract 684286
+  extract 684288
+  extract 694844
+  extract 694854
+  extract 701307
+  extract 701309
+  extract 706127
+  extract 706135
+  extract 706143
+  extract 725622
+  extract 725626
+  extract 730435
+  extract 730610
+  extract 730614
+  extract 733029
+  extract 733034
+  extract 755009
+  extract 755014
+  extract 758296
+  extract 758844
+  extract 1020322
+  extract 1041451
+  extract 1041977
+  extract 1042031
+  extract 1042213
+  extract 1043101
+  extract 1043114
+  extract 1063844
+  extract 1063854
+  extract 1065254
+  extract 1066012
+  extract 1066016
+  extract 1067164
+  extract 683173
+  extract 683175
+  extract 683177
+  extract 683179
+  extract 683181
+  extract 696537
+  extract 696539
+  extract 696543
+  extract 696545
+  extract 696547
+  extract 696549
+  extract 696552
+  extract 701824
+  extract 701828
+  extract 709730
+  extract 709736
+  extract 709742
+  extract 709743
+  extract 709745
+  extract 754133
+  extract 755971
+  extract 756804
+  extract 756806
+  extract 756808
+  extract 757524
+  extract 757528
+  extract 761484
+  extract 761487
+  extract 761494
+  extract 761495
+  extract 761496
+  extract 824376
+  extract 825112
+  extract 825115
+  extract 825118
+  extract 829045
+  extract 829048
+  extract 829051
+  extract 829053
+  extract 830739
+  extract 830740
+  extract 830746
+  extract 830749
+  extract 830750
+  extract 830751
+  extract 830753
+  extract 830754
+  extract 830785
+  extract 830787
+  extract 830788
+  extract 830790
+  extract 830791
+  extract 858164
+  extract 858165
+  extract 858166
+  extract 858167
+  extract 858168
+  extract 858174
+  extract 858175
+  extract 858176
+  extract 858177
+  extract 858178
+  extract 861756
+  extract 861757
+  extract 861758
+  extract 861759
+  extract 862714
+  extract 862716
+  extract 862718
+  extract 865112
+  extract 865113
+  extract 865116
+  extract 865117
+  extract 866305
+  extract 866306
+  extract 866309
+  extract 866310
+  extract 907372
+  extract 907373
+  extract 907374
+  extract 907375
+  extract 684613
+  extract 684621
+  extract 695623
+  extract 695629
+  extract 724182
+  extract 724185
+  extract 724195
+  extract 724196
+  extract 728647
+  extract 729428
+  extract 757902
+  extract 762763
+  extract 762773
+  extract 762777
+  extract 793845
+  extract 794764
+  extract 799792
+  extract 827081
+  extract 868614
+  extract 868615
+  extract 898439
+  extract 898443
+  extract 900902
+  extract 697799
+  extract 697803
+  extract 697805
+  extract 697811
+  extract 702216
+  extract 707821
+  extract 707825
+  extract 707827
+  extract 707829
+  extract 707830
+  extract 707831
+  extract 707832
+  extract 707836
+  extract 707839
+  extract 707840
+  extract 728116
+  extract 731634
+  extract 756714
+  extract 761184
+  extract 761194
+  extract 761195
+  extract 761196
+  extract 797425
+  extract 797475
+  extract 825341
+  extract 831126
+  extract 832047
+  extract 869346
+  extract 872096
+  extract 907919
+  extract 938277
+  extract 697806
+  extract 702215
+  extract 707824
+  extract 707833
+  extract 707834
+  extract 707835
+  extract 707837
+  extract 707838
+  extract 707844
+  extract 727327
+  extract 728115
+  extract 731637
+  extract 755844
+  extract 757435
+  extract 761189
+  extract 761192
+  extract 761199
+  extract 761200
+  extract 797431
+  extract 797545
+  extract 832050
+  extract 869351
+  extract 869352
+  extract 871630
+  extract 907924
+  extract 907925
+  extract 941191
+  extract 941201
+  extract 941205
+  extract 696910
+  extract 696916
+  extract 696918
+  extract 696920
+  extract 696925
+  extract 701943
+  extract 753502
+  extract 755375
+  extract 760111
+  extract 760121
+  extract 1013737
+  extract 1015667
+  extract 1039497
+  extract 1063361
+  extract 1063369
+  extract 1065066
+  extract 1088800
+  extract 1089932
+  extract 1091724
+  extract 1129721
+  extract 1130139
+  extract 1131499
+  extract 693567
+  extract 693573
+  extract 693582
+  extract 700907
+  extract 707879
+  extract 707895
+  extract 707898
+  extract 724820
+  extract 724827
+  extract 724830
+  extract 732706
+  extract 760750
+  extract 819459
+  extract 819469
+  extract 821621
+  extract 868706
+  extract 940906
+  extract 940908
+  extract 968538
+  extract 969972
+  extract 757846
+  extract 759052
+  extract 762632
+  extract 823633
+  extract 902479
+  extract 906676
+  extract 1041722
+  extract 1042607
+  extract 1044336
+  extract 1044337
+  extract 1085950
+  extract 1086731
+  extract 1131128
+  extract 710087
+  extract 710095
+  extract 710103
+  extract 725845
+  extract 725850
+  extract 730005
+  extract 730711
+  extract 766137
+  extract 766146
+  extract 795233
+  extract 831075
+  extract 831076
+  extract 831959
+  extract 831960
+  extract 872835
+  extract 873632
+  extract 994761
+  extract 996609
+  extract 1086402
+  extract 1086403
+  extract 1086410
+  extract 1086411
+  extract 1086412
+  extract 1086967
+  extract 1087412
+  extract 1087414
+  extract 1087416
+  extract 1088189
+  extract 1088190
+  extract 1088191
+  extract 1103808
+  extract 1103809
+  extract 1103816
+  extract 1103817
+  extract 1103818
+  extract 1104788
+  extract 1105445
+  extract 1105447
+  extract 1105449
+  extract 1106488
+  extract 1106490
+  extract 1106491
+  extract 1106493
+  extract 832188
+  extract 832189
+  extract 832195
+  extract 832196
+  extract 832197
+  extract 832198
+  extract 832199
+  extract 1086972
+  extract 1087417
+  extract 1103815
+  extract 1103821
+  extract 1104792
+  extract 710335
+  extract 710344
+  extract 725956
+  extract 725960
+  extract 730113
+  extract 733305
+  extract 766364
+  extract 766370
+  extract 768860
+  extract 797004
+  extract 824626
+  extract 831213
+  extract 832191
+  extract 832204
+  extract 710767
+  extract 710788
+  extract 825590
+  extract 903426
+  extract 904588
+  extract 905632
+  extract 906862
+  extract 721416
+  extract 726938
+  extract 731282
+  extract 969332
+  extract 969333
+  extract 969335
+  extract 970762
+  extract 970766
+  extract 971671
+  extract 973523
+  extract 1014360
+  extract 1014372
+  extract 1015304
+  extract 1064341
+  extract 1066174
+  extract 1083269
+  extract 1085403
+  extract 1085406
+  extract 1087549
+  extract 936271
+  extract 937761
+  extract 942088
+  extract 942091
+  extract 964907
+  extract 966123
+  extract 1014368
+  extract 1014380
+  extract 1034722
+  extract 1037935
+  extract 1064346
+  extract 1067479
+  extract 1067482
+  extract 1083305
+  extract 1085401
+  extract 1085407
+  extract 1085411
+  extract 1087555
+  extract 936276
+  extract 937765
+  extract 942092
+  extract 942094
+  extract 942097
+  extract 966132
+  extract 938254
+  extract 939286
+  extract 964755
+  extract 967498
+  extract 995362
+  extract 997452
+  extract 938470
+  extract 938497
+  extract 942868
+  extract 942871
+  extract 942874
+  extract 944371
+  extract 944375
+  extract 948388
+  extract 948390
+  extract 948391
+  extract 938514
+  extract 942860
+  extract 942878
+  extract 942880
+  extract 942884
+  extract 942886
+  extract 943297
+  extract 944376
+  extract 945234
+  extract 945238
+  extract 948395
+  extract 1017574
+  extract 1017593
+  extract 1019175
+  extract 1019797
+  extract 1020468
+  extract 994507
+  extract 994517
+  extract 996038
+  extract 996558
+  extract 997067
+  extract 1009850
+  extract 1011332
+  extract 1058664
+  extract 1060175
+  extract 1060810
+  extract 946353
+  extract 946355
+  extract 948081
+  extract 1010191
+  extract 1010802
+  extract 1012905
+  extract 1012908
+  extract 1012909
+  extract 1012915
+  extract 1034754
+  extract 1034757
+  extract 1034758
+  extract 1036721
+  extract 1057050
+  extract 1058860
+  extract 1105081
+  extract 1105083
+  extract 942629
+  extract 942633
+  extract 942642
+  extract 942644
+  extract 942647
+  extract 944196
+  extract 945047
+  extract 946588
+  extract 962138
+  extract 962148
+  extract 962853
+  extract 963384
+  extract 964270
+  extract 988194
+  extract 988806
+  extract 988810
+  extract 989818
+  extract 989821
+  extract 990823
+  extract 990825
+  extract 990827
+  extract 990832
+  extract 1010198
+  extract 1034760
+  extract 1036016
+  extract 1037962
+  extract 1057046
+  extract 1057054
+  extract 1057056
+  extract 1059509
+  extract 1059510
+  extract 1059512
+  extract 1102810
+  extract 1102819
+  extract 1104337
+  extract 1105770
+  extract 942648
+  extract 944203
+  extract 946597
+  extract 962860
+  extract 988198
+  extract 989827
+  extract 990837
+  extract 1009917
+  extract 1010601
+  extract 1011408
+  extract 1012172
+  extract 1012175
+  extract 1012191
+  extract 1018267
+  extract 1018279
+  extract 1018280
+  extract 1018281
+  extract 1018282
+  extract 1018283
+  extract 1018284
+  extract 1019387
+  extract 1019390
+  extract 1019972
+  extract 1020808
+  extract 1020809
+  extract 1034369
+  extract 1034383
+  extract 1036615
+  extract 1036617
+  extract 1103556
+  extract 1103567
+  extract 1103568
+  extract 1103569
+  extract 1105363
+  extract 1105365
+  extract 1034350
+  extract 1034361
+  extract 1036609
+  extract 1036611
+  extract 1037726
+  extract 1064034
+  extract 1064042
+  extract 1064044
+  extract 1065335
+  extract 1066075
+  extract 1066079
+  extract 1088852
+  extract 1088860
+  extract 1089963
+  extract 1090656
+  extract 1103912
+  extract 1103920
+  extract 1104847
+  extract 1126289
+  extract 1128615
+  extract 1128626
+  extract 1086667
+  extract 1090208
+  extract 1090210
+  extract 1090874
+  extract 1090875
+  extract 1090876
+  extract 1081600
+  extract 1081607
+  extract 1081610
+  extract 1083142
+  extract 1083857
+  extract 1083859
+  extract 1083861
+  extract 1084829
+  extract 1084833
+  extract 1189964
+  extract 1192216
+  extract 1192217
+  extract 1192220
+  extract 1192231
+  extract 1192238
+  extract 1192239
+  extract 1192244
+  extract 1192271
+  extract 1192276
+  extract 1192279
+  extract 1192284
+  extract 1192288
+  extract 1148908
+  extract 1148945
+  extract 1148984
+  extract 1149068
+  extract 1149289
+  extract 1151784
+  extract 1152103
+  extract 1152104
+  extract 1152117
+  extract 1152143
+  extract 1152239
+  extract 1152242
+  extract 1152243
+  extract 1152268
+  extract 1152282
+  extract 1152289
+  extract 1155278
+  extract 1155279
+  extract 1155289
+  extract 1155318
+  extract 1155337
+  extract 1155759
+  extract 1155772
+  extract 1157712
+  extract 1157721
+  extract 1160829
+  extract 1160894
+  extract 1189974
+  extract 1189980
+  extract 1190010
+  extract 1190031
+  extract 1190548
+Embeddings: 5169 / 5175 passed quality.
+Sampled 100000 of 13285820 impostor pairs (kept all 70876 genuine pairs).
+Pairwise scores: 170876 rows (70876 genuine, 100000 impostor).
+Impostor tail rule: score <= 1th percentile of impostor scores (1.405748); n_impostor=100000
+Tail pairs: 1000  |  tail images: 1582
+  1081607: n_tail_pairs=2 min=1.214818 partners=1082443;948391
+  1082443: n_tail_pairs=2 min=1.214818 partners=1081607;1064607
+  656700: n_tail_pairs=1 min=1.255552 partners=683400
+  683400: n_tail_pairs=1 min=1.255552 partners=656700
+  706761: n_tail_pairs=3 min=1.263029 partners=524469;529574;516622
+  524469: n_tail_pairs=2 min=1.263029 partners=706761;756596
+  231391: n_tail_pairs=1 min=1.264805 partners=407619
+  407619: n_tail_pairs=1 min=1.264805 partners=231391
+  207911: n_tail_pairs=1 min=1.272096 partners=667715
+  667715: n_tail_pairs=1 min=1.272096 partners=207911
+  1129585: n_tail_pairs=4 min=1.280289 partners=704800;858299;1041270;1193006
+  704800: n_tail_pairs=3 min=1.280289 partners=1129585;725122;1113168
+  1017028: n_tail_pairs=2 min=1.281624 partners=707898;667798
+  707898: n_tail_pairs=2 min=1.281624 partners=1017028;660642
+  656291: n_tail_pairs=3 min=1.282000 partners=397296;658866;411748
+  397296: n_tail_pairs=1 min=1.282000 partners=656291
+  667585: n_tail_pairs=1 min=1.284481 partners=901176
+  901176: n_tail_pairs=1 min=1.284481 partners=667585
+  267703: n_tail_pairs=1 min=1.289388 partners=396744
+  396744: n_tail_pairs=1 min=1.289388 partners=267703
+  529574: n_tail_pairs=2 min=1.290923 partners=706761;665671
+  1044445: n_tail_pairs=2 min=1.291928 partners=900104;911384
+  900104: n_tail_pairs=2 min=1.291928 partners=1044445;1152268
+  709066: n_tail_pairs=1 min=1.293096 partners=967052
+  967052: n_tail_pairs=1 min=1.293096 partners=709066
+  1085407: n_tail_pairs=1 min=1.293551 partners=830249
+  830249: n_tail_pairs=1 min=1.293551 partners=1085407
+  860409: n_tail_pairs=2 min=1.293905 partners=1056833;659410
+  1056833: n_tail_pairs=1 min=1.293905 partners=860409
+  1130937: n_tail_pairs=1 min=1.295480 partners=416323
+  416323: n_tail_pairs=1 min=1.295480 partners=1130937
+  164487: n_tail_pairs=1 min=1.298791 partners=177120
+  177120: n_tail_pairs=1 min=1.298791 partners=164487
+  267541: n_tail_pairs=3 min=1.299746 partners=856874;442128;676511
+  856874: n_tail_pairs=1 min=1.299746 partners=267541
+  1113667: n_tail_pairs=2 min=1.303000 partners=941644;584293
+  941644: n_tail_pairs=2 min=1.303000 partners=1113667;724762
+  1152103: n_tail_pairs=3 min=1.303604 partners=1192238;1109575;895493
+  1192238: n_tail_pairs=1 min=1.303604 partners=1152103
+  659433: n_tail_pairs=3 min=1.304715 partners=615058;728844;615057
+  615058: n_tail_pairs=1 min=1.304715 partners=659433
+  243066: n_tail_pairs=1 min=1.305295 partners=934720
+  934720: n_tail_pairs=1 min=1.305295 partners=243066
+  406409: n_tail_pairs=3 min=1.305487 partners=206822;511263;189019
+  206822: n_tail_pairs=1 min=1.305487 partners=406409
+  529065: n_tail_pairs=2 min=1.305681 partners=537280;441493
+  537280: n_tail_pairs=1 min=1.305681 partners=529065
+  1130299: n_tail_pairs=2 min=1.307332 partners=584298;798670
+  584298: n_tail_pairs=2 min=1.307332 partners=1130299;710623
+  659566: n_tail_pairs=1 min=1.308559 partners=723179
+  723179: n_tail_pairs=1 min=1.308559 partners=659566
+  659493: n_tail_pairs=2 min=1.310032 partners=229485;284139
+  229485: n_tail_pairs=1 min=1.310032 partners=659493
+  800487: n_tail_pairs=1 min=1.310503 partners=821621
+  821621: n_tail_pairs=1 min=1.310503 partners=800487
+  662431: n_tail_pairs=2 min=1.314575 partners=587728;256703
+  587728: n_tail_pairs=1 min=1.314575 partners=662431
+  1063361: n_tail_pairs=3 min=1.315564 partners=817718;663955;1132529
+  817718: n_tail_pairs=1 min=1.315564 partners=1063361
+  255419: n_tail_pairs=1 min=1.315802 partners=255430
+  255430: n_tail_pairs=1 min=1.315802 partners=255419
+  1105365: n_tail_pairs=1 min=1.316181 partners=162945
+  162945: n_tail_pairs=1 min=1.316181 partners=1105365
+  1134533: n_tail_pairs=1 min=1.319441 partners=517951
+  517951: n_tail_pairs=1 min=1.319441 partners=1134533
+  1088852: n_tail_pairs=2 min=1.320418 partners=696543;397291
+  696543: n_tail_pairs=1 min=1.320418 partners=1088852
+  546228: n_tail_pairs=2 min=1.320533 partners=205669;1035705
+  205669: n_tail_pairs=1 min=1.320533 partners=546228
+  242934: n_tail_pairs=1 min=1.321268 partners=659515
+  659515: n_tail_pairs=1 min=1.321268 partners=242934
+  728844: n_tail_pairs=1 min=1.321271 partners=659433
+  725671: n_tail_pairs=2 min=1.323085 partners=971011;1019246
+  971011: n_tail_pairs=1 min=1.323085 partners=725671
+  990825: n_tail_pairs=2 min=1.323296 partners=1102839;1133078
+  1102839: n_tail_pairs=1 min=1.323296 partners=990825
+  164577: n_tail_pairs=1 min=1.323705 partners=587729
+  587729: n_tail_pairs=1 min=1.323705 partners=164577
+  1169180: n_tail_pairs=2 min=1.323923 partners=512754;659479
+  512754: n_tail_pairs=1 min=1.323923 partners=1169180
+  909935: n_tail_pairs=3 min=1.324252 partners=868761;721335;1103808
+  868761: n_tail_pairs=1 min=1.324252 partners=909935
+  797425: n_tail_pairs=2 min=1.324715 partners=759736;1017036
+  759736: n_tail_pairs=1 min=1.324715 partners=797425
+  1057844: n_tail_pairs=1 min=1.326637 partners=789397
+  789397: n_tail_pairs=1 min=1.326637 partners=1057844
+  725573: n_tail_pairs=2 min=1.327085 partners=911381;1133069
+  911381: n_tail_pairs=2 min=1.327085 partners=725573;721337
+  721337: n_tail_pairs=1 min=1.327367 partners=911381
+  856889: n_tail_pairs=1 min=1.327935 partners=973678
+  973678: n_tail_pairs=1 min=1.327935 partners=856889
+  655645: n_tail_pairs=3 min=1.328923 partners=669202;659479;443813
+  669202: n_tail_pairs=1 min=1.328923 partners=655645
+  704749: n_tail_pairs=2 min=1.329107 partners=1018450;941407
+  1018450: n_tail_pairs=1 min=1.329107 partners=704749
+  654404: n_tail_pairs=1 min=1.329658 partners=942263
+  942263: n_tail_pairs=1 min=1.329658 partners=654404
+  730113: n_tail_pairs=1 min=1.329944 partners=905970
+  905970: n_tail_pairs=1 min=1.329944 partners=730113
+  659279: n_tail_pairs=2 min=1.330493 partners=665980;676417
+  665980: n_tail_pairs=2 min=1.330493 partners=659279;755672
+  1192858: n_tail_pairs=1 min=1.330684 partners=611432
+  611432: n_tail_pairs=1 min=1.330684 partners=1192858
+  1126602: n_tail_pairs=2 min=1.330790 partners=696899;869145
+  696899: n_tail_pairs=2 min=1.330790 partners=1126602;256847
+  1090874: n_tail_pairs=1 min=1.330806 partners=270694
+  270694: n_tail_pairs=1 min=1.330806 partners=1090874
+  1113259: n_tail_pairs=3 min=1.331419 partners=1012175;911386;896827
+  1012175: n_tail_pairs=2 min=1.331419 partners=1113259;724182
+  406408: n_tail_pairs=2 min=1.331615 partners=169119;791650
+  169119: n_tail_pairs=1 min=1.331615 partners=406408
+  707834: n_tail_pairs=2 min=1.331784 partners=868706;1113163
+  868706: n_tail_pairs=1 min=1.331784 partners=707834
+  1064607: n_tail_pairs=2 min=1.331984 partners=1082443;896410
+  869145: n_tail_pairs=1 min=1.332655 partners=1126602
+  764875: n_tail_pairs=3 min=1.333566 partners=1014368;725930;762337
+  1014368: n_tail_pairs=2 min=1.333566 partners=764875;791650
+  1035705: n_tail_pairs=3 min=1.334133 partners=522740;667162;546228
+  522740: n_tail_pairs=3 min=1.334133 partners=1035705;603593;538541
+  1105770: n_tail_pairs=3 min=1.334623 partners=896420;659277;899773
+  896420: n_tail_pairs=3 min=1.334623 partners=1105770;1057056;791089
+  531448: n_tail_pairs=1 min=1.335042 partners=660384
+  660384: n_tail_pairs=1 min=1.335042 partners=531448
+  615057: n_tail_pairs=1 min=1.335077 partners=659433
+  441493: n_tail_pairs=1 min=1.336151 partners=529065
+  374149: n_tail_pairs=3 min=1.336565 partners=685159;1152289;660336
+  685159: n_tail_pairs=1 min=1.336565 partners=374149
+  1033056: n_tail_pairs=2 min=1.336795 partners=1192894;760365
+  1192894: n_tail_pairs=2 min=1.336795 partners=1033056;284123
+  1034350: n_tail_pairs=2 min=1.336901 partners=768628;1018284
+  768628: n_tail_pairs=1 min=1.336901 partners=1034350
+  660770: n_tail_pairs=3 min=1.337901 partners=217105;665671;668617
+  217105: n_tail_pairs=1 min=1.337901 partners=660770
+  1135289: n_tail_pairs=3 min=1.339290 partners=667798;283639;302985
+  667798: n_tail_pairs=3 min=1.339290 partners=1135289;1017028;512662
+  410512: n_tail_pairs=2 min=1.339703 partners=801354;1111241
+  801354: n_tail_pairs=2 min=1.339703 partners=410512;231849
+  304002: n_tail_pairs=2 min=1.340156 partners=665866;229069
+  665866: n_tail_pairs=2 min=1.340156 partners=304002;442343
+  941407: n_tail_pairs=2 min=1.340351 partners=790692;704749
+  790692: n_tail_pairs=1 min=1.340351 partners=941407
+  1043101: n_tail_pairs=3 min=1.340433 partners=516337;697806;660274
+  516337: n_tail_pairs=1 min=1.340433 partners=1043101
+  858299: n_tail_pairs=4 min=1.340442 partners=1129585;825682;1132516;829089
+  607237: n_tail_pairs=2 min=1.341294 partners=1151784;799137
+  1151784: n_tail_pairs=1 min=1.341294 partners=607237
+  1103072: n_tail_pairs=1 min=1.341404 partners=387820
+  387820: n_tail_pairs=1 min=1.341404 partners=1103072
+  579746: n_tail_pairs=2 min=1.341664 partners=710750;1036068
+  710750: n_tail_pairs=2 min=1.341664 partners=579746;902266
+  201495: n_tail_pairs=1 min=1.342323 partners=668505
+  668505: n_tail_pairs=1 min=1.342323 partners=201495
+  661748: n_tail_pairs=3 min=1.342340 partners=665218;832204;663790
+  665218: n_tail_pairs=1 min=1.342340 partners=661748
+  162040: n_tail_pairs=1 min=1.342464 partners=660373
+  660373: n_tail_pairs=1 min=1.342464 partners=162040
+  799333: n_tail_pairs=2 min=1.342515 partners=832047;165847
+  832047: n_tail_pairs=1 min=1.342515 partners=799333
+  664354: n_tail_pairs=1 min=1.343102 partners=666468
+  666468: n_tail_pairs=1 min=1.343102 partners=664354
+  901178: n_tail_pairs=2 min=1.343616 partners=579682;540468
+  579682: n_tail_pairs=1 min=1.343616 partners=901178
+  724727: n_tail_pairs=1 min=1.343875 partners=831997
+  831997: n_tail_pairs=1 min=1.343875 partners=724727
+  723665: n_tail_pairs=1 min=1.344211 partners=797431
+  797431: n_tail_pairs=1 min=1.344211 partners=723665
+  1087227: n_tail_pairs=2 min=1.344238 partners=759537;831960
+  759537: n_tail_pairs=2 min=1.344238 partners=1087227;860413
+  707831: n_tail_pairs=3 min=1.344610 partners=790112;241063;1109575
+  790112: n_tail_pairs=1 min=1.344610 partners=707831
+  660398: n_tail_pairs=2 min=1.344656 partners=396780;387196
+  396780: n_tail_pairs=1 min=1.344656 partners=660398
+  1112921: n_tail_pairs=1 min=1.344911 partners=585946
+  585946: n_tail_pairs=1 min=1.344911 partners=1112921
+  667765: n_tail_pairs=1 min=1.345724 partners=755114
+  755114: n_tail_pairs=1 min=1.345724 partners=667765
+  511263: n_tail_pairs=1 min=1.345729 partners=406409
+  255418: n_tail_pairs=2 min=1.345829 partners=237271;160439
+  237271: n_tail_pairs=1 min=1.345829 partners=255418
+  278287: n_tail_pairs=1 min=1.345927 partners=614341
+  614341: n_tail_pairs=1 min=1.345927 partners=278287
+  659404: n_tail_pairs=2 min=1.345954 partners=437248;437245
+  437248: n_tail_pairs=1 min=1.345954 partners=659404
+  1133078: n_tail_pairs=2 min=1.346191 partners=990825;1103821
+  1156774: n_tail_pairs=1 min=1.346214 partners=969972
+  969972: n_tail_pairs=1 min=1.346214 partners=1156774
+  1012191: n_tail_pairs=3 min=1.346223 partners=1107585;258134;819459
+  1107585: n_tail_pairs=1 min=1.346223 partners=1012191
+  825682: n_tail_pairs=1 min=1.346571 partners=858299
+  710623: n_tail_pairs=2 min=1.347117 partners=660326;584298
+  660326: n_tail_pairs=1 min=1.347117 partners=710623
+  676417: n_tail_pairs=1 min=1.347966 partners=659279
+  262291: n_tail_pairs=2 min=1.348187 partners=870378;415176
+  870378: n_tail_pairs=2 min=1.348187 partners=262291;895494
+  831170: n_tail_pairs=2 min=1.348197 partners=907925;406446
+  907925: n_tail_pairs=1 min=1.348197 partners=831170
+  1107417: n_tail_pairs=2 min=1.348400 partners=1113163;1015652
+  1113163: n_tail_pairs=2 min=1.348400 partners=1107417;707834
+  268188: n_tail_pairs=1 min=1.348486 partners=521342
+  521342: n_tail_pairs=1 min=1.348486 partners=268188
+  1128828: n_tail_pairs=2 min=1.348708 partners=765559;868861
+  765559: n_tail_pairs=1 min=1.348708 partners=1128828
+  1013024: n_tail_pairs=3 min=1.348773 partners=706156;938345;431975
+  706156: n_tail_pairs=1 min=1.348773 partners=1013024
+  289041: n_tail_pairs=2 min=1.349772 partners=556304;591211
+  556304: n_tail_pairs=1 min=1.349772 partners=289041
+  1103809: n_tail_pairs=2 min=1.349929 partners=995778;970918
+  995778: n_tail_pairs=1 min=1.349929 partners=1103809
+  613532: n_tail_pairs=2 min=1.349996 partners=432868;315030
+  432868: n_tail_pairs=1 min=1.349996 partners=613532
+  277036: n_tail_pairs=1 min=1.350042 partners=857508
+  857508: n_tail_pairs=1 min=1.350042 partners=277036
+  611526: n_tail_pairs=2 min=1.350144 partners=902271;970329
+  902271: n_tail_pairs=1 min=1.350144 partners=611526
+  241321: n_tail_pairs=1 min=1.350188 partners=824428
+  824428: n_tail_pairs=1 min=1.350188 partners=241321
+  241947: n_tail_pairs=1 min=1.350530 partners=244167
+  244167: n_tail_pairs=1 min=1.350530 partners=241947
+  1132516: n_tail_pairs=2 min=1.350765 partners=858299;721335
+  760998: n_tail_pairs=3 min=1.351207 partners=990703;611501;790688
+  990703: n_tail_pairs=2 min=1.351207 partners=760998;437343
+  241711: n_tail_pairs=2 min=1.351757 partners=539036;1159814
+  539036: n_tail_pairs=1 min=1.351757 partners=241711
+  1128852: n_tail_pairs=1 min=1.351779 partners=1130440
+  1130440: n_tail_pairs=1 min=1.351779 partners=1128852
+  284123: n_tail_pairs=1 min=1.351954 partners=1192894
+  1157093: n_tail_pairs=1 min=1.352014 partners=580593
+  580593: n_tail_pairs=1 min=1.352014 partners=1157093
+  241621: n_tail_pairs=1 min=1.352170 partners=659512
+  659512: n_tail_pairs=1 min=1.352170 partners=241621
+  1012915: n_tail_pairs=1 min=1.352628 partners=906629
+  906629: n_tail_pairs=1 min=1.352628 partners=1012915
+  313859: n_tail_pairs=1 min=1.352923 partners=656699
+  656699: n_tail_pairs=1 min=1.352923 partners=313859
+  217104: n_tail_pairs=1 min=1.352935 partners=237693
+  237693: n_tail_pairs=1 min=1.352935 partners=217104
+  514143: n_tail_pairs=1 min=1.353269 partners=540875
+  540875: n_tail_pairs=1 min=1.353269 partners=514143
+  516622: n_tail_pairs=1 min=1.353973 partners=706761
+  1113271: n_tail_pairs=1 min=1.354306 partners=942097
+  942097: n_tail_pairs=1 min=1.354306 partners=1113271
+  723360: n_tail_pairs=2 min=1.354326 partners=764324;1041279
+  764324: n_tail_pairs=1 min=1.354326 partners=723360
+  653822: n_tail_pairs=2 min=1.354453 partners=580654;282414
+  580654: n_tail_pairs=1 min=1.354453 partners=653822
+  1083269: n_tail_pairs=1 min=1.354496 partners=989821
+  989821: n_tail_pairs=1 min=1.354496 partners=1083269
+  1081629: n_tail_pairs=2 min=1.354661 partners=1017025;856632
+  1017025: n_tail_pairs=1 min=1.354661 partners=1081629
+  1130429: n_tail_pairs=2 min=1.354899 partners=761189;873460
+  761189: n_tail_pairs=1 min=1.354899 partners=1130429
+  831989: n_tail_pairs=3 min=1.355315 partners=1064394;725197;1129841
+  1064394: n_tail_pairs=2 min=1.355315 partners=831989;229191
+  345078: n_tail_pairs=1 min=1.355326 partners=934719
+  934719: n_tail_pairs=1 min=1.355326 partners=345078
+  724762: n_tail_pairs=2 min=1.355437 partners=941644;187714
+  1036068: n_tail_pairs=1 min=1.355491 partners=579746
+  396779: n_tail_pairs=3 min=1.355542 partners=684005;660357;1130446
+  684005: n_tail_pairs=1 min=1.355542 partners=396779
+  788788: n_tail_pairs=2 min=1.355614 partners=1129409;764442
+  1129409: n_tail_pairs=1 min=1.355614 partners=788788
+  449965: n_tail_pairs=1 min=1.355741 partners=945720
+  945720: n_tail_pairs=1 min=1.355741 partners=449965
+  722165: n_tail_pairs=1 min=1.355757 partners=831999
+  831999: n_tail_pairs=1 min=1.355757 partners=722165
+  261213: n_tail_pairs=1 min=1.355807 partners=520309
+  520309: n_tail_pairs=1 min=1.355807 partners=261213
+  1155289: n_tail_pairs=3 min=1.355923 partners=725930;759727;701174
+  725930: n_tail_pairs=2 min=1.355923 partners=1155289;764875
+  432369: n_tail_pairs=1 min=1.356384 partners=897855
+  897855: n_tail_pairs=1 min=1.356384 partners=432369
+  1090875: n_tail_pairs=1 min=1.356667 partners=674838
+  674838: n_tail_pairs=1 min=1.356667 partners=1090875
+  1086703: n_tail_pairs=2 min=1.356696 partners=289045;961992
+  289045: n_tail_pairs=1 min=1.356696 partners=1086703
+  241123: n_tail_pairs=1 min=1.357283 partners=798965
+  798965: n_tail_pairs=1 min=1.357283 partners=241123
+  791872: n_tail_pairs=1 min=1.357345 partners=942860
+  942860: n_tail_pairs=1 min=1.357345 partners=791872
+  1015652: n_tail_pairs=1 min=1.357404 partners=1107417
+  523615: n_tail_pairs=1 min=1.357409 partners=591061
+  591061: n_tail_pairs=1 min=1.357409 partners=523615
+  1085401: n_tail_pairs=2 min=1.357450 partners=820275;390990
+  820275: n_tail_pairs=2 min=1.357450 partners=1085401;587572
+  659699: n_tail_pairs=2 min=1.357640 partners=1064378;1018279
+  1064378: n_tail_pairs=1 min=1.357640 partners=659699
+  860413: n_tail_pairs=2 min=1.357752 partners=759537;696626
+  443623: n_tail_pairs=3 min=1.358070 partners=415386;608664;539517
+  415386: n_tail_pairs=1 min=1.358070 partners=443623
+  1159814: n_tail_pairs=2 min=1.358150 partners=231064;241711
+  231064: n_tail_pairs=1 min=1.358150 partners=1159814
+  791798: n_tail_pairs=1 min=1.358298 partners=824135
+  824135: n_tail_pairs=1 min=1.358298 partners=791798
+  721335: n_tail_pairs=3 min=1.358350 partners=707346;909935;1132516
+  707346: n_tail_pairs=2 min=1.358350 partners=721335;764867
+  668645: n_tail_pairs=3 min=1.358389 partners=1106488;1086967;266392
+  1106488: n_tail_pairs=1 min=1.358389 partners=668645
+  1065066: n_tail_pairs=2 min=1.358913 partners=758078;283014
+  758078: n_tail_pairs=1 min=1.358913 partners=1065066
+  344130: n_tail_pairs=1 min=1.359223 partners=415384
+  415384: n_tail_pairs=1 min=1.359223 partners=344130
+  1057046: n_tail_pairs=1 min=1.359720 partners=536709
+  536709: n_tail_pairs=1 min=1.359720 partners=1057046
+  659501: n_tail_pairs=1 min=1.359805 partners=910061
+  910061: n_tail_pairs=1 min=1.359805 partners=659501
+  659422: n_tail_pairs=1 min=1.359849 partners=708636
+  708636: n_tail_pairs=1 min=1.359849 partners=659422
+  658438: n_tail_pairs=1 min=1.359912 partners=660395
+  660395: n_tail_pairs=1 min=1.359912 partners=658438
+  660383: n_tail_pairs=2 min=1.359966 partners=664251;450154
+  664251: n_tail_pairs=2 min=1.359966 partners=660383;794764
+  729738: n_tail_pairs=3 min=1.359997 partners=662415;511817;856877
+  662415: n_tail_pairs=2 min=1.359997 partners=729738;1192859
+  665671: n_tail_pairs=3 min=1.360093 partners=1152242;660770;529574
+  1152242: n_tail_pairs=1 min=1.360093 partners=665671
+  1133470: n_tail_pairs=1 min=1.360215 partners=253887
+  253887: n_tail_pairs=1 min=1.360215 partners=1133470
+  764869: n_tail_pairs=2 min=1.360249 partners=791971;537287
+  791971: n_tail_pairs=2 min=1.360249 partners=764869;722307
+  284146: n_tail_pairs=1 min=1.360276 partners=663350
+  663350: n_tail_pairs=1 min=1.360276 partners=284146
+  590197: n_tail_pairs=1 min=1.360280 partners=604621
+  604621: n_tail_pairs=1 min=1.360280 partners=590197
+  431992: n_tail_pairs=1 min=1.360307 partners=659520
+  659520: n_tail_pairs=1 min=1.360307 partners=431992
+  903081: n_tail_pairs=2 min=1.360607 partners=1113891;969902
+  1113891: n_tail_pairs=1 min=1.360607 partners=903081
+  1160894: n_tail_pairs=2 min=1.360640 partners=608172;231577
+  608172: n_tail_pairs=1 min=1.360640 partners=1160894
+  422630: n_tail_pairs=1 min=1.360659 partners=442235
+  442235: n_tail_pairs=1 min=1.360659 partners=422630
+  727347: n_tail_pairs=1 min=1.360739 partners=765351
+  765351: n_tail_pairs=1 min=1.360739 partners=727347
+  256316: n_tail_pairs=4 min=1.361070 partners=825118;391565;865116;160439
+  825118: n_tail_pairs=1 min=1.361070 partners=256316
+  229053: n_tail_pairs=1 min=1.361841 partners=660772
+  660772: n_tail_pairs=1 min=1.361841 partners=229053
+  583995: n_tail_pairs=2 min=1.362168 partners=590600;668550
+  590600: n_tail_pairs=1 min=1.362168 partners=583995
+  763109: n_tail_pairs=1 min=1.362385 partners=869798
+  869798: n_tail_pairs=1 min=1.362385 partners=763109
+  653502: n_tail_pairs=1 min=1.362495 partners=733038
+  733038: n_tail_pairs=1 min=1.362495 partners=653502
+  1041270: n_tail_pairs=4 min=1.362691 partners=1034361;1018701;1129585;1034558
+  1034361: n_tail_pairs=1 min=1.362691 partners=1041270
+  405802: n_tail_pairs=1 min=1.362979 partners=560060
+  560060: n_tail_pairs=1 min=1.362979 partners=405802
+  264085: n_tail_pairs=1 min=1.363380 partners=665465
+  665465: n_tail_pairs=1 min=1.363380 partners=264085
+  601425: n_tail_pairs=1 min=1.363473 partners=944203
+  944203: n_tail_pairs=1 min=1.363473 partners=601425
+  1128861: n_tail_pairs=1 min=1.363489 partners=422722
+  422722: n_tail_pairs=1 min=1.363489 partners=1128861
+  1129981: n_tail_pairs=1 min=1.363528 partners=798909
+  798909: n_tail_pairs=1 min=1.363528 partners=1129981
+  276740: n_tail_pairs=1 min=1.363588 partners=660387
+  660387: n_tail_pairs=1 min=1.363588 partners=276740
+  237634: n_tail_pairs=2 min=1.363750 partners=1128650;1015531
+  1128650: n_tail_pairs=1 min=1.363750 partners=237634
+  1033294: n_tail_pairs=1 min=1.363896 partners=541074
+  541074: n_tail_pairs=1 min=1.363896 partners=1033294
+  438171: n_tail_pairs=1 min=1.363979 partners=605105
+  605105: n_tail_pairs=1 min=1.363979 partners=438171
+  856632: n_tail_pairs=3 min=1.364032 partners=660817;830801;1081629
+  660817: n_tail_pairs=1 min=1.364032 partners=856632
+  760639: n_tail_pairs=3 min=1.364344 partners=860159;818256;391578
+  860159: n_tail_pairs=3 min=1.364344 partners=760639;895494;1135287
+  511817: n_tail_pairs=3 min=1.364381 partners=1083305;729738;668551
+  1083305: n_tail_pairs=1 min=1.364381 partners=511817
+  437245: n_tail_pairs=1 min=1.364390 partners=659404
+  442128: n_tail_pairs=2 min=1.364453 partners=267541;165322
+  760308: n_tail_pairs=1 min=1.364498 partners=961980
+  961980: n_tail_pairs=1 min=1.364498 partners=760308
+  702197: n_tail_pairs=1 min=1.364574 partners=710753
+  710753: n_tail_pairs=1 min=1.364574 partners=702197
+  167630: n_tail_pairs=4 min=1.365111 partners=611435;934853;583410;303676
+  611435: n_tail_pairs=3 min=1.365111 partners=167630;241316;441495
+  829726: n_tail_pairs=2 min=1.365115 partners=1153471;231003
+  1153471: n_tail_pairs=1 min=1.365115 partners=829726
+  660979: n_tail_pairs=2 min=1.365197 partners=663351;659376
+  663351: n_tail_pairs=1 min=1.365197 partners=660979
+  1057056: n_tail_pairs=1 min=1.365204 partners=896420
+  515266: n_tail_pairs=2 min=1.365321 partners=1059492;904588
+  1059492: n_tail_pairs=1 min=1.365321 partners=515266
+  668649: n_tail_pairs=2 min=1.365608 partners=601782;269635
+  601782: n_tail_pairs=1 min=1.365608 partners=668649
+  160439: n_tail_pairs=5 min=1.365865 partners=236172;526644;256316;255418;256315
+  236172: n_tail_pairs=1 min=1.365865 partners=160439
+  1020225: n_tail_pairs=3 min=1.365947 partners=582713;902479;858168
+  582713: n_tail_pairs=2 min=1.365947 partners=1020225;165442
+  938345: n_tail_pairs=1 min=1.366231 partners=1013024
+  725122: n_tail_pairs=1 min=1.366328 partners=704800
+  588607: n_tail_pairs=1 min=1.366531 partners=659502
+  659502: n_tail_pairs=1 min=1.366531 partners=588607
+  253710: n_tail_pairs=2 min=1.367113 partners=192818;438090
+  192818: n_tail_pairs=1 min=1.367113 partners=253710
+  1128640: n_tail_pairs=1 min=1.367315 partners=1129192
+  1129192: n_tail_pairs=1 min=1.367315 partners=1128640
+  519413: n_tail_pairs=1 min=1.367398 partners=528002
+  528002: n_tail_pairs=1 min=1.367398 partners=519413
+  1018284: n_tail_pairs=1 min=1.367400 partners=1034350
+  723192: n_tail_pairs=1 min=1.367540 partners=905909
+  905909: n_tail_pairs=1 min=1.367540 partners=723192
+  517948: n_tail_pairs=1 min=1.367889 partners=822921
+  822921: n_tail_pairs=1 min=1.367889 partners=517948
+  387601: n_tail_pairs=2 min=1.368030 partners=410846;590178
+  410846: n_tail_pairs=1 min=1.368030 partners=387601
+  696918: n_tail_pairs=2 min=1.368121 partners=900135;828763
+  900135: n_tail_pairs=1 min=1.368121 partners=696918
+  515556: n_tail_pairs=1 min=1.368228 partners=591763
+  591763: n_tail_pairs=1 min=1.368228 partners=515556
+  1042031: n_tail_pairs=3 min=1.368436 partners=1126987;1065398;1013666
+  1126987: n_tail_pairs=1 min=1.368436 partners=1042031
+  1041279: n_tail_pairs=1 min=1.368684 partners=723360
+  994507: n_tail_pairs=3 min=1.368712 partners=1129971;762190;590182
+  1129971: n_tail_pairs=1 min=1.368712 partners=994507
+  287616: n_tail_pairs=1 min=1.368804 partners=767020
+  767020: n_tail_pairs=1 min=1.368804 partners=287616
+  514634: n_tail_pairs=1 min=1.368888 partners=522752
+  522752: n_tail_pairs=1 min=1.368888 partners=514634
+  1192874: n_tail_pairs=1 min=1.369396 partners=1192971
+  1192971: n_tail_pairs=1 min=1.369396 partners=1192874
+  587575: n_tail_pairs=1 min=1.369470 partners=790690
+  790690: n_tail_pairs=1 min=1.369470 partners=587575
+  1019528: n_tail_pairs=1 min=1.369498 partners=185648
+  185648: n_tail_pairs=1 min=1.369498 partners=1019528
+  659479: n_tail_pairs=2 min=1.369525 partners=1169180;655645
+  1034383: n_tail_pairs=2 min=1.369840 partners=233715;938277
+  233715: n_tail_pairs=1 min=1.369840 partners=1034383
+  873460: n_tail_pairs=1 min=1.369891 partners=1130429
+  1019246: n_tail_pairs=1 min=1.369977 partners=725671
+  660671: n_tail_pairs=2 min=1.369984 partners=406436;934637
+  406436: n_tail_pairs=1 min=1.369984 partners=660671
+  818256: n_tail_pairs=3 min=1.370032 partners=868861;760639;591823
+  868861: n_tail_pairs=2 min=1.370032 partners=818256;1128828
+  202511: n_tail_pairs=2 min=1.370075 partners=660810;666346
+  660810: n_tail_pairs=2 min=1.370075 partners=202511;262947
+  406446: n_tail_pairs=1 min=1.370149 partners=831170
+  820265: n_tail_pairs=2 min=1.370219 partners=1156901;1110980
+  1156901: n_tail_pairs=1 min=1.370219 partners=820265
+  201606: n_tail_pairs=1 min=1.370220 partners=602708
+  602708: n_tail_pairs=1 min=1.370220 partners=201606
+  723918: n_tail_pairs=1 min=1.370224 partners=820284
+  820284: n_tail_pairs=1 min=1.370224 partners=723918
+  283639: n_tail_pairs=1 min=1.370427 partners=1135289
+  667162: n_tail_pairs=1 min=1.370507 partners=1035705
+  862716: n_tail_pairs=2 min=1.370582 partners=1111272;603487
+  1111272: n_tail_pairs=1 min=1.370582 partners=862716
+  1192244: n_tail_pairs=2 min=1.370659 partners=660764;659683
+  660764: n_tail_pairs=2 min=1.370659 partners=1192244;872000
+  791650: n_tail_pairs=3 min=1.370689 partners=1014368;397880;406408
+  762190: n_tail_pairs=1 min=1.370723 partners=994507
+  541002: n_tail_pairs=3 min=1.370766 partners=521341;1131745;1103556
+  521341: n_tail_pairs=1 min=1.370766 partners=541002
+  660967: n_tail_pairs=1 min=1.370851 partners=972226
+  972226: n_tail_pairs=1 min=1.370851 partners=660967
+  666346: n_tail_pairs=2 min=1.370852 partners=1165947;202511
+  1165947: n_tail_pairs=1 min=1.370852 partners=666346
+  970329: n_tail_pairs=1 min=1.370981 partners=611526
+  1128866: n_tail_pairs=1 min=1.371016 partners=410508
+  410508: n_tail_pairs=1 min=1.371016 partners=1128866
+  407191: n_tail_pairs=1 min=1.371265 partners=660276
+  660276: n_tail_pairs=1 min=1.371265 partners=407191
+  345083: n_tail_pairs=1 min=1.371331 partners=659489
+  659489: n_tail_pairs=1 min=1.371331 partners=345083
+  241063: n_tail_pairs=2 min=1.371392 partners=707831;701360
+  237696: n_tail_pairs=2 min=1.371400 partners=397282;944375
+  397282: n_tail_pairs=1 min=1.371400 partners=237696
+  668992: n_tail_pairs=3 min=1.371442 partners=726899;615305;397293
+  726899: n_tail_pairs=2 min=1.371442 partners=668992;286091
+  1113182: n_tail_pairs=1 min=1.371754 partners=683039
+  683039: n_tail_pairs=1 min=1.371754 partners=1113182
+  541083: n_tail_pairs=1 min=1.371817 partners=669464
+  669464: n_tail_pairs=1 min=1.371817 partners=541083
+  438090: n_tail_pairs=1 min=1.372243 partners=253710
+  527718: n_tail_pairs=1 min=1.372289 partners=947563
+  947563: n_tail_pairs=1 min=1.372289 partners=527718
+  277030: n_tail_pairs=2 min=1.372321 partners=907293;707341
+  907293: n_tail_pairs=2 min=1.372321 partners=277030;665578
+  825590: n_tail_pairs=1 min=1.372597 partners=903749
+  903749: n_tail_pairs=1 min=1.372597 partners=825590
+  256703: n_tail_pairs=1 min=1.372646 partners=662431
+  659277: n_tail_pairs=2 min=1.372734 partners=660351;1105770
+  660351: n_tail_pairs=1 min=1.372734 partners=659277
+  759727: n_tail_pairs=2 min=1.373034 partners=1155289;722809
+  1135296: n_tail_pairs=1 min=1.373284 partners=789391
+  789391: n_tail_pairs=1 min=1.373284 partners=1135296
+  241316: n_tail_pairs=1 min=1.373526 partners=611435
+  527769: n_tail_pairs=3 min=1.373542 partners=1113263;654809;1060175
+  1113263: n_tail_pairs=2 min=1.373542 partners=527769;676916
+  303551: n_tail_pairs=2 min=1.373692 partners=271044;831095
+  271044: n_tail_pairs=1 min=1.373692 partners=303551
+  763264: n_tail_pairs=2 min=1.373772 partners=390562;1033850
+  390562: n_tail_pairs=1 min=1.373772 partners=763264
+  696920: n_tail_pairs=1 min=1.374067 partners=830740
+  830740: n_tail_pairs=1 min=1.374067 partners=696920
+  696626: n_tail_pairs=2 min=1.374255 partners=1160014;860413
+  1160014: n_tail_pairs=1 min=1.374255 partners=696626
+  410507: n_tail_pairs=1 min=1.374258 partners=757846
+  757846: n_tail_pairs=1 min=1.374258 partners=410507
+  1131128: n_tail_pairs=1 min=1.374363 partners=546487
+  546487: n_tail_pairs=1 min=1.374363 partners=1131128
+  185644: n_tail_pairs=1 min=1.374578 partners=256679
+  256679: n_tail_pairs=1 min=1.374578 partners=185644
+  580049: n_tail_pairs=2 min=1.374666 partners=529532;967092
+  529532: n_tail_pairs=1 min=1.374666 partners=580049
+  584315: n_tail_pairs=1 min=1.374825 partners=586534
+  586534: n_tail_pairs=1 min=1.374825 partners=584315
+  207349: n_tail_pairs=2 min=1.374923 partners=662843;668611
+  662843: n_tail_pairs=2 min=1.374923 partners=207349;614028
+  1155318: n_tail_pairs=1 min=1.374930 partners=724877
+  724877: n_tail_pairs=1 min=1.374930 partners=1155318
+  229505: n_tail_pairs=1 min=1.374964 partners=722377
+  722377: n_tail_pairs=1 min=1.374964 partners=229505
+  537287: n_tail_pairs=1 min=1.375009 partners=764869
+  1089039: n_tail_pairs=1 min=1.375023 partners=969415
+  969415: n_tail_pairs=1 min=1.375023 partners=1089039
+  831076: n_tail_pairs=2 min=1.375114 partners=1035342;1104788
+  1035342: n_tail_pairs=1 min=1.375114 partners=831076
+  1057020: n_tail_pairs=1 min=1.375311 partners=1085411
+  1085411: n_tail_pairs=1 min=1.375311 partners=1057020
+  660357: n_tail_pairs=1 min=1.375470 partners=396779
+  243868: n_tail_pairs=1 min=1.375475 partners=602717
+  602717: n_tail_pairs=1 min=1.375475 partners=243868
+  724182: n_tail_pairs=1 min=1.375664 partners=1012175
+  970918: n_tail_pairs=1 min=1.375683 partners=1103809
+  663955: n_tail_pairs=1 min=1.375686 partners=1063361
+  1085406: n_tail_pairs=1 min=1.375768 partners=539035
+  539035: n_tail_pairs=1 min=1.375768 partners=1085406
+  256818: n_tail_pairs=1 min=1.375894 partners=664246
+  664246: n_tail_pairs=1 min=1.375894 partners=256818
+  995455: n_tail_pairs=2 min=1.375944 partners=660794;608036
+  660794: n_tail_pairs=1 min=1.375944 partners=995455
+  1018701: n_tail_pairs=1 min=1.375960 partners=1041270
+  1091172: n_tail_pairs=1 min=1.376024 partners=763754
+  763754: n_tail_pairs=1 min=1.376024 partners=1091172
+  583410: n_tail_pairs=3 min=1.376117 partners=203082;539803;167630
+  203082: n_tail_pairs=1 min=1.376117 partners=583410
+  760121: n_tail_pairs=1 min=1.376200 partners=796830
+  796830: n_tail_pairs=1 min=1.376200 partners=760121
+  1109575: n_tail_pairs=2 min=1.376410 partners=1152103;707831
+  1086967: n_tail_pairs=1 min=1.376428 partners=668645
+  608664: n_tail_pairs=1 min=1.376477 partners=443623
+  263842: n_tail_pairs=1 min=1.376727 partners=660370
+  660370: n_tail_pairs=1 min=1.376727 partners=263842
+  391565: n_tail_pairs=3 min=1.376731 partners=166874;256316;529066
+  166874: n_tail_pairs=1 min=1.376731 partners=391565
+  970762: n_tail_pairs=3 min=1.376752 partners=903070;521068;1110959
+  903070: n_tail_pairs=2 min=1.376752 partners=970762;856887
+  934853: n_tail_pairs=1 min=1.376832 partners=167630
+  709743: n_tail_pairs=1 min=1.376948 partners=759052
+  759052: n_tail_pairs=1 min=1.376948 partners=709743
+  228393: n_tail_pairs=3 min=1.377006 partners=516629;231635;511261
+  516629: n_tail_pairs=1 min=1.377006 partners=228393
+  442343: n_tail_pairs=1 min=1.377233 partners=665866
+  591051: n_tail_pairs=3 min=1.377331 partners=989827;695729;700907
+  989827: n_tail_pairs=2 min=1.377331 partners=591051;304208
+  1152282: n_tail_pairs=2 min=1.377344 partners=661812;817090
+  661812: n_tail_pairs=1 min=1.377344 partners=1152282
+  591755: n_tail_pairs=1 min=1.377354 partners=608041
+  608041: n_tail_pairs=1 min=1.377354 partners=591755
+  1091834: n_tail_pairs=1 min=1.377417 partners=588140
+  588140: n_tail_pairs=1 min=1.377417 partners=1091834
+  856877: n_tail_pairs=1 min=1.377632 partners=729738
+  431975: n_tail_pairs=1 min=1.377680 partners=1013024
+  794424: n_tail_pairs=2 min=1.377693 partners=911397;790691
+  911397: n_tail_pairs=1 min=1.377693 partners=794424
+  1130986: n_tail_pairs=2 min=1.377716 partners=709135;591197
+  709135: n_tail_pairs=1 min=1.377716 partners=1130986
+  659701: n_tail_pairs=2 min=1.377722 partners=728115;725209
+  728115: n_tail_pairs=1 min=1.377722 partners=659701
+  277897: n_tail_pairs=1 min=1.377759 partners=725517
+  725517: n_tail_pairs=1 min=1.377759 partners=277897
+  275131: n_tail_pairs=1 min=1.377770 partners=661808
+  661808: n_tail_pairs=1 min=1.377770 partners=275131
+  1036615: n_tail_pairs=1 min=1.377774 partners=285239
+  285239: n_tail_pairs=1 min=1.377774 partners=1036615
+  1089334: n_tail_pairs=2 min=1.377842 partners=580718;756983
+  580718: n_tail_pairs=1 min=1.377842 partners=1089334
+  602718: n_tail_pairs=2 min=1.377995 partners=941413;518331
+  941413: n_tail_pairs=1 min=1.377995 partners=602718
+  832204: n_tail_pairs=1 min=1.378050 partners=661748
+  794764: n_tail_pairs=1 min=1.378162 partners=664251
+  1131939: n_tail_pairs=1 min=1.378340 partners=216718
+  216718: n_tail_pairs=1 min=1.378340 partners=1131939
+  446569: n_tail_pairs=1 min=1.378420 partners=614331
+  614331: n_tail_pairs=1 min=1.378420 partners=446569
+  1065254: n_tail_pairs=1 min=1.378520 partners=659563
+  659563: n_tail_pairs=1 min=1.378520 partners=1065254
+  611434: n_tail_pairs=1 min=1.378553 partners=666725
+  666725: n_tail_pairs=1 min=1.378553 partners=611434
+  1132529: n_tail_pairs=1 min=1.378585 partners=1063361
+  610835: n_tail_pairs=1 min=1.378599 partners=988360
+  988360: n_tail_pairs=1 min=1.378599 partners=610835
+  944600: n_tail_pairs=2 min=1.378612 partners=410315;706256
+  410315: n_tail_pairs=1 min=1.378612 partners=944600
+  1111241: n_tail_pairs=2 min=1.378686 partners=410512;760320
+  660420: n_tail_pairs=1 min=1.379180 partners=665981
+  665981: n_tail_pairs=1 min=1.379180 partners=660420
+  450154: n_tail_pairs=2 min=1.379207 partners=660383;415409
+  427801: n_tail_pairs=1 min=1.379380 partners=659547
+  659547: n_tail_pairs=1 min=1.379380 partners=427801
+  948391: n_tail_pairs=2 min=1.379400 partners=1081607;1034558
+  1192888: n_tail_pairs=1 min=1.379567 partners=590444
+  590444: n_tail_pairs=1 min=1.379567 partners=1192888
+  436378: n_tail_pairs=2 min=1.379634 partners=676935;233626
+  676935: n_tail_pairs=1 min=1.379634 partners=436378
+  667586: n_tail_pairs=2 min=1.379701 partners=665865;1065299
+  665865: n_tail_pairs=1 min=1.379701 partners=667586
+  541050: n_tail_pairs=1 min=1.379707 partners=558564
+  558564: n_tail_pairs=1 min=1.379707 partners=541050
+  391578: n_tail_pairs=2 min=1.379886 partners=996369;760639
+  996369: n_tail_pairs=1 min=1.379886 partners=391578
+  536586: n_tail_pairs=1 min=1.379907 partners=766370
+  766370: n_tail_pairs=1 min=1.379907 partners=536586
+  229070: n_tail_pairs=3 min=1.380043 partners=1089963;933168;522074
+  1089963: n_tail_pairs=2 min=1.380043 partners=229070;229068
+  229502: n_tail_pairs=1 min=1.380082 partners=659415
+  659415: n_tail_pairs=1 min=1.380082 partners=229502
+  756983: n_tail_pairs=2 min=1.380298 partners=1089334;762632
+  1067694: n_tail_pairs=2 min=1.380302 partners=869160;989360
+  869160: n_tail_pairs=1 min=1.380302 partners=1067694
+  282414: n_tail_pairs=1 min=1.380380 partners=653822
+  1103568: n_tail_pairs=1 min=1.380384 partners=262279
+  262279: n_tail_pairs=1 min=1.380384 partners=1103568
+  667433: n_tail_pairs=2 min=1.380538 partners=656710;447063
+  656710: n_tail_pairs=1 min=1.380538 partners=667433
+  1066079: n_tail_pairs=1 min=1.380688 partners=1112371
+  1112371: n_tail_pairs=1 min=1.380688 partners=1066079
+  896523: n_tail_pairs=1 min=1.380726 partners=911146
+  911146: n_tail_pairs=1 min=1.380726 partners=896523
+  277164: n_tail_pairs=1 min=1.380741 partners=728048
+  728048: n_tail_pairs=1 min=1.380741 partners=277164
+  724897: n_tail_pairs=1 min=1.380757 partners=819149
+  819149: n_tail_pairs=1 min=1.380757 partners=724897
+  1063973: n_tail_pairs=2 min=1.380802 partners=611501;692938
+  611501: n_tail_pairs=2 min=1.380802 partners=1063973;760998
+  817090: n_tail_pairs=1 min=1.380806 partners=1152282
+  872000: n_tail_pairs=1 min=1.380859 partners=660764
+  828763: n_tail_pairs=1 min=1.380939 partners=696918
+  1113260: n_tail_pairs=1 min=1.380964 partners=858167
+  858167: n_tail_pairs=1 min=1.380964 partners=1113260
+  707595: n_tail_pairs=2 min=1.381059 partners=903060;436038
+  903060: n_tail_pairs=1 min=1.381059 partners=707595
+  539818: n_tail_pairs=2 min=1.381249 partners=908184;1131579
+  908184: n_tail_pairs=1 min=1.381249 partners=539818
+  868862: n_tail_pairs=2 min=1.381268 partners=700982;512519
+  700982: n_tail_pairs=1 min=1.381268 partners=868862
+  229069: n_tail_pairs=2 min=1.381289 partners=304002;1042066
+  868614: n_tail_pairs=3 min=1.381311 partners=659518;1192239;665954
+  659518: n_tail_pairs=1 min=1.381311 partners=868614
+  529067: n_tail_pairs=1 min=1.381320 partners=541045
+  541045: n_tail_pairs=1 min=1.381320 partners=529067
+  1193005: n_tail_pairs=1 min=1.381454 partners=262919
+  262919: n_tail_pairs=1 min=1.381454 partners=1193005
+  600795: n_tail_pairs=1 min=1.381585 partners=831092
+  831092: n_tail_pairs=1 min=1.381585 partners=600795
+  722307: n_tail_pairs=1 min=1.381602 partners=791971
+  1112286: n_tail_pairs=1 min=1.381693 partners=695967
+  695967: n_tail_pairs=1 min=1.381693 partners=1112286
+  820283: n_tail_pairs=4 min=1.381694 partners=796154;764095;937765;613268
+  796154: n_tail_pairs=2 min=1.381694 partners=820283;586815
+  1192881: n_tail_pairs=3 min=1.381739 partners=243677;401487;682820
+  243677: n_tail_pairs=1 min=1.381739 partners=1192881
+  526644: n_tail_pairs=1 min=1.381779 partners=160439
+  268803: n_tail_pairs=1 min=1.381790 partners=764780
+  764780: n_tail_pairs=1 min=1.381790 partners=268803
+  659447: n_tail_pairs=1 min=1.381882 partners=935485
+  935485: n_tail_pairs=1 min=1.381882 partners=659447
+  284026: n_tail_pairs=1 min=1.381965 partners=554049
+  554049: n_tail_pairs=1 min=1.381965 partners=284026
+  798325: n_tail_pairs=2 min=1.382203 partners=660397;527997
+  660397: n_tail_pairs=1 min=1.382203 partners=798325
+  1113883: n_tail_pairs=1 min=1.382205 partners=902270
+  902270: n_tail_pairs=1 min=1.382205 partners=1113883
+  233961: n_tail_pairs=1 min=1.382211 partners=724820
+  724820: n_tail_pairs=1 min=1.382211 partners=233961
+  603593: n_tail_pairs=1 min=1.382258 partners=522740
+  790691: n_tail_pairs=3 min=1.382264 partners=794424;863888;1064346
+  658866: n_tail_pairs=1 min=1.382315 partners=656291
+  217090: n_tail_pairs=3 min=1.382386 partners=307038;659477;1193003
+  307038: n_tail_pairs=1 min=1.382386 partners=217090
+  896410: n_tail_pairs=1 min=1.382427 partners=1064607
+  654809: n_tail_pairs=2 min=1.382475 partners=590595;527769
+  590595: n_tail_pairs=1 min=1.382475 partners=654809
+  1091839: n_tail_pairs=1 min=1.382492 partners=660674
+  660674: n_tail_pairs=1 min=1.382492 partners=1091839
+  1103808: n_tail_pairs=1 min=1.382520 partners=909935
+  1192995: n_tail_pairs=1 min=1.382716 partners=255431
+  255431: n_tail_pairs=1 min=1.382716 partners=1192995
+  581621: n_tail_pairs=1 min=1.382773 partners=655037
+  655037: n_tail_pairs=1 min=1.382773 partners=581621
+  161092: n_tail_pairs=1 min=1.382900 partners=555653
+  555653: n_tail_pairs=1 min=1.382900 partners=161092
+  1171247: n_tail_pairs=1 min=1.382921 partners=830739
+  830739: n_tail_pairs=1 min=1.382921 partners=1171247
+  165442: n_tail_pairs=2 min=1.382922 partners=582713;520931
+  231849: n_tail_pairs=1 min=1.382944 partners=801354
+  660312: n_tail_pairs=2 min=1.383080 partners=1161576;592380
+  1161576: n_tail_pairs=1 min=1.383080 partners=660312
+  534641: n_tail_pairs=1 min=1.383153 partners=660545
+  660545: n_tail_pairs=1 min=1.383153 partners=534641
+  1018279: n_tail_pairs=2 min=1.383157 partners=896832;659699
+  896832: n_tail_pairs=2 min=1.383157 partners=1018279;856108
+  392821: n_tail_pairs=1 min=1.383199 partners=667427
+  667427: n_tail_pairs=1 min=1.383199 partners=392821
+  659376: n_tail_pairs=1 min=1.383219 partners=660979
+  902266: n_tail_pairs=1 min=1.383266 partners=710750
+  1041770: n_tail_pairs=1 min=1.383306 partners=792876
+  792876: n_tail_pairs=1 min=1.383306 partners=1041770
+  233626: n_tail_pairs=1 min=1.383307 partners=436378
+  659423: n_tail_pairs=1 min=1.383481 partners=724768
+  724768: n_tail_pairs=1 min=1.383481 partners=659423
+  869151: n_tail_pairs=2 min=1.383561 partners=660544;947571
+  660544: n_tail_pairs=1 min=1.383561 partners=869151
+  668611: n_tail_pairs=2 min=1.383581 partners=207349;185678
+  1192885: n_tail_pairs=1 min=1.383604 partners=416309
+  416309: n_tail_pairs=1 min=1.383604 partners=1192885
+  165847: n_tail_pairs=1 min=1.383635 partners=799333
+  904960: n_tail_pairs=1 min=1.383684 partners=988194
+  988194: n_tail_pairs=1 min=1.383684 partners=904960
+  1082255: n_tail_pairs=1 min=1.383779 partners=1166274
+  1166274: n_tail_pairs=1 min=1.383779 partners=1082255
+  611928: n_tail_pairs=2 min=1.383803 partners=388143;555932
+  388143: n_tail_pairs=1 min=1.383803 partners=611928
+  831172: n_tail_pairs=2 min=1.383830 partners=702215;832050
+  702215: n_tail_pairs=1 min=1.383830 partners=831172
+  406418: n_tail_pairs=2 min=1.383838 partners=262298;255417
+  262298: n_tail_pairs=1 min=1.383838 partners=406418
+  1064175: n_tail_pairs=2 min=1.384014 partners=707072;723394
+  707072: n_tail_pairs=2 min=1.384014 partners=1064175;1148984
+  710752: n_tail_pairs=2 min=1.384044 partners=287637;764442
+  287637: n_tail_pairs=1 min=1.384044 partners=710752
+  663790: n_tail_pairs=2 min=1.384050 partners=512221;661748
+  512221: n_tail_pairs=1 min=1.384050 partners=663790
+  165322: n_tail_pairs=2 min=1.384198 partners=701874;442128
+  701874: n_tail_pairs=1 min=1.384198 partners=165322
+  695729: n_tail_pairs=1 min=1.384218 partners=591051
+  659683: n_tail_pairs=2 min=1.384253 partners=791649;1192244
+  791649: n_tail_pairs=2 min=1.384253 partners=659683;416444
+  411748: n_tail_pairs=1 min=1.384282 partners=656291
+  615069: n_tail_pairs=2 min=1.384283 partners=660642;660645
+  660642: n_tail_pairs=2 min=1.384283 partners=615069;707898
+  660872: n_tail_pairs=1 min=1.384339 partners=756714
+  756714: n_tail_pairs=1 min=1.384339 partners=660872
+  270660: n_tail_pairs=1 min=1.384352 partners=660355
+  660355: n_tail_pairs=1 min=1.384352 partners=270660
+  231577: n_tail_pairs=1 min=1.384379 partners=1160894
+  614028: n_tail_pairs=1 min=1.384432 partners=662843
+  441495: n_tail_pairs=2 min=1.384456 partners=611435;590446
+  764095: n_tail_pairs=2 min=1.384576 partners=820283;995637
+  1065398: n_tail_pairs=1 min=1.384672 partners=1042031
+  832050: n_tail_pairs=1 min=1.384706 partners=831172
+  904588: n_tail_pairs=1 min=1.384734 partners=515266
+  529066: n_tail_pairs=2 min=1.384887 partners=391565;1065335
+  764867: n_tail_pairs=1 min=1.384978 partners=707346
+  676916: n_tail_pairs=2 min=1.385045 partners=1113263;437241
+  192822: n_tail_pairs=2 min=1.385088 partners=255846;165161
+  255846: n_tail_pairs=1 min=1.385088 partners=192822
+  1064738: n_tail_pairs=1 min=1.385108 partners=271506
+  271506: n_tail_pairs=1 min=1.385108 partners=1064738
+  185678: n_tail_pairs=1 min=1.385180 partners=668611
+  1134536: n_tail_pairs=2 min=1.385287 partners=693567;608176
+  693567: n_tail_pairs=1 min=1.385287 partners=1134536
+  607372: n_tail_pairs=1 min=1.385333 partners=904942
+  904942: n_tail_pairs=1 min=1.385333 partners=607372
+  800719: n_tail_pairs=2 min=1.385413 partners=1192991;831430
+  1192991: n_tail_pairs=1 min=1.385413 partners=800719
+  1059241: n_tail_pairs=2 min=1.385433 partners=1089811;660405
+  1089811: n_tail_pairs=1 min=1.385433 partners=1059241
+  302985: n_tail_pairs=1 min=1.385472 partners=1135289
+  519781: n_tail_pairs=2 min=1.385565 partners=660971;1155337
+  660971: n_tail_pairs=1 min=1.385565 partners=519781
+  865116: n_tail_pairs=1 min=1.385567 partners=256316
+  821504: n_tail_pairs=1 min=1.385595 partners=988198
+  988198: n_tail_pairs=1 min=1.385595 partners=821504
+  1133069: n_tail_pairs=2 min=1.385599 partners=1014360;725573
+  1014360: n_tail_pairs=1 min=1.385599 partners=1133069
+  756596: n_tail_pairs=1 min=1.385658 partners=524469
+  791089: n_tail_pairs=1 min=1.385782 partners=896420
+  863888: n_tail_pairs=2 min=1.385961 partners=790691;790701
+  1192857: n_tail_pairs=1 min=1.386012 partners=260781
+  260781: n_tail_pairs=1 min=1.386012 partners=1192857
+  441913: n_tail_pairs=2 min=1.386019 partners=229042;1130161
+  229042: n_tail_pairs=1 min=1.386019 partners=441913
+  523403: n_tail_pairs=1 min=1.386024 partners=768445
+  768445: n_tail_pairs=1 min=1.386024 partners=523403
+  819145: n_tail_pairs=2 min=1.386042 partners=1085890;530494
+  1085890: n_tail_pairs=1 min=1.386042 partners=819145
+  895493: n_tail_pairs=2 min=1.386082 partners=1152103;441589
+  1065572: n_tail_pairs=1 min=1.386147 partners=701307
+  701307: n_tail_pairs=1 min=1.386147 partners=1065572
+  701824: n_tail_pairs=1 min=1.386393 partners=724907
+  724907: n_tail_pairs=1 min=1.386393 partners=701824
+  1017036: n_tail_pairs=1 min=1.386448 partners=797425
+  764082: n_tail_pairs=1 min=1.386477 partners=820285
+  820285: n_tail_pairs=1 min=1.386477 partners=764082
+  1192985: n_tail_pairs=1 min=1.386512 partners=906676
+  906676: n_tail_pairs=1 min=1.386512 partners=1192985
+  1036313: n_tail_pairs=1 min=1.386533 partners=1042092
+  1042092: n_tail_pairs=1 min=1.386533 partners=1036313
+  587202: n_tail_pairs=1 min=1.386543 partners=659124
+  659124: n_tail_pairs=1 min=1.386543 partners=587202
+  1087226: n_tail_pairs=1 min=1.386666 partners=859020
+  859020: n_tail_pairs=1 min=1.386666 partners=1087226
+  1129397: n_tail_pairs=1 min=1.386722 partners=668989
+  668989: n_tail_pairs=1 min=1.386722 partners=1129397
+  231003: n_tail_pairs=1 min=1.386737 partners=829726
+  721332: n_tail_pairs=1 min=1.386944 partners=789459
+  789459: n_tail_pairs=1 min=1.386944 partners=721332
+  1130453: n_tail_pairs=1 min=1.386966 partners=896837
+  896837: n_tail_pairs=1 min=1.386966 partners=1130453
+  761494: n_tail_pairs=1 min=1.387061 partners=942293
+  942293: n_tail_pairs=1 min=1.387061 partners=761494
+  1135295: n_tail_pairs=2 min=1.387073 partners=276437;696395
+  276437: n_tail_pairs=1 min=1.387073 partners=1135295
+  236265: n_tail_pairs=1 min=1.387158 partners=944580
+  944580: n_tail_pairs=1 min=1.387158 partners=236265
+  1131425: n_tail_pairs=1 min=1.387246 partners=608691
+  608691: n_tail_pairs=1 min=1.387246 partners=1131425
+  417657: n_tail_pairs=1 min=1.387373 partners=665542
+  665542: n_tail_pairs=1 min=1.387373 partners=417657
+  512519: n_tail_pairs=1 min=1.387455 partners=868862
+  447063: n_tail_pairs=1 min=1.387549 partners=667433
+  1130161: n_tail_pairs=1 min=1.387709 partners=441913
+  937765: n_tail_pairs=1 min=1.387710 partners=820283
+  590178: n_tail_pairs=2 min=1.387768 partners=387601;669463
+  279572: n_tail_pairs=1 min=1.387782 partners=660308
+  660308: n_tail_pairs=1 min=1.387782 partners=279572
+  669463: n_tail_pairs=2 min=1.387868 partners=590178;591207
+  283014: n_tail_pairs=1 min=1.388008 partners=1065066
+  895494: n_tail_pairs=3 min=1.388093 partners=860159;764333;870378
+  729009: n_tail_pairs=2 min=1.388124 partners=870582;436032
+  870582: n_tail_pairs=1 min=1.388124 partners=729009
+  204059: n_tail_pairs=1 min=1.388138 partners=280057
+  280057: n_tail_pairs=1 min=1.388138 partners=204059
+  229068: n_tail_pairs=1 min=1.388170 partners=1089963
+  707675: n_tail_pairs=1 min=1.388262 partners=898677
+  898677: n_tail_pairs=1 min=1.388262 partners=707675
+  1103818: n_tail_pairs=1 min=1.388270 partners=345819
+  345819: n_tail_pairs=1 min=1.388270 partners=1103818
+  539517: n_tail_pairs=1 min=1.388277 partners=443623
+  1056679: n_tail_pairs=1 min=1.388324 partners=726510
+  726510: n_tail_pairs=1 min=1.388324 partners=1056679
+  1034760: n_tail_pairs=2 min=1.388346 partners=237912;1110824
+  237912: n_tail_pairs=1 min=1.388346 partners=1034760
+  831095: n_tail_pairs=1 min=1.388429 partners=303551
+  286866: n_tail_pairs=1 min=1.388437 partners=607285
+  607285: n_tail_pairs=1 min=1.388437 partners=286866
+  764333: n_tail_pairs=1 min=1.388456 partners=895494
+  590182: n_tail_pairs=1 min=1.388465 partners=994507
+  410800: n_tail_pairs=2 min=1.388505 partners=511835;603486
+  511835: n_tail_pairs=1 min=1.388505 partners=410800
+  764442: n_tail_pairs=2 min=1.388507 partners=710752;788788
+  244163: n_tail_pairs=1 min=1.388575 partners=539045
+  539045: n_tail_pairs=1 min=1.388575 partners=244163
+  725803: n_tail_pairs=1 min=1.388862 partners=789389
+  789389: n_tail_pairs=1 min=1.388862 partners=725803
+  705267: n_tail_pairs=2 min=1.388868 partners=527713;259464
+  527713: n_tail_pairs=1 min=1.388868 partners=705267
+  1192855: n_tail_pairs=1 min=1.388898 partners=676514
+  676514: n_tail_pairs=1 min=1.388898 partners=1192855
+  1018280: n_tail_pairs=1 min=1.388931 partners=519188
+  519188: n_tail_pairs=1 min=1.388931 partners=1018280
+  229191: n_tail_pairs=1 min=1.388962 partners=1064394
+  415502: n_tail_pairs=1 min=1.388999 partners=871254
+  871254: n_tail_pairs=1 min=1.388999 partners=415502
+  701360: n_tail_pairs=1 min=1.389002 partners=241063
+  1066925: n_tail_pairs=1 min=1.389037 partners=755971
+  755971: n_tail_pairs=1 min=1.389037 partners=1066925
+  1152289: n_tail_pairs=1 min=1.389043 partners=374149
+  529063: n_tail_pairs=1 min=1.389067 partners=897526
+  897526: n_tail_pairs=1 min=1.389067 partners=529063
+  529986: n_tail_pairs=1 min=1.389193 partners=611504
+  611504: n_tail_pairs=1 min=1.389193 partners=529986
+  603487: n_tail_pairs=1 min=1.389209 partners=862716
+  700970: n_tail_pairs=1 min=1.389252 partners=724185
+  724185: n_tail_pairs=1 min=1.389252 partners=700970
+  520931: n_tail_pairs=1 min=1.389254 partners=165442
+  1129398: n_tail_pairs=1 min=1.389261 partners=1132232
+  1132232: n_tail_pairs=1 min=1.389261 partners=1129398
+  933168: n_tail_pairs=2 min=1.389264 partners=229070;665214
+  437343: n_tail_pairs=2 min=1.389278 partners=659280;990703
+  659280: n_tail_pairs=1 min=1.389278 partners=437343
+  185637: n_tail_pairs=1 min=1.389290 partners=664353
+  664353: n_tail_pairs=1 min=1.389290 partners=185637
+  1044449: n_tail_pairs=1 min=1.389328 partners=911393
+  911393: n_tail_pairs=1 min=1.389328 partners=1044449
+  1152268: n_tail_pairs=2 min=1.389421 partners=724700;900104
+  724700: n_tail_pairs=1 min=1.389421 partners=1152268
+  283005: n_tail_pairs=1 min=1.389441 partners=513632
+  513632: n_tail_pairs=1 min=1.389441 partners=283005
+  1192239: n_tail_pairs=2 min=1.389453 partners=868614;396755
+  1107805: n_tail_pairs=1 min=1.389469 partners=542146
+  542146: n_tail_pairs=1 min=1.389469 partners=1107805
+  415504: n_tail_pairs=1 min=1.389507 partners=660181
+  660181: n_tail_pairs=1 min=1.389507 partners=415504
+  668551: n_tail_pairs=1 min=1.389543 partners=511817
+  947571: n_tail_pairs=1 min=1.389566 partners=869151
+  660390: n_tail_pairs=2 min=1.389576 partners=1014981;934651
+  1014981: n_tail_pairs=1 min=1.389576 partners=660390
+  278605: n_tail_pairs=1 min=1.389586 partners=664352
+  664352: n_tail_pairs=1 min=1.389586 partners=278605
+  231635: n_tail_pairs=1 min=1.389616 partners=228393
+  602003: n_tail_pairs=1 min=1.389692 partners=944722
+  944722: n_tail_pairs=1 min=1.389692 partners=602003
+  511261: n_tail_pairs=2 min=1.389831 partners=228393;1109513
+  934651: n_tail_pairs=1 min=1.389908 partners=660390
+  559348: n_tail_pairs=1 min=1.390073 partners=832188
+  832188: n_tail_pairs=1 min=1.390073 partners=559348
+  420605: n_tail_pairs=1 min=1.390121 partners=858175
+  858175: n_tail_pairs=1 min=1.390121 partners=420605
+  832000: n_tail_pairs=1 min=1.390122 partners=990823
+  990823: n_tail_pairs=1 min=1.390122 partners=832000
+  605871: n_tail_pairs=2 min=1.390186 partners=660543;1112200
+  660543: n_tail_pairs=2 min=1.390186 partners=605871;660547
+  1102810: n_tail_pairs=1 min=1.390201 partners=304203
+  304203: n_tail_pairs=1 min=1.390201 partners=1102810
+  660394: n_tail_pairs=2 min=1.390207 partners=237385;237388
+  237385: n_tail_pairs=1 min=1.390207 partners=660394
+  518331: n_tail_pairs=1 min=1.390263 partners=602718
+  660375: n_tail_pairs=1 min=1.390270 partners=705913
+  705913: n_tail_pairs=1 min=1.390270 partners=660375
+  656698: n_tail_pairs=1 min=1.390274 partners=819148
+  819148: n_tail_pairs=1 min=1.390274 partners=656698
+  1112190: n_tail_pairs=1 min=1.390453 partners=450345
+  450345: n_tail_pairs=1 min=1.390453 partners=1112190
+  303476: n_tail_pairs=1 min=1.390499 partners=517944
+  517944: n_tail_pairs=1 min=1.390499 partners=303476
+  541046: n_tail_pairs=1 min=1.390548 partners=667588
+  667588: n_tail_pairs=1 min=1.390548 partners=541046
+  1013655: n_tail_pairs=2 min=1.390549 partners=830750;757435
+  830750: n_tail_pairs=1 min=1.390549 partners=1013655
+  971416: n_tail_pairs=2 min=1.390575 partners=449966;412626
+  449966: n_tail_pairs=1 min=1.390575 partners=971416
+  762337: n_tail_pairs=2 min=1.390594 partners=160252;764875
+  160252: n_tail_pairs=1 min=1.390594 partners=762337
+  665954: n_tail_pairs=1 min=1.390720 partners=868614
+  256701: n_tail_pairs=2 min=1.390727 partners=706256;911385
+  706256: n_tail_pairs=2 min=1.390727 partners=256701;944600
+  415409: n_tail_pairs=1 min=1.390781 partners=450154
+  660645: n_tail_pairs=1 min=1.390900 partners=615069
+  1155337: n_tail_pairs=1 min=1.390911 partners=519781
+  1062873: n_tail_pairs=1 min=1.390925 partners=904425
+  615305: n_tail_pairs=1 min=1.390925 partners=668992
+  904425: n_tail_pairs=1 min=1.390925 partners=1062873
+  661424: n_tail_pairs=1 min=1.390941 partners=696539
+  696539: n_tail_pairs=1 min=1.390941 partners=661424
+  667018: n_tail_pairs=1 min=1.391049 partners=682834
+  682834: n_tail_pairs=1 min=1.391049 partners=667018
+  1152104: n_tail_pairs=1 min=1.391070 partners=942815
+  942815: n_tail_pairs=1 min=1.391070 partners=1152104
+  1018283: n_tail_pairs=1 min=1.391093 partners=668903
+  668903: n_tail_pairs=1 min=1.391093 partners=1018283
+  266392: n_tail_pairs=1 min=1.391157 partners=668645
+  539803: n_tail_pairs=1 min=1.391192 partners=583410
+  178513: n_tail_pairs=2 min=1.391301 partners=939286;271092
+  939286: n_tail_pairs=1 min=1.391301 partners=178513
+  1112911: n_tail_pairs=1 min=1.391308 partners=911153
+  911153: n_tail_pairs=1 min=1.391308 partners=1112911
+  259464: n_tail_pairs=1 min=1.391356 partners=705267
+  660405: n_tail_pairs=1 min=1.391395 partners=1059241
+  542470: n_tail_pairs=1 min=1.391573 partners=682460
+  682460: n_tail_pairs=1 min=1.391573 partners=542470
+  591982: n_tail_pairs=2 min=1.391599 partners=825314;558566
+  825314: n_tail_pairs=1 min=1.391599 partners=591982
+  416600: n_tail_pairs=1 min=1.391610 partners=452152
+  452152: n_tail_pairs=1 min=1.391610 partners=416600
+  664808: n_tail_pairs=1 min=1.391611 partners=666193
+  666193: n_tail_pairs=1 min=1.391611 partners=664808
+  258134: n_tail_pairs=1 min=1.391645 partners=1012191
+  1065335: n_tail_pairs=1 min=1.391648 partners=529066
+  283636: n_tail_pairs=1 min=1.391650 partners=554137
+  554137: n_tail_pairs=1 min=1.391650 partners=283636
+  725209: n_tail_pairs=1 min=1.391685 partners=659701
+  417225: n_tail_pairs=2 min=1.391768 partners=513406;513397
+  513406: n_tail_pairs=1 min=1.391768 partners=417225
+  659439: n_tail_pairs=2 min=1.391778 partners=660292;994517
+  660292: n_tail_pairs=1 min=1.391778 partners=659439
+  659477: n_tail_pairs=1 min=1.391817 partners=217090
+  374137: n_tail_pairs=1 min=1.391910 partners=542481
+  542481: n_tail_pairs=1 min=1.391910 partners=374137
+  1043394: n_tail_pairs=1 min=1.392045 partners=578832
+  578832: n_tail_pairs=1 min=1.392045 partners=1043394
+  1012909: n_tail_pairs=1 min=1.392073 partners=705661
+  705661: n_tail_pairs=1 min=1.392073 partners=1012909
+  668550: n_tail_pairs=2 min=1.392087 partners=583995;537379
+  659410: n_tail_pairs=2 min=1.392172 partners=860409;412295
+  829089: n_tail_pairs=4 min=1.392181 partners=660981;870379;858299;758408
+  660981: n_tail_pairs=1 min=1.392181 partners=829089
+  969902: n_tail_pairs=2 min=1.392240 partners=903081;710103
+  432297: n_tail_pairs=1 min=1.392268 partners=832189
+  832189: n_tail_pairs=1 min=1.392268 partners=432297
+  541533: n_tail_pairs=1 min=1.392344 partners=611427
+  611427: n_tail_pairs=1 min=1.392344 partners=541533
+  661008: n_tail_pairs=2 min=1.392413 partners=935116;665961
+  935116: n_tail_pairs=1 min=1.392413 partners=661008
+  237388: n_tail_pairs=1 min=1.392558 partners=660394
+  1019972: n_tail_pairs=1 min=1.392741 partners=659496
+  659496: n_tail_pairs=1 min=1.392741 partners=1019972
+  725626: n_tail_pairs=1 min=1.392753 partners=871593
+  871593: n_tail_pairs=1 min=1.392753 partners=725626
+  1148984: n_tail_pairs=1 min=1.392766 partners=707072
+  710103: n_tail_pairs=1 min=1.392818 partners=969902
+  696395: n_tail_pairs=1 min=1.392853 partners=1135295
+  869796: n_tail_pairs=2 min=1.392860 partners=896443;830753
+  896443: n_tail_pairs=1 min=1.392860 partners=869796
+  401487: n_tail_pairs=1 min=1.392875 partners=1192881
+  1131736: n_tail_pairs=1 min=1.392957 partners=694820
+  694820: n_tail_pairs=1 min=1.392957 partners=1131736
+  1034936: n_tail_pairs=1 min=1.392979 partners=1129235
+  1129235: n_tail_pairs=1 min=1.392979 partners=1034936
+  189040: n_tail_pairs=1 min=1.392987 partners=259580
+  259580: n_tail_pairs=1 min=1.392987 partners=189040
+  793028: n_tail_pairs=1 min=1.393043 partners=864599
+  864599: n_tail_pairs=1 min=1.393043 partners=793028
+  1135287: n_tail_pairs=1 min=1.393095 partners=860159
+  587567: n_tail_pairs=1 min=1.393200 partners=942642
+  942642: n_tail_pairs=1 min=1.393200 partners=587567
+  758901: n_tail_pairs=2 min=1.393217 partners=858309;1130649
+  858309: n_tail_pairs=1 min=1.393217 partners=758901
+  538532: n_tail_pairs=2 min=1.393245 partners=531442;277300
+  531442: n_tail_pairs=1 min=1.393245 partners=538532
+  856887: n_tail_pairs=2 min=1.393260 partners=996717;903070
+  996717: n_tail_pairs=1 min=1.393260 partners=856887
+  540999: n_tail_pairs=1 min=1.393349 partners=724277
+  724277: n_tail_pairs=1 min=1.393349 partners=540999
+  723394: n_tail_pairs=1 min=1.393369 partners=1064175
+  1103821: n_tail_pairs=1 min=1.393407 partners=1133078
+  765353: n_tail_pairs=2 min=1.393412 partners=968075;660339
+  968075: n_tail_pairs=1 min=1.393412 partners=765353
+  659490: n_tail_pairs=1 min=1.393415 partners=791781
+  791781: n_tail_pairs=1 min=1.393415 partners=659490
+  185568: n_tail_pairs=1 min=1.393429 partners=588667
+  588667: n_tail_pairs=1 min=1.393429 partners=185568
+  903069: n_tail_pairs=2 min=1.393432 partners=660542;764859
+  660542: n_tail_pairs=1 min=1.393432 partners=903069
+  870379: n_tail_pairs=1 min=1.393432 partners=829089
+  856108: n_tail_pairs=1 min=1.393445 partners=896832
+  387196: n_tail_pairs=1 min=1.393450 partners=660398
+  187714: n_tail_pairs=2 min=1.393543 partners=704455;724762
+  704455: n_tail_pairs=2 min=1.393543 partners=187714;262920
+  1113168: n_tail_pairs=1 min=1.393554 partners=704800
+  399124: n_tail_pairs=1 min=1.393598 partners=768547
+  768547: n_tail_pairs=1 min=1.393598 partners=399124
+  1131745: n_tail_pairs=1 min=1.393611 partners=541002
+  831106: n_tail_pairs=1 min=1.393693 partners=902902
+  902902: n_tail_pairs=1 min=1.393693 partners=831106
+  660774: n_tail_pairs=1 min=1.393771 partners=661878
+  661878: n_tail_pairs=1 min=1.393771 partners=660774
+  520602: n_tail_pairs=1 min=1.393862 partners=663003
+  663003: n_tail_pairs=1 min=1.393862 partners=520602
+  1058664: n_tail_pairs=1 min=1.393894 partners=230685
+  230685: n_tail_pairs=1 min=1.393894 partners=1058664
+  659276: n_tail_pairs=2 min=1.393900 partners=445497;660782
+  445497: n_tail_pairs=1 min=1.393900 partners=659276
+  292978: n_tail_pairs=1 min=1.393982 partners=733305
+  733305: n_tail_pairs=1 min=1.393982 partners=292978
+  700907: n_tail_pairs=1 min=1.393991 partners=591051
+  659504: n_tail_pairs=1 min=1.393997 partners=753935
+  753935: n_tail_pairs=1 min=1.393997 partners=659504
+  1192860: n_tail_pairs=1 min=1.394151 partners=668507
+  668507: n_tail_pairs=1 min=1.394151 partners=1192860
+  280294: n_tail_pairs=1 min=1.394184 partners=451730
+  451730: n_tail_pairs=1 min=1.394184 partners=280294
+  535523: n_tail_pairs=1 min=1.394191 partners=799914
+  799914: n_tail_pairs=1 min=1.394191 partners=535523
+  406403: n_tail_pairs=2 min=1.394213 partners=391598;1041792
+  391598: n_tail_pairs=1 min=1.394213 partners=406403
+  798670: n_tail_pairs=1 min=1.394250 partners=1130299
+  1192992: n_tail_pairs=1 min=1.394302 partners=262924
+  262924: n_tail_pairs=1 min=1.394302 partners=1192992
+  416324: n_tail_pairs=1 min=1.394309 partners=793452
+  793452: n_tail_pairs=1 min=1.394309 partners=416324
+  668504: n_tail_pairs=3 min=1.394349 partners=791637;935084;1009710
+  791637: n_tail_pairs=1 min=1.394349 partners=668504
+  1128642: n_tail_pairs=1 min=1.394422 partners=1130310
+  1130310: n_tail_pairs=1 min=1.394422 partners=1128642
+  658871: n_tail_pairs=1 min=1.394431 partners=662432
+  662432: n_tail_pairs=1 min=1.394431 partners=658871
+  764149: n_tail_pairs=1 min=1.394432 partners=831091
+  831091: n_tail_pairs=1 min=1.394432 partners=764149
+  1112078: n_tail_pairs=1 min=1.394476 partners=275971
+  275971: n_tail_pairs=1 min=1.394476 partners=1112078
+  313421: n_tail_pairs=1 min=1.394543 partners=665221
+  665221: n_tail_pairs=1 min=1.394543 partners=313421
+  1103556: n_tail_pairs=1 min=1.394568 partners=541002
+  902479: n_tail_pairs=1 min=1.394644 partners=1020225
+  1041977: n_tail_pairs=1 min=1.394706 partners=280885
+  280885: n_tail_pairs=1 min=1.394706 partners=1041977
+  659685: n_tail_pairs=2 min=1.394749 partners=791160;583654
+  791160: n_tail_pairs=1 min=1.394749 partners=659685
+  397294: n_tail_pairs=1 min=1.394777 partners=665962
+  665962: n_tail_pairs=1 min=1.394777 partners=397294
+  1156714: n_tail_pairs=1 min=1.394834 partners=660573
+  660573: n_tail_pairs=1 min=1.394834 partners=1156714
+  189019: n_tail_pairs=1 min=1.394841 partners=406409
+  1110980: n_tail_pairs=1 min=1.394982 partners=820265
+  277300: n_tail_pairs=1 min=1.395000 partners=538532
+  788577: n_tail_pairs=1 min=1.395146 partners=799365
+  799365: n_tail_pairs=1 min=1.395146 partners=788577
+  522074: n_tail_pairs=1 min=1.395212 partners=229070
+  727105: n_tail_pairs=1 min=1.395214 partners=800128
+  800128: n_tail_pairs=1 min=1.395214 partners=727105
+  934637: n_tail_pairs=1 min=1.395244 partners=660671
+  230274: n_tail_pairs=1 min=1.395365 partners=240618
+  240618: n_tail_pairs=1 min=1.395365 partners=230274
+  657949: n_tail_pairs=1 min=1.395366 partners=663958
+  663958: n_tail_pairs=1 min=1.395366 partners=657949
+  1189974: n_tail_pairs=1 min=1.395369 partners=763885
+  763885: n_tail_pairs=1 min=1.395369 partners=1189974
+  591211: n_tail_pairs=1 min=1.395461 partners=289041
+  287628: n_tail_pairs=1 min=1.395513 partners=971671
+  971671: n_tail_pairs=1 min=1.395513 partners=287628
+  1090881: n_tail_pairs=1 min=1.395515 partners=677074
+  677074: n_tail_pairs=1 min=1.395515 partners=1090881
+  609902: n_tail_pairs=1 min=1.395549 partners=766146
+  766146: n_tail_pairs=1 min=1.395549 partners=609902
+  1020322: n_tail_pairs=1 min=1.395568 partners=727010
+  727010: n_tail_pairs=1 min=1.395568 partners=1020322
+  452277: n_tail_pairs=2 min=1.395599 partners=538152;603290
+  538152: n_tail_pairs=1 min=1.395599 partners=452277
+  660997: n_tail_pairs=1 min=1.395617 partners=682361
+  682361: n_tail_pairs=1 min=1.395617 partners=660997
+  1153438: n_tail_pairs=1 min=1.395646 partners=590448
+  590448: n_tail_pairs=1 min=1.395646 partners=1153438
+  830801: n_tail_pairs=1 min=1.395647 partners=856632
+  1135299: n_tail_pairs=1 min=1.395668 partners=728234
+  728234: n_tail_pairs=1 min=1.395668 partners=1135299
+  407296: n_tail_pairs=1 min=1.395673 partners=659682
+  659682: n_tail_pairs=1 min=1.395673 partners=407296
+  529525: n_tail_pairs=1 min=1.395687 partners=660771
+  660771: n_tail_pairs=1 min=1.395687 partners=529525
+  989360: n_tail_pairs=1 min=1.395695 partners=1067694
+  1034558: n_tail_pairs=2 min=1.395733 partners=1041270;948391
+  723584: n_tail_pairs=1 min=1.395738 partners=941191
+  941191: n_tail_pairs=1 min=1.395738 partners=723584
+  1103833: n_tail_pairs=1 min=1.395840 partners=531463
+  531463: n_tail_pairs=1 min=1.395840 partners=1103833
+  590446: n_tail_pairs=1 min=1.395841 partners=441495
+  513404: n_tail_pairs=2 min=1.395896 partners=243683;757705
+  243683: n_tail_pairs=1 min=1.395896 partners=513404
+  767720: n_tail_pairs=1 min=1.396015 partners=869141
+  869141: n_tail_pairs=1 min=1.396015 partners=767720
+  757705: n_tail_pairs=1 min=1.396050 partners=513404
+  665961: n_tail_pairs=1 min=1.396067 partners=661008
+  682820: n_tail_pairs=1 min=1.396105 partners=1192881
+  660673: n_tail_pairs=2 min=1.396127 partners=665978;661162
+  665978: n_tail_pairs=2 min=1.396127 partners=660673;659712
+  591197: n_tail_pairs=1 min=1.396149 partners=1130986
+  606718: n_tail_pairs=1 min=1.396170 partners=897901
+  897901: n_tail_pairs=1 min=1.396170 partners=606718
+  790688: n_tail_pairs=1 min=1.396185 partners=760998
+  755672: n_tail_pairs=1 min=1.396220 partners=665980
+  1019589: n_tail_pairs=1 min=1.396279 partners=418070
+  418070: n_tail_pairs=1 min=1.396279 partners=1019589
+  263241: n_tail_pairs=1 min=1.396281 partners=654209
+  654209: n_tail_pairs=1 min=1.396281 partners=263241
+  233283: n_tail_pairs=1 min=1.396301 partners=260231
+  260231: n_tail_pairs=1 min=1.396301 partners=233283
+  396755: n_tail_pairs=1 min=1.396311 partners=1192239
+  558558: n_tail_pairs=1 min=1.396312 partners=590442
+  590442: n_tail_pairs=1 min=1.396312 partners=558558
+  701174: n_tail_pairs=1 min=1.396315 partners=1155289
+  911385: n_tail_pairs=1 min=1.396325 partners=256701
+  1084833: n_tail_pairs=1 min=1.396391 partners=830790
+  830790: n_tail_pairs=1 min=1.396391 partners=1084833
+  819459: n_tail_pairs=1 min=1.396415 partners=1012191
+  397293: n_tail_pairs=1 min=1.396494 partners=668992
+  397305: n_tail_pairs=1 min=1.396553 partners=667583
+  667583: n_tail_pairs=1 min=1.396553 partners=397305
+  1041792: n_tail_pairs=1 min=1.396631 partners=406403
+  192843: n_tail_pairs=1 min=1.396657 partners=527711
+  527711: n_tail_pairs=1 min=1.396657 partners=192843
+  1013666: n_tail_pairs=2 min=1.396676 partners=1105081;1042031
+  1105081: n_tail_pairs=1 min=1.396676 partners=1013666
+  278275: n_tail_pairs=1 min=1.396682 partners=660372
+  660372: n_tail_pairs=1 min=1.396682 partners=278275
+  255417: n_tail_pairs=2 min=1.396693 partners=822080;406418
+  822080: n_tail_pairs=1 min=1.396693 partners=255417
+  591207: n_tail_pairs=2 min=1.396749 partners=441498;669463
+  441498: n_tail_pairs=1 min=1.396749 partners=591207
+  441124: n_tail_pairs=2 min=1.396770 partners=701263;659503
+  701263: n_tail_pairs=1 min=1.396770 partners=441124
+  276067: n_tail_pairs=1 min=1.396828 partners=664444
+  664444: n_tail_pairs=1 min=1.396828 partners=276067
+  994517: n_tail_pairs=1 min=1.396958 partners=659439
+  278279: n_tail_pairs=1 min=1.396983 partners=660365
+  660365: n_tail_pairs=1 min=1.396983 partners=278279
+  179783: n_tail_pairs=1 min=1.397013 partners=709141
+  709141: n_tail_pairs=1 min=1.397013 partners=179783
+  818343: n_tail_pairs=1 min=1.397062 partners=897014
+  897014: n_tail_pairs=1 min=1.397062 partners=818343
+  237628: n_tail_pairs=1 min=1.397177 partners=655287
+  655287: n_tail_pairs=1 min=1.397177 partners=237628
+  286854: n_tail_pairs=1 min=1.397201 partners=432295
+  432295: n_tail_pairs=1 min=1.397201 partners=286854
+  707341: n_tail_pairs=1 min=1.397215 partners=277030
+  236264: n_tail_pairs=1 min=1.397256 partners=660314
+  660314: n_tail_pairs=1 min=1.397256 partners=236264
+  1131768: n_tail_pairs=1 min=1.397262 partners=942629
+  942629: n_tail_pairs=1 min=1.397262 partners=1131768
+  725197: n_tail_pairs=1 min=1.397285 partners=831989
+  397291: n_tail_pairs=1 min=1.397320 partners=1088852
+  1149289: n_tail_pairs=2 min=1.397372 partners=668546;722625
+  668546: n_tail_pairs=1 min=1.397372 partners=1149289
+  527997: n_tail_pairs=1 min=1.397561 partners=798325
+  603290: n_tail_pairs=1 min=1.397573 partners=452277
+  936944: n_tail_pairs=1 min=1.397590 partners=988470
+  988470: n_tail_pairs=1 min=1.397590 partners=936944
+  315030: n_tail_pairs=1 min=1.397605 partners=613532
+  760320: n_tail_pairs=1 min=1.397638 partners=1111241
+  521068: n_tail_pairs=1 min=1.397669 partners=970762
+  229050: n_tail_pairs=1 min=1.397680 partners=667094
+  667094: n_tail_pairs=1 min=1.397680 partners=229050
+  614335: n_tail_pairs=2 min=1.397706 partners=901428;611701
+  901428: n_tail_pairs=1 min=1.397706 partners=614335
+  659371: n_tail_pairs=1 min=1.397765 partners=724195
+  724195: n_tail_pairs=1 min=1.397765 partners=659371
+  1103073: n_tail_pairs=1 min=1.397800 partners=676575
+  676575: n_tail_pairs=1 min=1.397800 partners=1103073
+  611701: n_tail_pairs=1 min=1.397941 partners=614335
+  935099: n_tail_pairs=2 min=1.397947 partners=668171;676498
+  668171: n_tail_pairs=1 min=1.397947 partners=935099
+  1065299: n_tail_pairs=1 min=1.397981 partners=667586
+  1112082: n_tail_pairs=1 min=1.398003 partners=526642
+  526642: n_tail_pairs=1 min=1.398003 partners=1112082
+  1108981: n_tail_pairs=2 min=1.398222 partners=406131;231213
+  406131: n_tail_pairs=1 min=1.398222 partners=1108981
+  542464: n_tail_pairs=1 min=1.398256 partners=868675
+  868675: n_tail_pairs=1 min=1.398256 partners=542464
+  264067: n_tail_pairs=2 min=1.398272 partners=189057;557157
+  189057: n_tail_pairs=1 min=1.398272 partners=264067
+  660339: n_tail_pairs=1 min=1.398303 partners=765353
+  410318: n_tail_pairs=1 min=1.398406 partners=557400
+  557400: n_tail_pairs=1 min=1.398406 partners=410318
+  768646: n_tail_pairs=1 min=1.398415 partners=795568
+  795568: n_tail_pairs=1 min=1.398415 partners=768646
+  513397: n_tail_pairs=1 min=1.398457 partners=417225
+  1193003: n_tail_pairs=1 min=1.398484 partners=217090
+  416444: n_tail_pairs=1 min=1.398513 partners=791649
+  661749: n_tail_pairs=2 min=1.398606 partners=556495;243684
+  556495: n_tail_pairs=1 min=1.398606 partners=661749
+  229055: n_tail_pairs=1 min=1.398663 partners=709563
+  709563: n_tail_pairs=1 min=1.398663 partners=229055
+  668646: n_tail_pairs=3 min=1.398685 partners=1091156;603292;271512
+  1091156: n_tail_pairs=1 min=1.398685 partners=668646
+  543153: n_tail_pairs=2 min=1.398719 partners=1161496;591395
+  1161496: n_tail_pairs=1 min=1.398719 partners=543153
+  1103838: n_tail_pairs=1 min=1.398724 partners=659278
+  659278: n_tail_pairs=1 min=1.398724 partners=1103838
+  729793: n_tail_pairs=2 min=1.398778 partners=1021140;583650
+  1021140: n_tail_pairs=1 min=1.398778 partners=729793
+  417382: n_tail_pairs=1 min=1.398832 partners=907341
+  907341: n_tail_pairs=1 min=1.398832 partners=417382
+  538541: n_tail_pairs=1 min=1.398968 partners=522740
+  995465: n_tail_pairs=2 min=1.398978 partners=1131431;262155
+  1131431: n_tail_pairs=1 min=1.398978 partners=995465
+  302355: n_tail_pairs=1 min=1.398980 partners=374119
+  374119: n_tail_pairs=1 min=1.398980 partners=302355
+  557157: n_tail_pairs=1 min=1.398984 partners=264067
+  1042066: n_tail_pairs=1 min=1.398990 partners=229069
+  443813: n_tail_pairs=1 min=1.398993 partners=655645
+  709069: n_tail_pairs=2 min=1.399085 partners=515557;664255
+  515557: n_tail_pairs=1 min=1.399085 partners=709069
+  268867: n_tail_pairs=1 min=1.399124 partners=664249
+  664249: n_tail_pairs=1 min=1.399124 partners=268867
+  832197: n_tail_pairs=3 min=1.399140 partners=664849;755760;663006
+  664849: n_tail_pairs=1 min=1.399140 partners=832197
+  1042350: n_tail_pairs=1 min=1.399176 partners=799853
+  799853: n_tail_pairs=1 min=1.399176 partners=1042350
+  722625: n_tail_pairs=1 min=1.399225 partners=1149289
+  660782: n_tail_pairs=1 min=1.399250 partners=659276
+  1042607: n_tail_pairs=1 min=1.399284 partners=591514
+  591514: n_tail_pairs=1 min=1.399284 partners=1042607
+  661162: n_tail_pairs=1 min=1.399297 partners=660673
+  1014380: n_tail_pairs=1 min=1.399359 partners=867209
+  867209: n_tail_pairs=1 min=1.399359 partners=1014380
+  762632: n_tail_pairs=3 min=1.399360 partners=866310;756983;991423
+  866310: n_tail_pairs=1 min=1.399360 partners=762632
+  231568: n_tail_pairs=1 min=1.399441 partners=276426
+  276426: n_tail_pairs=1 min=1.399441 partners=231568
+  870377: n_tail_pairs=1 min=1.399441 partners=970878
+  970878: n_tail_pairs=1 min=1.399441 partners=870377
+  520307: n_tail_pairs=1 min=1.399490 partners=676099
+  676099: n_tail_pairs=1 min=1.399490 partners=520307
+  945238: n_tail_pairs=2 min=1.399512 partners=661429;659428
+  661429: n_tail_pairs=1 min=1.399512 partners=945238
+  165161: n_tail_pairs=1 min=1.399517 partners=192822
+  580605: n_tail_pairs=2 min=1.399573 partners=192841;185643
+  192841: n_tail_pairs=1 min=1.399573 partners=580605
+  1110959: n_tail_pairs=1 min=1.399734 partners=970762
+  437241: n_tail_pairs=1 min=1.399766 partners=676916
+  1192872: n_tail_pairs=1 min=1.399853 partners=707354
+  707354: n_tail_pairs=1 min=1.399853 partners=1192872
+  1010198: n_tail_pairs=1 min=1.399900 partners=766137
+  766137: n_tail_pairs=1 min=1.399900 partners=1010198
+  660336: n_tail_pairs=1 min=1.399925 partners=374149
+  663007: n_tail_pairs=1 min=1.399938 partners=696438
+  696438: n_tail_pairs=1 min=1.399938 partners=663007
+  1090032: n_tail_pairs=1 min=1.399954 partners=906132
+  906132: n_tail_pairs=1 min=1.399954 partners=1090032
+  1112200: n_tail_pairs=1 min=1.399957 partners=605871
+  757435: n_tail_pairs=1 min=1.399964 partners=1013655
+  607288: n_tail_pairs=1 min=1.400010 partners=659122
+  659122: n_tail_pairs=1 min=1.400010 partners=607288
+  209267: n_tail_pairs=1 min=1.400110 partners=560058
+  560058: n_tail_pairs=1 min=1.400110 partners=209267
+  604182: n_tail_pairs=1 min=1.400111 partners=908490
+  908490: n_tail_pairs=1 min=1.400111 partners=604182
+  1192892: n_tail_pairs=1 min=1.400112 partners=397306
+  397306: n_tail_pairs=1 min=1.400112 partners=1192892
+  1086667: n_tail_pairs=1 min=1.400138 partners=542830
+  542830: n_tail_pairs=1 min=1.400138 partners=1086667
+  392224: n_tail_pairs=1 min=1.400139 partners=722315
+  722315: n_tail_pairs=1 min=1.400139 partners=392224
+  1155759: n_tail_pairs=1 min=1.400186 partners=724690
+  666764: n_tail_pairs=1 min=1.400186 partners=728074
+  724690: n_tail_pairs=1 min=1.400186 partners=1155759
+  728074: n_tail_pairs=1 min=1.400186 partners=666764
+  817484: n_tail_pairs=2 min=1.400281 partners=796310;210657
+  796310: n_tail_pairs=1 min=1.400281 partners=817484
+  831430: n_tail_pairs=1 min=1.400282 partners=800719
+  592802: n_tail_pairs=1 min=1.400301 partners=754795
+  754795: n_tail_pairs=1 min=1.400301 partners=592802
+  603292: n_tail_pairs=1 min=1.400345 partners=668646
+  586815: n_tail_pairs=1 min=1.400363 partners=796154
+  692938: n_tail_pairs=2 min=1.400419 partners=1063973;995636
+  309414: n_tail_pairs=1 min=1.400422 partners=537394
+  537394: n_tail_pairs=1 min=1.400422 partners=309414
+  911386: n_tail_pairs=1 min=1.400452 partners=1113259
+  256847: n_tail_pairs=3 min=1.400489 partners=696899;511156;767860
+  407195: n_tail_pairs=2 min=1.400536 partners=271546;819469
+  271546: n_tail_pairs=1 min=1.400536 partners=407195
+  659593: n_tail_pairs=2 min=1.400544 partners=614838;432363
+  614838: n_tail_pairs=1 min=1.400544 partners=659593
+  1192864: n_tail_pairs=1 min=1.400562 partners=659263
+  659263: n_tail_pairs=1 min=1.400562 partners=1192864
+  530494: n_tail_pairs=1 min=1.400580 partners=819145
+  660273: n_tail_pairs=1 min=1.400600 partners=665658
+  665658: n_tail_pairs=1 min=1.400600 partners=660273
+  185643: n_tail_pairs=1 min=1.400621 partners=580605
+  911384: n_tail_pairs=1 min=1.400661 partners=1044445
+  764261: n_tail_pairs=2 min=1.400693 partners=1063974;902922
+  1063974: n_tail_pairs=1 min=1.400693 partners=764261
+  938277: n_tail_pairs=2 min=1.400723 partners=1034383;1103567
+  241062: n_tail_pairs=1 min=1.400752 partners=535480
+  535480: n_tail_pairs=1 min=1.400752 partners=241062
+  1103567: n_tail_pairs=2 min=1.400776 partners=938277;653489
+  591758: n_tail_pairs=1 min=1.400777 partners=608039
+  608039: n_tail_pairs=1 min=1.400777 partners=591758
+  764908: n_tail_pairs=2 min=1.400845 partners=1059389;755792
+  1059389: n_tail_pairs=1 min=1.400845 partners=764908
+  529064: n_tail_pairs=2 min=1.400858 partners=517593;934763
+  517593: n_tail_pairs=1 min=1.400858 partners=529064
+  764859: n_tail_pairs=1 min=1.400860 partners=903069
+  233242: n_tail_pairs=1 min=1.400869 partners=676015
+  676015: n_tail_pairs=1 min=1.400869 partners=233242
+  587572: n_tail_pairs=1 min=1.400873 partners=820275
+  243684: n_tail_pairs=1 min=1.400896 partners=661749
+  1064346: n_tail_pairs=1 min=1.400906 partners=790691
+  583654: n_tail_pairs=1 min=1.400915 partners=659685
+  284139: n_tail_pairs=1 min=1.400931 partners=659493
+  1106439: n_tail_pairs=1 min=1.400938 partners=1130283
+  1130283: n_tail_pairs=1 min=1.400938 partners=1106439
+  269635: n_tail_pairs=1 min=1.400963 partners=668649
+  1104788: n_tail_pairs=1 min=1.400975 partners=831076
+  583650: n_tail_pairs=1 min=1.400999 partners=729793
+  592380: n_tail_pairs=1 min=1.401012 partners=660312
+  315047: n_tail_pairs=1 min=1.401025 partners=590604
+  590604: n_tail_pairs=1 min=1.401025 partners=315047
+  286091: n_tail_pairs=1 min=1.401045 partners=726899
+  794822: n_tail_pairs=2 min=1.401115 partners=262572;942868
+  262572: n_tail_pairs=1 min=1.401115 partners=794822
+  584293: n_tail_pairs=1 min=1.401141 partners=1113667
+  1130332: n_tail_pairs=1 min=1.401196 partners=436187
+  436187: n_tail_pairs=1 min=1.401196 partners=1130332
+  899773: n_tail_pairs=1 min=1.401232 partners=1105770
+  262155: n_tail_pairs=1 min=1.401381 partners=995465
+  177509: n_tail_pairs=1 min=1.401471 partners=345075
+  345075: n_tail_pairs=1 min=1.401471 partners=177509
+  696537: n_tail_pairs=1 min=1.401501 partners=862326
+  862326: n_tail_pairs=1 min=1.401501 partners=696537
+  436032: n_tail_pairs=1 min=1.401507 partners=729009
+  441703: n_tail_pairs=1 min=1.401511 partners=724830
+  724830: n_tail_pairs=1 min=1.401511 partners=441703
+  537379: n_tail_pairs=1 min=1.401529 partners=668550
+  256310: n_tail_pairs=1 min=1.401546 partners=866305
+  866305: n_tail_pairs=1 min=1.401546 partners=256310
+  758408: n_tail_pairs=1 min=1.401554 partners=829089
+  438178: n_tail_pairs=1 min=1.401595 partners=660356
+  660356: n_tail_pairs=1 min=1.401595 partners=438178
+  262947: n_tail_pairs=1 min=1.401629 partners=660810
+  659712: n_tail_pairs=1 min=1.401661 partners=665978
+  228776: n_tail_pairs=1 min=1.401687 partners=898439
+  898439: n_tail_pairs=1 min=1.401687 partners=228776
+  967092: n_tail_pairs=1 min=1.401695 partners=580049
+  1087252: n_tail_pairs=1 min=1.401700 partners=682750
+  682750: n_tail_pairs=1 min=1.401700 partners=1087252
+  665578: n_tail_pairs=1 min=1.401765 partners=907293
+  288381: n_tail_pairs=1 min=1.401828 partners=602716
+  602716: n_tail_pairs=1 min=1.401828 partners=288381
+  170258: n_tail_pairs=1 min=1.401829 partners=677064
+  677064: n_tail_pairs=1 min=1.401829 partners=170258
+  755760: n_tail_pairs=1 min=1.401841 partners=832197
+  170247: n_tail_pairs=1 min=1.401863 partners=391947
+  391947: n_tail_pairs=1 min=1.401863 partners=170247
+  995637: n_tail_pairs=1 min=1.401887 partners=764095
+  896827: n_tail_pairs=1 min=1.402011 partners=1113259
+  428361: n_tail_pairs=1 min=1.402042 partners=614333
+  614333: n_tail_pairs=1 min=1.402042 partners=428361
+  415176: n_tail_pairs=1 min=1.402194 partners=262291
+  767860: n_tail_pairs=2 min=1.402251 partners=663046;256847
+  663046: n_tail_pairs=1 min=1.402251 partners=767860
+  995636: n_tail_pairs=1 min=1.402312 partners=692938
+  961992: n_tail_pairs=1 min=1.402334 partners=1086703
+  663006: n_tail_pairs=1 min=1.402373 partners=832197
+  1033850: n_tail_pairs=1 min=1.402388 partners=763264
+  1192878: n_tail_pairs=1 min=1.402421 partners=1192990
+  1192990: n_tail_pairs=1 min=1.402421 partners=1192878
+  256315: n_tail_pairs=1 min=1.402424 partners=160439
+  760524: n_tail_pairs=2 min=1.402443 partners=1113899;725112
+  1113899: n_tail_pairs=1 min=1.402443 partners=760524
+  412626: n_tail_pairs=1 min=1.402470 partners=971416
+  666864: n_tail_pairs=1 min=1.402550 partners=942884
+  942884: n_tail_pairs=1 min=1.402550 partners=666864
+  529068: n_tail_pairs=1 min=1.402571 partners=935033
+  935033: n_tail_pairs=1 min=1.402571 partners=529068
+  1161677: n_tail_pairs=1 min=1.402626 partners=757726
+  757726: n_tail_pairs=1 min=1.402626 partners=1161677
+  1015531: n_tail_pairs=1 min=1.402643 partners=237634
+  1016516: n_tail_pairs=1 min=1.402647 partners=669796
+  669796: n_tail_pairs=1 min=1.402647 partners=1016516
+  1113743: n_tail_pairs=1 min=1.402658 partners=794824
+  794824: n_tail_pairs=1 min=1.402658 partners=1113743
+  664255: n_tail_pairs=1 min=1.402717 partners=709069
+  944375: n_tail_pairs=1 min=1.402728 partners=237696
+  613268: n_tail_pairs=1 min=1.402802 partners=820283
+  1193006: n_tail_pairs=1 min=1.402893 partners=1129585
+  934763: n_tail_pairs=1 min=1.402897 partners=529064
+  946597: n_tail_pairs=2 min=1.402949 partners=580043;697760
+  580043: n_tail_pairs=1 min=1.402949 partners=946597
+  831960: n_tail_pairs=1 min=1.403026 partners=1087227
+  540468: n_tail_pairs=1 min=1.403052 partners=901178
+  935084: n_tail_pairs=2 min=1.403053 partners=668504;659367
+  254684: n_tail_pairs=2 min=1.403055 partners=938514;612118
+  938514: n_tail_pairs=1 min=1.403055 partners=254684
+  697806: n_tail_pairs=1 min=1.403096 partners=1043101
+  1192867: n_tail_pairs=1 min=1.403118 partners=1192986
+  1192986: n_tail_pairs=1 min=1.403118 partners=1192867
+  676498: n_tail_pairs=1 min=1.403246 partners=935099
+  991423: n_tail_pairs=1 min=1.403308 partners=762632
+  254819: n_tail_pairs=1 min=1.403323 partners=415506
+  415506: n_tail_pairs=1 min=1.403323 partners=254819
+  1060175: n_tail_pairs=1 min=1.403342 partners=527769
+  591823: n_tail_pairs=1 min=1.403352 partners=818256
+  722809: n_tail_pairs=2 min=1.403362 partners=907372;759727
+  907372: n_tail_pairs=1 min=1.403362 partners=722809
+  511156: n_tail_pairs=1 min=1.403504 partners=256847
+  653489: n_tail_pairs=1 min=1.403548 partners=1103567
+  428264: n_tail_pairs=1 min=1.403586 partners=660816
+  660816: n_tail_pairs=1 min=1.403586 partners=428264
+  659367: n_tail_pairs=1 min=1.403592 partners=935084
+  725112: n_tail_pairs=1 min=1.403604 partners=760524
+  403067: n_tail_pairs=1 min=1.403628 partners=708622
+  708622: n_tail_pairs=1 min=1.403628 partners=403067
+  415346: n_tail_pairs=1 min=1.403644 partners=657795
+  657795: n_tail_pairs=1 min=1.403644 partners=415346
+  1192984: n_tail_pairs=1 min=1.403663 partners=973740
+  973740: n_tail_pairs=1 min=1.403663 partners=1192984
+  1198457: n_tail_pairs=1 min=1.403693 partners=519193
+  519193: n_tail_pairs=1 min=1.403693 partners=1198457
+  304208: n_tail_pairs=1 min=1.403707 partners=989827
+  346731: n_tail_pairs=1 min=1.403767 partners=861064
+  861064: n_tail_pairs=1 min=1.403767 partners=346731
+  755792: n_tail_pairs=1 min=1.403811 partners=764908
+  1085403: n_tail_pairs=1 min=1.403858 partners=657293
+  657293: n_tail_pairs=1 min=1.403858 partners=1085403
+  1110824: n_tail_pairs=1 min=1.403862 partners=1034760
+  660547: n_tail_pairs=1 min=1.403883 partners=660543
+  1130649: n_tail_pairs=1 min=1.403893 partners=758901
+  530292: n_tail_pairs=1 min=1.403895 partners=539152
+  539152: n_tail_pairs=1 min=1.403895 partners=530292
+  902922: n_tail_pairs=1 min=1.403929 partners=764261
+  1192896: n_tail_pairs=1 min=1.403933 partners=904794
+  904794: n_tail_pairs=1 min=1.403933 partners=1192896
+  271092: n_tail_pairs=1 min=1.403934 partners=178513
+  615592: n_tail_pairs=1 min=1.403945 partners=732921
+  732921: n_tail_pairs=1 min=1.403945 partners=615592
+  161025: n_tail_pairs=1 min=1.403950 partners=659522
+  659522: n_tail_pairs=1 min=1.403950 partners=161025
+  659428: n_tail_pairs=1 min=1.403967 partners=945238
+  1192220: n_tail_pairs=1 min=1.403972 partners=728968
+  728968: n_tail_pairs=1 min=1.403972 partners=1192220
+  660274: n_tail_pairs=1 min=1.403979 partners=1043101
+  1158245: n_tail_pairs=1 min=1.404018 partners=660413
+  660413: n_tail_pairs=1 min=1.404018 partners=1158245
+  436038: n_tail_pairs=1 min=1.404026 partners=707595
+  819469: n_tail_pairs=1 min=1.404058 partners=407195
+  244618: n_tail_pairs=1 min=1.404068 partners=988806
+  988806: n_tail_pairs=1 min=1.404068 partners=244618
+  1127884: n_tail_pairs=1 min=1.404093 partners=262922
+  262922: n_tail_pairs=1 min=1.404093 partners=1127884
+  1109513: n_tail_pairs=1 min=1.404141 partners=511261
+  722799: n_tail_pairs=1 min=1.404143 partners=902897
+  902897: n_tail_pairs=1 min=1.404143 partners=722799
+  609737: n_tail_pairs=1 min=1.404199 partners=660541
+  660541: n_tail_pairs=1 min=1.404199 partners=609737
+  858168: n_tail_pairs=1 min=1.404239 partners=1020225
+  512662: n_tail_pairs=1 min=1.404273 partners=667798
+  207642: n_tail_pairs=1 min=1.404309 partners=866015
+  866015: n_tail_pairs=1 min=1.404309 partners=207642
+  709541: n_tail_pairs=1 min=1.404328 partners=760750
+  760750: n_tail_pairs=1 min=1.404328 partners=709541
+  660347: n_tail_pairs=1 min=1.404338 partners=906919
+  906919: n_tail_pairs=1 min=1.404338 partners=660347
+  390990: n_tail_pairs=1 min=1.404367 partners=1085401
+  262920: n_tail_pairs=1 min=1.404444 partners=704455
+  790701: n_tail_pairs=1 min=1.404446 partners=863888
+  668617: n_tail_pairs=1 min=1.404452 partners=660770
+  1112077: n_tail_pairs=1 min=1.404472 partners=704412
+  704412: n_tail_pairs=1 min=1.404472 partners=1112077
+  391944: n_tail_pairs=1 min=1.404491 partners=659546
+  659546: n_tail_pairs=1 min=1.404491 partners=391944
+  612118: n_tail_pairs=1 min=1.404547 partners=254684
+  760365: n_tail_pairs=1 min=1.404549 partners=1033056
+  1192859: n_tail_pairs=1 min=1.404572 partners=662415
+  1113757: n_tail_pairs=1 min=1.404665 partners=826071
+  826071: n_tail_pairs=1 min=1.404665 partners=1113757
+  1087353: n_tail_pairs=1 min=1.404750 partners=607572
+  607572: n_tail_pairs=1 min=1.404750 partners=1087353
+  1009710: n_tail_pairs=1 min=1.404786 partners=668504
+  659503: n_tail_pairs=1 min=1.404801 partners=441124
+  511256: n_tail_pairs=1 min=1.404839 partners=795788
+  795788: n_tail_pairs=1 min=1.404839 partners=511256
+  303676: n_tail_pairs=1 min=1.404863 partners=167630
+  764906: n_tail_pairs=1 min=1.404866 partners=963733
+  963733: n_tail_pairs=1 min=1.404866 partners=764906
+  427325: n_tail_pairs=1 min=1.404954 partners=660284
+  660284: n_tail_pairs=1 min=1.404954 partners=427325
+  397880: n_tail_pairs=1 min=1.404963 partners=791650
+  432363: n_tail_pairs=1 min=1.404977 partners=659593
+  1129841: n_tail_pairs=1 min=1.405006 partners=831989
+  271512: n_tail_pairs=1 min=1.405030 partners=668646
+  231213: n_tail_pairs=1 min=1.405031 partners=1108981
+  1131579: n_tail_pairs=1 min=1.405038 partners=539818
+  1156990: n_tail_pairs=1 min=1.405047 partners=831197
+  831197: n_tail_pairs=1 min=1.405047 partners=1156990
+  763417: n_tail_pairs=1 min=1.405125 partners=832631
+  832631: n_tail_pairs=1 min=1.405125 partners=763417
+  730445: n_tail_pairs=1 min=1.405127 partners=990827
+  990827: n_tail_pairs=1 min=1.405127 partners=730445
+  518168: n_tail_pairs=1 min=1.405144 partners=948395
+  948395: n_tail_pairs=1 min=1.405144 partners=518168
+  441589: n_tail_pairs=1 min=1.405169 partners=895493
+  1130446: n_tail_pairs=1 min=1.405174 partners=396779
+  830753: n_tail_pairs=1 min=1.405219 partners=869796
+  1107793: n_tail_pairs=1 min=1.405230 partners=706765
+  706765: n_tail_pairs=1 min=1.405230 partners=1107793
+  520930: n_tail_pairs=1 min=1.405240 partners=592387
+  592387: n_tail_pairs=1 min=1.405240 partners=520930
+  1014116: n_tail_pairs=1 min=1.405257 partners=725525
+  725525: n_tail_pairs=1 min=1.405257 partners=1014116
+  608036: n_tail_pairs=1 min=1.405343 partners=995455
+  665214: n_tail_pairs=1 min=1.405383 partners=933168
+  591395: n_tail_pairs=1 min=1.405404 partners=543153
+  676511: n_tail_pairs=1 min=1.405406 partners=267541
+  603486: n_tail_pairs=1 min=1.405433 partners=410800
+  799137: n_tail_pairs=1 min=1.405441 partners=607237
+  697760: n_tail_pairs=1 min=1.405443 partners=946597
+  942868: n_tail_pairs=1 min=1.405468 partners=794822
+  412295: n_tail_pairs=1 min=1.405473 partners=659410
+  257843: n_tail_pairs=1 min=1.405539 partners=660803
+  660803: n_tail_pairs=1 min=1.405539 partners=257843
+  817527: n_tail_pairs=1 min=1.405606 partners=868775
+  868775: n_tail_pairs=1 min=1.405606 partners=817527
+  1084829: n_tail_pairs=1 min=1.405617 partners=944376
+  944376: n_tail_pairs=1 min=1.405617 partners=1084829
+  210657: n_tail_pairs=1 min=1.405693 partners=817484
+  558566: n_tail_pairs=1 min=1.405704 partners=591982
+  608176: n_tail_pairs=1 min=1.405711 partners=1134536
+  555932: n_tail_pairs=1 min=1.405724 partners=611928
+Done. Tracker CSV: Task 1 results/impostor_tail_images.csv

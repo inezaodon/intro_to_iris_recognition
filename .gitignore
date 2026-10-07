@@ -2,3 +2,18 @@
 node_modules/
 .idea/
 .vscode/
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+*.gif
+*.webp
+
+# Oversized files (>100MB GitHub limit)
+*.zip
+*.npz
+Week 2/hdbif_full_run/scores/hdbif_kernel_scores.csv

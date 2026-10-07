@@ -1,0 +1,40 @@
+412321 pairs {'week1_sample': 170876, 'test_all': 241445}
+5x5: 519s (saved)
+412321 pairs {'week1_sample': 170876, 'test_all': 241445}
+5x5: already done, loaded
+7x7: 92s (saved)
+9x9: 91s (saved)
+11x11: 97s (saved)
+13x13: 94s (saved)
+15x15: 109s (saved)
+17x17: 97s (saved)
+19x19: 97s (saved)
+21x21: 104s (saved)
+27x27: 145s (saved)
+33x33: 257s (saved)
+412321 pairs {'week1_sample': 170876, 'test_all': 241445}
+5x5: already done, loaded
+7x7: already done, loaded
+9x9: already done, loaded
+11x11: already done, loaded
+13x13: already done, loaded
+15x15: already done, loaded
+17x17: already done, loaded
+19x19: already done, loaded
+21x21: already done, loaded
+27x27: already done, loaded
+33x33: already done, loaded
+412321 pairs {'week1_sample': 170876, 'test_all': 241445}
+5x5: already done, loaded
+7x7: already done, loaded
+9x9: already done, loaded
+11x11: already done, loaded
+13x13: already done, loaded
+15x15: already done, loaded
+17x17: already done, loaded
+19x19: already done, loaded
+21x21: already done, loaded
+27x27: already done, loaded
+33x33: already done, loaded
+39x39: 13013s (saved)
+wrote 412321 pairs to /Users/odon/Desktop/intro_to_iris_recognition/Week 2/hdbif_full_run/scores/hdbif_kernel_scores.csv
